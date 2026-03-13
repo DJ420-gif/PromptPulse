@@ -466,4 +466,226 @@
       <div class="prompt-line"><span class="ln">05</span><span>&nbsp;</span></div>
       <div class="prompt-line"><span class="ln">06</span><span class="cmt">## 🏢 PROJECT CONTEXT</span></div>
       <div class="prompt-line"><span class="ln">07</span><span class="kw">Project:</span>&nbsp;<span class="val">[Name of your app/product]</span></div>
-      <div class="prompt-line"><span class="ln">08</span><span class="kw">Desc
+      <div class="prompt-line"><span class="ln">08</span><span class="kw">Description:</span>&nbsp;<span class="val">[What it does in 1-2 sentences]</span></div>
+      <div class="prompt-line"><span class="ln">09</span><span class="kw">Target Users:</span>&nbsp;<span class="val">[Who uses it, their tech level, age range]</span></div>
+      <div class="prompt-line"><span class="ln">10</span><span class="kw">Business Model:</span>&nbsp;<span class="val">[Subscription / marketplace / B2B / B2C]</span></div>
+      <div class="prompt-line"><span class="ln">11</span><span class="kw">Scale:</span>&nbsp;<span class="val">[Expected users: 100 / 10K / 1M+]</span></div>
+      <div class="prompt-line"><span class="ln">12</span><span>&nbsp;</span></div>
+      <div class="prompt-line"><span class="ln">13</span><span class="cmt">## 🛠 TECH STACK (be exact)</span></div>
+      <div class="prompt-line"><span class="ln">14</span><span class="kw">Frontend:</span>&nbsp;<span class="val2">Next.js 15 / React 19 / Vue 3.4 / [your choice]</span></div>
+      <div class="prompt-line"><span class="ln">15</span><span class="kw">Language:</span>&nbsp;<span class="val2">TypeScript 5.4 (strict mode ON)</span></div>
+      <div class="prompt-line"><span class="ln">16</span><span class="kw">Styling:</span>&nbsp;<span class="val2">Tailwind CSS 3.4 / CSS Modules / [your choice]</span></div>
+      <div class="prompt-line"><span class="ln">17</span><span class="kw">Backend:</span>&nbsp;<span class="val2">Node.js 22 / Bun / Python FastAPI / [your choice]</span></div>
+      <div class="prompt-line"><span class="ln">18</span><span class="kw">Database:</span>&nbsp;<span class="val2">PostgreSQL + Prisma 5 / MongoDB / Supabase</span></div>
+      <div class="prompt-line"><span class="ln">19</span><span class="kw">Auth:</span>&nbsp;<span class="val2">Clerk / NextAuth v5 / Supabase Auth</span></div>
+      <div class="prompt-line"><span class="ln">20</span><span class="kw">Deployment:</span>&nbsp;<span class="val2">Vercel / Railway / AWS / [your choice]</span></div>
+      <div class="prompt-line"><span class="ln">21</span><span class="kw">State Mgmt:</span>&nbsp;<span class="val2">Zustand / React Query v5 / Jotai</span></div>
+      <div class="prompt-line"><span class="ln">22</span><span>&nbsp;</span></div>
+      <div class="prompt-line"><span class="ln">23</span><span class="cmt">## ✅ CODE STANDARDS (always follow)</span></div>
+      <div class="prompt-line"><span class="ln">24</span><span class="val">- Functional components + hooks only (no class components)</span></div>
+      <div class="prompt-line"><span class="ln">25</span><span class="val">- All async ops must have loading + error + empty states</span></div>
+      <div class="prompt-line"><span class="ln">26</span><span class="val">- Semantic HTML, ARIA attributes (WCAG AA accessibility)</span></div>
+      <div class="prompt-line"><span class="ln">27</span><span class="val">- Mobile-first responsive design (375px to 1440px)</span></div>
+      <div class="prompt-line"><span class="ln">28</span><span class="val">- No magic numbers — use named constants</span></div>
+      <div class="prompt-line"><span class="ln">29</span><span class="val">- Every function needs a JSDoc comment</span></div>
+      <div class="prompt-line"><span class="ln">30</span><span class="val">- Write code as if a junior dev must maintain it alone</span></div>
+      <div class="prompt-line"><span class="ln">31</span><span>&nbsp;</span></div>
+      <div class="prompt-line"><span class="ln">32</span><span class="cmt">## 🚫 NEVER DO THIS</span></div>
+      <div class="prompt-line"><span class="ln">33</span><span class="val2">- No: any, var, !important, inline styles, console.log in prod</span></div>
+      <div class="prompt-line"><span class="ln">34</span><span class="val2">- No: unhandled promise rejections, missing try/catch</span></div>
+      <div class="prompt-line"><span class="ln">35</span><span class="val2">- No: deprecated APIs — check the latest docs</span></div>
+      <div class="prompt-line"><span class="ln">36</span><span class="val2">- No: hardcoded secrets, API keys, or credentials</span></div>
+      <div class="prompt-line"><span class="ln">37</span><span class="val2">- No: partial code — always give complete, runnable output</span></div>
+      <div class="prompt-line"><span class="ln">38</span><span>&nbsp;</span></div>
+      <div class="prompt-line"><span class="ln">39</span><span class="cmt">## 📦 OUTPUT FORMAT</span></div>
+      <div class="prompt-line"><span class="ln">40</span><span class="str">1. Show complete file(s) with path — no truncation</span></div>
+      <div class="prompt-line"><span class="ln">41</span><span class="str">2. Multiple files: show in dependency order</span></div>
+      <div class="prompt-line"><span class="ln">43</span><span class="str">3. After code block, provide:</span></div>
+      <div class="prompt-line"><span class="ln">44</span><span class="str">&nbsp;&nbsp; WHAT: What does this code do (2-3 sentences)</span></div>
+      <div class="prompt-line"><span class="ln">45</span><span class="str">&nbsp;&nbsp; WHY: Why this approach over alternatives</span></div>
+      <div class="prompt-line"><span class="ln">46</span><span class="str">&nbsp;&nbsp; EDGE CASES: What's handled, what's not</span></div>
+      <div class="prompt-line"><span class="ln">47</span><span class="str">&nbsp;&nbsp; NEXT STEP: What should I build or test next</span></div>
+      <div class="prompt-line"><span class="ln">48</span><span>&nbsp;</span></div>
+      <div class="prompt-line"><span class="ln">49</span><span class="cmt">## 🎯 YOUR TASK</span></div>
+      <div class="prompt-line"><span class="ln">50</span><span class="val">[DESCRIBE EXACTLY WHAT YOU WANT BUILT HERE]</span></div>
+      <div class="prompt-line"><span class="ln">51</span><span class="val">Be specific: which component, what data, what interactions,</span></div>
+      <div class="prompt-line"><span class="ln">52</span><span class="val">what it connects to, what success looks like.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CHEAT SHEET -->
+<section class="cheatsheet" id="cheatsheet">
+  <span class="section-tag">// 03 — Quick Reference</span>
+  <h2 class="section-title">The <em>Cheat Sheet</em><br>— power moves</h2>
+  <div class="cheat-grid">
+    <div class="cheat-card">
+      <div class="cheat-head"><span class="cheat-icon">⚡</span><span class="cheat-title">Power Phrases</span></div>
+      <div class="cheat-body">
+        <div class="cheat-item"><span class="cheat-label">Forces real-world quality</span><span class="cheat-val">"As if this ships to 100K users tomorrow"</span></div>
+        <div class="cheat-item"><span class="cheat-label">Prevents lazy solutions</span><span class="cheat-val">"Complete implementation only. No shortcuts."</span></div>
+        <div class="cheat-item"><span class="cheat-label">Gets architectural opinions</span><span class="cheat-val">"Tell me if my approach is wrong before coding"</span></div>
+        <div class="cheat-item"><span class="cheat-label">Surfaces hidden complexity</span><span class="cheat-val">"What am I not thinking about here?"</span></div>
+        <div class="cheat-item"><span class="cheat-label">Gets the hard version</span><span class="cheat-val">"Assume I want robust, not the simple version"</span></div>
+      </div>
+    </div>
+    <div class="cheat-card">
+      <div class="cheat-head"><span class="cheat-icon">🏗️</span><span class="cheat-title">Architecture Prompts</span></div>
+      <div class="cheat-body">
+        <div class="cheat-item"><span class="cheat-label">System design</span><span class="cheat-val">"Design data model first, then API, then UI"</span></div>
+        <div class="cheat-item"><span class="cheat-label">Refactoring</span><span class="cheat-val">"Refactor to be testable, not just working"</span></div>
+        <div class="cheat-item"><span class="cheat-label">Scaling</span><span class="cheat-val">"What breaks at 10x traffic? Fix those things."</span></div>
+        <div class="cheat-item"><span class="cheat-label">Security audit</span><span class="cheat-val">"List every security vulnerability in this code"</span></div>
+        <div class="cheat-item"><span class="cheat-label">Performance</span><span class="cheat-val">"Optimize for Core Web Vitals. LCP under 2.5s."</span></div>
+      </div>
+    </div>
+    <div class="cheat-card">
+      <div class="cheat-head"><span class="cheat-icon">💼</span><span class="cheat-title">Business-Aware Prompts</span></div>
+      <div class="cheat-body">
+        <div class="cheat-item"><span class="cheat-label">MVP scoping</span><span class="cheat-val">"Build the 20% that delivers 80% of value"</span></div>
+        <div class="cheat-item"><span class="cheat-label">Cost awareness</span><span class="cheat-val">"Minimize API calls and DB queries. Cost matters."</span></div>
+        <div class="cheat-item"><span class="cheat-label">Conversion focus</span><span class="cheat-val">"Every pixel on this page drives sign-ups."</span></div>
+        <div class="cheat-item"><span class="cheat-label">Retention feature</span><span class="cheat-val">"Users should feel progress and accomplishment"</span></div>
+        <div class="cheat-item"><span class="cheat-label">Monetization</span><span class="cheat-val">"Add a paywall gate at this exact interaction"</span></div>
+      </div>
+    </div>
+    <div class="cheat-card">
+      <div class="cheat-head"><span class="cheat-icon">🧪</span><span class="cheat-title">Testing &amp; QA Prompts</span></div>
+      <div class="cheat-body">
+        <div class="cheat-item"><span class="cheat-label">Unit tests</span><span class="cheat-val">"Write Vitest tests covering all edge cases"</span></div>
+        <div class="cheat-item"><span class="cheat-label">E2E flows</span><span class="cheat-val">"Write Playwright tests for critical user journeys"</span></div>
+        <div class="cheat-item"><span class="cheat-label">Bug hunting</span><span class="cheat-val">"Act as QA. What will break under real use?"</span></div>
+        <div class="cheat-item"><span class="cheat-label">Accessibility</span><span class="cheat-val">"Run a WCAG audit on this. Fix all issues."</span></div>
+        <div class="cheat-item"><span class="cheat-label">Code review</span><span class="cheat-val">"Review this as a principal engineer in a PR"</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISTAKES -->
+<section class="mistakes" id="mistakes">
+  <span class="section-tag">// 04 — Common Pitfalls</span>
+  <h2 class="section-title"><em>Mistakes</em> that kill<br>your AI output</h2>
+  <div class="mistakes-grid">
+    <div class="mistake-col">
+      <h3><span class="badge bad">❌ Bad Prompts</span></h3>
+      <div class="example-box bad"><span class="ex-label">Too vague</span>"Make me a dashboard"</div>
+      <div class="example-box bad"><span class="ex-label">No stack info</span>"Build a login page"</div>
+      <div class="example-box bad"><span class="ex-label">No constraints</span>"Write a function to fetch users"</div>
+      <div class="example-box bad"><span class="ex-label">No business context</span>"Create a pricing component"</div>
+      <div class="example-box bad"><span class="ex-label">No output format</span>"Help me with authentication"</div>
+    </div>
+    <div class="mistake-col">
+      <h3><span class="badge good">✅ Good Prompts</span></h3>
+      <div class="example-box good"><span class="ex-label">Specific + contextual</span>"Build a SaaS analytics dashboard with revenue chart, MRR card, and user growth table using Recharts + React Query v5"</div>
+      <div class="example-box good"><span class="ex-label">Stack specified</span>"Build a login page using Next.js 15 App Router, NextAuth v5, Tailwind, shadcn/ui, with Google OAuth + email magic link"</div>
+      <div class="example-box good"><span class="ex-label">Constraints defined</span>"Write a fetchUsers function with TypeScript, Zod validation, React Query, error boundaries, and retry logic"</div>
+      <div class="example-box good"><span class="ex-label">Business-aware</span>"Create a 3-tier pricing component (Free/Pro/Enterprise) that highlights Pro, shows annual/monthly toggle with 20% savings badge, and fires a conversion analytics event on CTA click"</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">PROMPTCRAFT</div>
+  <p class="footer-note">The difference between a 10-minute AI solution and a 10-hour debugging session is the quality of your prompt. Write it once, write it right. Ship faster.</p>
+  <div class="footer-tag">2025 — Built for builders</div>
+</footer>
+
+<script>
+  // Custom cursor
+  const cursor = document.getElementById('cursor');
+  const ring = document.getElementById('cursorRing');
+  let mx = 0, my = 0, rx = 0, ry = 0;
+
+  document.addEventListener('mousemove', e => {
+    mx = e.clientX; my = e.clientY;
+    cursor.style.left = (mx - 6) + 'px';
+    cursor.style.top = (my - 6) + 'px';
+  });
+
+  (function animRing() {
+    rx += (mx - rx) * 0.12;
+    ry += (my - ry) * 0.12;
+    ring.style.left = (rx - 18) + 'px';
+    ring.style.top = (ry - 18) + 'px';
+    requestAnimationFrame(animRing);
+  })();
+
+  document.querySelectorAll('a, button, .anatomy-card, .cheat-card, .example-box').forEach(el => {
+    el.addEventListener('mouseenter', () => { cursor.style.transform = 'scale(2)'; ring.style.transform = 'scale(1.5)'; });
+    el.addEventListener('mouseleave', () => { cursor.style.transform = 'scale(1)'; ring.style.transform = 'scale(1)'; });
+  });
+
+  // Copy master prompt
+  function copyPrompt() {
+    const text = `## ROLE
+You are a senior [frontend / backend / fullstack] engineer with 10+ years of experience building production SaaS products. You think like a founder: speed to market, maintainability, and user experience. No shortcuts.
+
+## PROJECT CONTEXT
+Project: [Name of your app/product]
+Description: [What it does in 1-2 sentences]
+Target Users: [Who uses it, their tech level, age range]
+Business Model: [Subscription / marketplace / B2B / B2C]
+Scale: [Expected users: 100 / 10K / 1M+]
+
+## TECH STACK (be exact)
+Frontend: Next.js 15 / React 19 / Vue 3.4 / [your choice]
+Language: TypeScript 5.4 (strict mode ON)
+Styling: Tailwind CSS 3.4 / CSS Modules / [your choice]
+Backend: Node.js 22 / Bun / Python FastAPI / [your choice]
+Database: PostgreSQL + Prisma 5 / MongoDB / Supabase
+Auth: Clerk / NextAuth v5 / Supabase Auth
+Deployment: Vercel / Railway / AWS / [your choice]
+State Mgmt: Zustand / React Query v5 / Jotai
+
+## CODE STANDARDS (always follow)
+- Functional components + hooks only (no class components)
+- All async ops must have loading + error + empty states
+- Semantic HTML, ARIA attributes (WCAG AA accessibility)
+- Mobile-first responsive design (375px to 1440px)
+- No magic numbers - use named constants
+- Every function needs a JSDoc comment
+- Write code as if a junior dev must maintain it alone
+
+## NEVER DO THIS
+- No: any, var, !important, inline styles, console.log in prod
+- No: unhandled promise rejections, missing try/catch
+- No: deprecated APIs - check the latest docs
+- No: hardcoded secrets, API keys, or credentials
+- No: partial code - always give complete, runnable output
+
+## OUTPUT FORMAT
+1. Show complete file(s) with path - no truncation
+2. Multiple files: show in dependency order
+3. After code block, provide:
+   WHAT: What does this code do (2-3 sentences)
+   WHY: Why this approach over alternatives
+   EDGE CASES: What's handled, what's not
+   NEXT STEP: What should I build or test next
+
+## YOUR TASK
+[DESCRIBE EXACTLY WHAT YOU WANT BUILT HERE]
+Be specific: which component, what data, what interactions, what it connects to, what success looks like.`;
+
+    navigator.clipboard.writeText(text).then(() => {
+      const toast = document.getElementById('toast');
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 3000);
+    });
+  }
+
+  // Smooth scroll with offset for fixed nav
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      e.preventDefault();
+      const target = document.querySelector(a.getAttribute('href'));
+      if (target) {
+        const offset = target.getBoundingClientRect().top + window.scrollY - 80;
+        window.scrollTo({ top: offset, behavior: 'smooth' });
+      }
+    });
+  });
+</script>
+</body>
+</html>
