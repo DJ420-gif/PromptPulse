@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NexusAI — Master AI. Build Faster. Win Bigger.</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#09090E;
+  --bg2:#0F0F16;
+  --s1:#14141E;
+  --s2:#1C1C2A;
+  --s3:#242436;
+  --bdr:#2A2A40;
+  --bdr2:#363655;
+  --txt:#F0EFE8;
+  --muted:#7878A0;
+  --muted2:#A8A8C8;
+  --acc:#F0C040;
+  --acc2:#FF5C5C;
+  --acc3:#5CF0A8;
+  --acc4:#5C9BF0;
+  --acc5:#C05CF0;
+  --r:0px;
+}
+html{scroll-behavior:smooth;font-size:16px;}
+body{background:var(--bg);color:var(--txt);font-family:'Plus Jakarta Sans',sans-serif;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
+
+/* ─── CURSOR ─── */
+#dot,#ring{position:fixed;border-radius:50%;pointer-events:none;z-index:9999;display:none;}
+#dot{width:8px;height:8px;background:var(--acc);top:0;left:0;}
+#ring{width:32px;height:32px;border:1.5px solid rgba(240,192,64,.4);top:0;left:0;transition:transform .2s;}
+@media(pointer:fine){#dot,#ring{display:block;}}
+
+/* ─── GRAIN ─── */
+.grain{position:fixed;inset:0;pointer-events:none;z-index:9998;opacity:.022;
+  background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)'/%3E%3C/svg%3E");}
+
+/* ─── NAV ─── */
+nav{position:fixed;top:0;left:0;right:0;z-index:500;height:64px;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 clamp(20px,5vw,64px);
+  background:rgba(9,9,14,.82);backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--bdr);}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none;}
+.logo-mark{width:32px;height:32px;background:var(--acc);display:grid;place-items:center;border-radius:6px;flex-shrink:0;}
+.logo-mark svg{width:18px;height:18px;}
+.logo-name{font-family:'DM Serif Display',serif;font-size:20px;color:var(--txt);letter-spacing:-.5px;}
+.logo-name span{color:var(--acc);}
+.nav-center{display:flex;gap:6px;align-items:center;}
+.nav-center a{font-size:13px;font-weight:500;color:var(--muted2);text-decoration:none;
+  padding:6px 14px;border-radius:6px;transition:all .2s;}
+.nav-center a:hover{color:var(--txt);background:var(--s2);}
+.nav-right{display:flex;align-items:center;gap:10px;}
+.nav-btn{font-size:13px;font-weight:600;text-decoration:none;padding:8px 20px;
+  border-radius:8px;transition:all .2s;cursor:pointer;border:none;font-family:'Plus Jakarta Sans',sans-serif;}
+.nav-btn.ghost{color:var(--muted2);background:transparent;border:1px solid var(--bdr2);}
+.nav-btn.ghost:hover{color:var(--txt);border-color:var(--muted2);}
+.nav-btn.solid{background:var(--acc);color:var(--bg);font-weight:700;}
+.nav-btn.solid:hover{background:#f5ce5a;transform:translateY(-1px);}
+.nav-hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;}
+.nav-hamburger span{width:22px;height:2px;background:var(--txt);border-radius:2px;transition:all .3s;}
+.mobile-menu{display:none;position:fixed;top:64px;left:0;right:0;bottom:0;
+  background:var(--bg2);z-index:490;padding:32px clamp(20px,5vw,64px);
+  flex-direction:column;gap:8px;overflow-y:auto;}
+.mobile-menu.open{display:flex;}
+.mobile-menu a{font-size:18px;font-weight:600;color:var(--muted2);text-decoration:none;
+  padding:14px 0;border-bottom:1px solid var(--bdr);}
+.mobile-menu a:hover{color:var(--acc);}
+.mobile-menu .mob-cta{margin-top:24px;background:var(--acc);color:var(--bg);
+  text-align:center;padding:16px;border-radius:10px;font-size:16px;font-weight:700;}
+
+/* ─── HERO ─── */
+.hero{min-height:100svh;padding:100px clamp(20px,5vw,64px) 72px;
+  display:flex;align-items:center;position:relative;overflow:hidden;}
+.hero-mesh{position:absolute;inset:0;pointer-events:none;
+  background:
+    radial-gradient(ellipse 70% 50% at 55% 35%,rgba(240,192,64,.07) 0%,transparent 65%),
+    radial-gradient(ellipse 40% 40% at 10% 70%,rgba(92,240,168,.05) 0%,transparent 55%),
+    radial-gradient(ellipse 35% 35% at 90% 80%,rgba(92,155,240,.05) 0%,transparent 50%);}
+.hero-grid-bg{position:absolute;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(240,192,64,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(240,192,64,.018) 1px,transparent 1px);
+  background-size:56px 56px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black 40%,transparent 100%);}
+.hero-inner{position:relative;z-index:2;width:100%;max-width:1400px;margin:0 auto;
+  display:grid;grid-template-columns:1fr 420px;gap:64px;align-items:center;}
+.hero-left{}
+.hero-tag{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;
+  border:1px solid rgba(240,192,64,.3);border-radius:100px;
+  font-size:12px;font-weight:600;color:var(--acc);letter-spacing:.5px;
+  margin-bottom:28px;opacity:0;animation:up .7s .1s forwards;}
+.hero-tag-dot{width:6px;height:6px;border-radius:50%;background:var(--acc);animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.4;transform:scale(.7);}}
+h1.hero-h{font-family:'DM Serif Display',serif;
+  font-size:clamp(44px,7vw,88px);line-height:1.0;letter-spacing:-2px;
+  margin-bottom:24px;opacity:0;animation:up .8s .25s forwards;}
+h1.hero-h em{font-style:italic;color:var(--acc);}
+h1.hero-h .line-muted{color:var(--muted);display:block;}
+.hero-sub{font-size:clamp(15px,1.6vw,18px);line-height:1.75;color:var(--muted2);
+  max-width:540px;margin-bottom:40px;opacity:0;animation:up .8s .4s forwards;}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:48px;
+  opacity:0;animation:up .8s .55s forwards;}
+.btn-hero{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;
+  border-radius:10px;font-size:15px;font-weight:700;text-decoration:none;
+  transition:all .25s;white-space:nowrap;}
+.btn-hero.primary{background:var(--acc);color:var(--bg);}
+.btn-hero.primary:hover{background:#f5ce5a;transform:translateY(-2px);box-shadow:0 12px 40px rgba(240,192,64,.3);}
+.btn-hero.secondary{border:1.5px solid var(--bdr2);color:var(--muted2);}
+.btn-hero.secondary:hover{border-color:var(--acc);color:var(--acc);}
+.btn-arrow{font-size:18px;transition:transform .2s;}
+.btn-hero:hover .btn-arrow{transform:translateX(4px);}
+.hero-proof{display:flex;align-items:center;gap:16px;opacity:0;animation:up .8s .7s forwards;}
+.proof-avatars{display:flex;}
+.proof-avatars span{width:32px;height:32px;border-radius:50%;border:2px solid var(--bg);
+  display:grid;place-items:center;font-size:12px;font-weight:700;margin-left:-8px;}
+.proof-avatars span:first-child{margin-left:0;}
+.proof-text{font-size:13px;color:var(--muted2);}
+.proof-text strong{color:var(--acc);}
+
+/* hero right — floating cards */
+.hero-right{position:relative;height:520px;opacity:0;animation:up .9s .4s forwards;}
+.hcard{position:absolute;background:var(--s1);border:1px solid var(--bdr);
+  border-radius:14px;padding:20px 22px;backdrop-filter:blur(10px);}
+.hcard-1{top:0;left:0;right:0;z-index:3;}
+.hcard-2{top:170px;left:20px;right:-20px;z-index:2;border-color:rgba(92,240,168,.2);}
+.hcard-3{top:330px;left:0;right:20px;z-index:1;border-color:rgba(92,155,240,.2);}
+.hcard-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
+  margin-bottom:10px;display:flex;align-items:center;gap:6px;}
+.hcard-label-dot{width:6px;height:6px;border-radius:50%;}
+.hcard-title{font-family:'DM Serif Display',serif;font-size:17px;margin-bottom:6px;}
+.hcard-desc{font-size:12px;color:var(--muted2);line-height:1.6;}
+.hcard-tag{display:inline-block;margin-top:10px;padding:3px 10px;border-radius:100px;
+  font-size:11px;font-weight:600;}
+.hcard-bar{margin-top:12px;height:4px;background:var(--bdr);border-radius:4px;overflow:hidden;}
+.hcard-bar-fill{height:100%;border-radius:4px;animation:barFill 2s 1s ease-out both;}
+@keyframes barFill{from{width:0;}to{width:var(--w);}}
+
+@keyframes up{from{opacity:0;transform:translateY(24px);}to{opacity:1;transform:translateY(0);}}
+@keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-10px);}}
+.hero-right{animation:up .9s .4s forwards,float 5s 1.5s ease-in-out infinite;}
+
+/* ─── MARQUEE ─── */
+.marquee{padding:16px 0;background:var(--s1);border-top:1px solid var(--bdr);
+  border-bottom:1px solid var(--bdr);overflow:hidden;white-space:nowrap;}
+.marquee-inner{display:inline-flex;animation:scroll 30s linear infinite;}
+.marquee:hover .marquee-inner{animation-play-state:paused;}
+.mi{display:inline-flex;align-items:center;gap:10px;padding:0 28px;
+  font-size:12px;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);}
+.mi-icon{font-size:14px;}
+.mi-sep{color:var(--bdr2);}
+@keyframes scroll{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+
+/* ─── SECTIONS BASE ─── */
+.section{padding:clamp(64px,8vw,120px) clamp(20px,5vw,64px);}
+.sec-inner{max-width:1400px;margin:0 auto;}
+.sec-tag{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;
+  letter-spacing:2px;text-transform:uppercase;color:var(--acc);margin-bottom:14px;}
+.sec-tag::before{content:'';width:20px;height:1.5px;background:var(--acc);}
+.sec-h{font-family:'DM Serif Display',serif;font-size:clamp(32px,4vw,52px);
+  line-height:1.05;letter-spacing:-1.5px;margin-bottom:14px;}
+.sec-h em{font-style:italic;color:var(--acc);}
+.sec-sub{font-size:15px;color:var(--muted2);line-height:1.75;max-width:560px;}
+
+/* ─── STATS BAR ─── */
+.stats-bar{background:var(--s1);border-top:1px solid var(--bdr);border-bottom:1px solid var(--bdr);}
+.stats-inner{max-width:1400px;margin:0 auto;
+  display:grid;grid-template-columns:repeat(4,1fr);
+  padding:0 clamp(20px,5vw,64px);}
+.stat-block{padding:32px 24px;border-right:1px solid var(--bdr);text-align:center;}
+.stat-block:last-child{border-right:none;}
+.stat-big{font-family:'DM Serif Display',serif;font-size:clamp(36px,5vw,56px);
+  color:var(--acc);letter-spacing:-2px;line-height:1;display:block;}
+.stat-lbl{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:1px;
+  text-transform:uppercase;margin-top:6px;}
+
+/* ─── WHAT YOU'LL MASTER ─── */
+.master-section{background:var(--bg);}
+.master-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:2px;margin-top:64px;}
+.master-card{background:var(--s1);padding:36px 30px;position:relative;
+  overflow:hidden;transition:all .3s;cursor:default;}
+.master-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:3px;
+  background:var(--cc,var(--acc));transform:scaleX(0);transform-origin:left;transition:transform .35s;}
+.master-card:hover{background:var(--s2);transform:translateY(-4px);}
+.master-card:hover::after{transform:scaleX(1);}
+.mc-num{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);
+  letter-spacing:2px;margin-bottom:20px;display:block;}
+.mc-icon{font-size:36px;margin-bottom:16px;display:block;}
+.mc-title{font-family:'DM Serif Display',serif;font-size:22px;
+  color:var(--cc,var(--acc));margin-bottom:10px;}
+.mc-desc{font-size:13px;color:var(--muted2);line-height:1.75;}
+.mc-link{display:inline-flex;align-items:center;gap:6px;margin-top:20px;
+  font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.5px;
+  transition:color .2s;}
+.master-card:hover .mc-link{color:var(--cc,var(--acc));}
+
+/* ─── FEATURED GUIDE ─── */
+.featured{background:var(--bg2);border-top:1px solid var(--bdr);}
+.featured-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;
+  align-items:center;margin-top:64px;}
+.feat-left{}
+.feat-badge{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;
+  background:rgba(240,192,64,.12);border:1px solid rgba(240,192,64,.25);
+  border-radius:100px;font-size:11px;font-weight:700;color:var(--acc);
+  margin-bottom:20px;}
+.feat-h{font-family:'DM Serif Display',serif;font-size:clamp(28px,3.5vw,46px);
+  line-height:1.1;letter-spacing:-1.5px;margin-bottom:16px;}
+.feat-h em{font-style:italic;color:var(--acc);}
+.feat-desc{font-size:15px;color:var(--muted2);line-height:1.75;margin-bottom:32px;}
+.feat-steps{display:flex;flex-direction:column;gap:14px;margin-bottom:36px;}
+.fstep{display:flex;align-items:flex-start;gap:14px;}
+.fstep-num{width:28px;height:28px;background:var(--acc);color:var(--bg);
+  display:grid;place-items:center;border-radius:6px;font-size:12px;font-weight:800;flex-shrink:0;}
+.fstep-body strong{font-size:14px;font-weight:700;display:block;margin-bottom:2px;}
+.fstep-body span{font-size:12px;color:var(--muted2);}
+.feat-cta{display:inline-flex;align-items:center;gap:8px;background:var(--acc);
+  color:var(--bg);padding:14px 28px;border-radius:10px;font-size:15px;
+  font-weight:700;text-decoration:none;transition:all .25s;}
+.feat-cta:hover{background:#f5ce5a;transform:translateY(-2px);box-shadow:0 12px 40px rgba(240,192,64,.3);}
+
+/* terminal window */
+.feat-terminal{background:#000;border:1px solid var(--bdr2);border-radius:12px;overflow:hidden;box-shadow:0 32px 80px rgba(0,0,0,.6);}
+.term-bar{padding:14px 18px;background:var(--s2);border-bottom:1px solid var(--bdr);
+  display:flex;align-items:center;gap:8px;}
+.tb{width:12px;height:12px;border-radius:50%;}
+.tb.r{background:#FF5F57;}.tb.y{background:#FEBC2E;}.tb.g{background:#28C840;}
+.term-fname{font-size:12px;color:var(--muted);margin-left:8px;font-family:'JetBrains Mono',monospace;}
+.term-body{padding:24px 20px;font-family:'JetBrains Mono',monospace;}
+.tl{display:flex;gap:14px;margin-bottom:7px;font-size:12.5px;line-height:1.6;flex-wrap:wrap;}
+.tl-n{color:var(--bdr2);min-width:18px;user-select:none;font-size:11px;padding-top:1px;}
+.c-g{color:#5CF0A8;}.c-y{color:#F0C040;}.c-b{color:#5C9BF0;}.c-m{color:#7878A0;font-style:italic;}.c-p{color:#C05CF0;}.c-r{color:#FF5C5C;}
+.term-blink{display:inline-block;width:7px;height:13px;background:var(--acc);animation:blink .9s infinite;vertical-align:middle;}
+@keyframes blink{0%,100%{opacity:1;}50%{opacity:0;}}
+
+/* ─── GUIDES GRID ─── */
+.guides{background:var(--bg);}
+.guides-header{display:flex;justify-content:space-between;align-items:flex-end;
+  margin-bottom:48px;flex-wrap:wrap;gap:20px;}
+.view-all{font-size:13px;font-weight:700;color:var(--acc);text-decoration:none;
+  display:flex;align-items:center;gap:6px;transition:gap .2s;}
+.view-all:hover{gap:10px;}
+.guides-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.guide-card{background:var(--s1);border:1px solid var(--bdr);border-radius:12px;
+  overflow:hidden;transition:all .3s;text-decoration:none;color:inherit;display:flex;flex-direction:column;}
+.guide-card:hover{border-color:var(--gc,var(--acc));transform:translateY(-4px);
+  box-shadow:0 16px 48px rgba(0,0,0,.4);}
+.gc-thumb{height:160px;display:flex;align-items:center;justify-content:center;
+  font-size:52px;position:relative;overflow:hidden;flex-shrink:0;}
+.gc-thumb-bg{position:absolute;inset:0;opacity:.15;}
+.gc-thumb-icon{position:relative;z-index:1;}
+.gc-body{padding:22px;flex:1;display:flex;flex-direction:column;}
+.gc-cat{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
+  margin-bottom:10px;color:var(--gc,var(--acc));}
+.gc-title{font-family:'DM Serif Display',serif;font-size:18px;line-height:1.3;
+  margin-bottom:8px;color:var(--txt);}
+.gc-desc{font-size:12.5px;color:var(--muted2);line-height:1.7;flex:1;}
+.gc-footer{display:flex;align-items:center;justify-content:space-between;
+  margin-top:16px;padding-top:14px;border-top:1px solid var(--bdr);}
+.gc-time{font-size:11px;color:var(--muted);display:flex;align-items:center;gap:5px;}
+.gc-arr{font-size:14px;color:var(--gc,var(--acc));transition:transform .2s;}
+.guide-card:hover .gc-arr{transform:translateX(4px);}
+
+/* ─── TOOLS SECTION ─── */
+.tools-section{background:var(--bg2);border-top:1px solid var(--bdr);}
+.tools-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:16px;margin-top:56px;}
+.tool-pill{background:var(--s1);border:1px solid var(--bdr);border-radius:12px;
+  padding:20px 18px;transition:all .3s;}
+.tool-pill:hover{border-color:var(--tp,var(--acc));transform:translateY(-3px);}
+.tp-icon{font-size:28px;margin-bottom:12px;display:block;}
+.tp-name{font-size:14px;font-weight:700;margin-bottom:4px;}
+.tp-type{font-size:11px;color:var(--muted);margin-bottom:12px;font-family:'JetBrains Mono',monospace;}
+.tp-rating{display:flex;align-items:center;gap:4px;}
+.tp-stars{color:var(--tp,var(--acc));font-size:11px;}
+.tp-score{font-size:11px;font-weight:700;color:var(--muted2);}
+.tp-badge{display:inline-block;padding:2px 8px;border-radius:100px;font-size:10px;
+  font-weight:700;margin-top:8px;background:rgba(240,192,64,.1);color:var(--tp,var(--acc));}
+
+/* ─── PROMPT FORMULA ─── */
+.formula-section{background:var(--bg);}
+.formula-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:3px;margin-top:56px;}
+.form-block{padding:32px 28px;background:var(--s1);position:relative;overflow:hidden;}
+.form-block::before{content:attr(data-n);position:absolute;right:20px;top:16px;
+  font-family:'DM Serif Display',serif;font-size:80px;color:var(--bdr);
+  line-height:1;pointer-events:none;user-select:none;}
+.form-icon{font-size:28px;margin-bottom:14px;}
+.form-label{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
+  color:var(--fb,var(--acc));margin-bottom:8px;display:block;}
+.form-title{font-family:'DM Serif Display',serif;font-size:20px;margin-bottom:8px;
+  color:var(--txt);}
+.form-desc{font-size:12px;color:var(--muted2);line-height:1.7;}
+.form-ex{margin-top:14px;padding:12px 14px;background:var(--s2);
+  border-left:2px solid var(--fb,var(--acc));font-size:11px;color:var(--muted2);
+  font-family:'JetBrains Mono',monospace;line-height:1.6;}
+
+/* ─── TESTIMONIALS ─── */
+.testi-section{background:var(--bg2);border-top:1px solid var(--bdr);}
+.testi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:20px;margin-top:56px;}
+.testi-card{background:var(--s1);border:1px solid var(--bdr);border-radius:12px;
+  padding:28px;transition:all .3s;}
+.testi-card:hover{border-color:var(--acc);transform:translateY(-3px);}
+.testi-stars{font-size:14px;color:var(--acc);margin-bottom:14px;letter-spacing:2px;}
+.testi-q{font-size:14px;color:var(--muted2);line-height:1.75;
+  font-style:italic;margin-bottom:22px;}
+.testi-q::before{content:'"';font-family:'DM Serif Display',serif;
+  font-size:40px;color:var(--acc);line-height:0;vertical-align:-.5rem;margin-right:4px;}
+.testi-who{display:flex;align-items:center;gap:12px;}
+.testi-av{width:40px;height:40px;border-radius:50%;display:grid;
+  place-items:center;font-weight:800;font-size:14px;flex-shrink:0;}
+.testi-name{font-size:13px;font-weight:700;}
+.testi-role{font-size:11px;color:var(--muted);}
+
+/* ─── NEWSLETTER ─── */
+.newsletter{background:var(--bg);position:relative;overflow:hidden;}
+.newsletter-glow{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:600px;height:300px;pointer-events:none;
+  background:radial-gradient(ellipse,rgba(240,192,64,.08) 0%,transparent 70%);}
+.newsletter-inner{max-width:640px;margin:0 auto;text-align:center;position:relative;z-index:1;}
+.nl-tag{display:inline-flex;align-items:center;gap:6px;padding:5px 14px;
+  border-radius:100px;border:1px solid rgba(240,192,64,.3);
+  font-size:11px;font-weight:700;color:var(--acc);letter-spacing:1px;
+  text-transform:uppercase;margin-bottom:24px;}
+.nl-h{font-family:'DM Serif Display',serif;font-size:clamp(32px,5vw,52px);
+  line-height:1.1;letter-spacing:-1.5px;margin-bottom:14px;}
+.nl-h em{font-style:italic;color:var(--acc);}
+.nl-sub{font-size:15px;color:var(--muted2);line-height:1.7;margin-bottom:36px;}
+.nl-form{display:flex;gap:10px;max-width:480px;margin:0 auto;}
+.nl-input{flex:1;background:var(--s1);border:1.5px solid var(--bdr2);
+  border-radius:10px;padding:14px 18px;font-size:14px;
+  color:var(--txt);font-family:'Plus Jakarta Sans',sans-serif;outline:none;
+  transition:border-color .2s;}
+.nl-input:focus{border-color:var(--acc);}
+.nl-input::placeholder{color:var(--muted);}
+.nl-submit{background:var(--acc);color:var(--bg);padding:14px 24px;
+  border:none;border-radius:10px;font-size:14px;font-weight:700;
+  cursor:pointer;font-family:'Plus Jakarta Sans',sans-serif;
+  white-space:nowrap;transition:all .2s;}
+.nl-submit:hover{background:#f5ce5a;transform:translateY(-1px);}
+.nl-note{font-size:12px;color:var(--muted);margin-top:14px;}
+
+/* ─── FOOTER ─── */
+footer{background:var(--s1);border-top:1px solid var(--bdr);
+  padding:clamp(48px,6vw,80px) clamp(20px,5vw,64px) 32px;}
+.footer-inner{max-width:1400px;margin:0 auto;}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-bottom:56px;}
+.footer-brand{}
+.fb-logo{display:flex;align-items:center;gap:10px;margin-bottom:14px;text-decoration:none;}
+.fb-name{font-family:'DM Serif Display',serif;font-size:22px;color:var(--txt);}
+.fb-name span{color:var(--acc);}
+.fb-desc{font-size:13px;color:var(--muted);line-height:1.75;max-width:280px;margin-bottom:24px;}
+.fb-socials{display:flex;gap:8px;}
+.fsoc{width:36px;height:36px;border:1px solid var(--bdr2);border-radius:8px;
+  display:grid;place-items:center;font-size:14px;color:var(--muted);
+  text-decoration:none;transition:all .2s;}
+.fsoc:hover{border-color:var(--acc);color:var(--acc);background:rgba(240,192,64,.06);}
+.footer-col h4{font-size:13px;font-weight:700;margin-bottom:18px;color:var(--txt);}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:10px;}
+.footer-col ul a{font-size:13px;color:var(--muted);text-decoration:none;
+  transition:color .2s;display:flex;align-items:center;gap:5px;}
+.footer-col ul a::before{content:'→';font-size:10px;opacity:0;
+  transform:translateX(-6px);transition:all .2s;}
+.footer-col ul a:hover{color:var(--acc);}
+.footer-col ul a:hover::before{opacity:1;transform:translateX(0);}
+.footer-bottom{padding-top:24px;border-top:1px solid var(--bdr);
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;}
+.fb-copy{font-size:12px;color:var(--muted);}
+.fb-made{font-size:12px;color:var(--muted);display:flex;align-items:center;gap:6px;}
+.fb-made span{color:var(--acc);}
+
+/* ─── SCROLL REVEAL ─── */
+.sr{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s;}
+.sr.visible{opacity:1;transform:translateY(0);}
+.sr-d1{transition-delay:.1s;}.sr-d2{transition-delay:.2s;}.sr-d3{transition-delay:.3s;}.sr-d4{transition-delay:.4s;}
+
+/* ─── BACK TO TOP ─── */
+#btt{position:fixed;bottom:28px;right:28px;width:44px;height:44px;
+  background:var(--acc);color:var(--bg);border:none;border-radius:10px;
+  font-size:18px;cursor:pointer;z-index:100;opacity:0;transform:translateY(10px);
+  transition:all .3s;display:grid;place-items:center;}
+#btt.show{opacity:1;transform:translateY(0);}
+#btt:hover{background:#f5ce5a;transform:translateY(-2px);}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:1100px){
+  .hero-inner{grid-template-columns:1fr;gap:48px;}
+  .hero-right{height:420px;max-width:500px;}
+  .featured-grid{grid-template-columns:1fr;}
+  .footer-top{grid-template-columns:1fr 1fr;}
+  .guides-grid{grid-template-columns:repeat(2,1fr);}
+}
+@media(max-width:768px){
+  .nav-center,.nav-right .nav-btn.ghost{display:none;}
+  .nav-hamburger{display:flex;}
+  h1.hero-h{letter-spacing:-1px;}
+  .hero-right{display:none;}
+  .stats-inner{grid-template-columns:repeat(2,1fr);}
+  .stat-block:nth-child(2){border-right:none;}
+  .stat-block:nth-child(3){border-top:1px solid var(--bdr);}
+  .stat-block:nth-child(4){border-top:1px solid var(--bdr);border-right:none;}
+  .guides-grid{grid-template-columns:1fr;}
+  .footer-top{grid-template-columns:1fr;}
+  .nl-form{flex-direction:column;}
+  .footer-bottom{flex-direction:column;align-items:flex-start;gap:8px;}
+  .formula-grid{grid-template-columns:1fr;}
+}
+@media(max-width:480px){
+  .hero-actions{flex-direction:column;}
+  .btn-hero{width:100%;justify-content:center;}
+  .stats-inner{grid-template-columns:1fr 1fr;}
+  .master-grid{grid-template-columns:1fr;}
+  .tools-grid{grid-template-columns:repeat(2,1fr);}
+  .testi-grid{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+<div class="grain"></div>
+<div id="dot"></div>
+<div id="ring"></div>
+<button id="btt" aria-label="Back to top">↑</button>
+
+<!-- ════ NAV ════ -->
+<nav>
+  <a href="#" class="nav-logo">
+    <div class="logo-mark">
+      <svg viewBox="0 0 18 18" fill="none">
+        <circle cx="9" cy="9" r="8" stroke="#09090E" stroke-width="1.5"/>
+        <path d="M5 9h8M9 5v8" stroke="#09090E" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="9" cy="9" r="2" fill="#09090E"/>
+      </svg>
+    </div>
+    <span class="logo-name">Nexus<span>AI</span></span>
+  </a>
+  <div class="nav-center">
+    <a href="#guides">Guides</a>
+    <a href="#tools">Tools</a>
+    <a href="#formula">Prompts</a>
+    <a href="#featured">Tutorials</a>
+    <a href="#newsletter">Newsletter</a>
+  </div>
+  <div class="nav-right">
+    <a href="#" class="nav-btn ghost">Sign In</a>
+    <a href="#guides" class="nav-btn solid">Start Free →</a>
+  </div>
+  <div class="nav-hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#guides" onclick="toggleMenu()">Guides</a>
+  <a href="#tools" onclick="toggleMenu()">AI Tools</a>
+  <a href="#formula" onclick="toggleMenu()">Prompt Formula</a>
+  <a href="#featured" onclick="toggleMenu()">Tutorials</a>
+  <a href="#newsletter" onclick="toggleMenu()">Newsletter</a>
+  <a href="#" class="mob-cta">Start Free — It's Free →</a>
+</div>
+
+<!-- ════ HERO ════ -->
+<section class="hero">
+  <div class="hero-mesh"></div>
+  <div class="hero-grid-bg"></div>
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-tag"><span class="hero-tag-dot"></span> The AI Mastery Hub for Builders</div>
+      <h1 class="hero-h">
+        Get the Best<br>Out of <em>Every</em><br>
+        <span class="line-muted">AI Tool.</span>
+      </h1>
+      <p class="hero-sub">Stop wasting prompts. Stop getting mediocre results. NexusAI gives you the exact frameworks, guides and tool reviews that engineers and founders use to 10x their output with AI.</p>
+      <div class="hero-actions">
+        <a href="#guides" class="btn-hero primary">Explore Guides <span class="btn-arrow">→</span></a>
+        <a href="#formula" class="btn-hero secondary">See Prompt Formula</a>
+      </div>
+      <div class="hero-proof">
+        <div class="proof-avatars">
+          <span style="background:#2A3A5C;color:#5C9BF0;">AK</span>
+          <span style="background:#3A2A2A;color:#FF5C5C;">SM</span>
+          <span style="background:#2A3A2A;color:#5CF0A8;">JL</span>
+          <span style="background:#3A3A2A;color:#F0C040;">MR</span>
+          <span style="background:#3A2A3A;color:#C05CF0;">DP</span>
+        </div>
+        <div class="proof-text">Join <strong>12,000+</strong> builders already shipping faster</div>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="hcard hcard-1">
+        <div class="hcard-label" style="color:var(--acc)"><span class="hcard-label-dot" style="background:var(--acc)"></span> Master Prompt Template</div>
+        <div class="hcard-title">The 6-Layer Prompt Framework</div>
+        <div class="hcard-desc">Role → Context → Stack → Constraints → Format → Task. Never get bad output again.</div>
+        <div class="hcard-bar"><div class="hcard-bar-fill" style="--w:90%;background:linear-gradient(90deg,var(--acc),var(--acc3))"></div></div>
+        <span class="hcard-tag" style="background:rgba(240,192,64,.1);color:var(--acc);">7x Better Output</span>
+      </div>
+      <div class="hcard hcard-2">
+        <div class="hcard-label" style="color:var(--acc3)"><span class="hcard-label-dot" style="background:var(--acc3)"></span> Tool Review</div>
+        <div class="hcard-title">Claude vs GPT-4o vs Gemini</div>
+        <div class="hcard-desc">Head-to-head on coding, reasoning & cost. See which wins for your use case.</div>
+        <span class="hcard-tag" style="background:rgba(92,240,168,.1);color:var(--acc3);">Updated March 2025</span>
+      </div>
+      <div class="hcard hcard-3">
+        <div class="hcard-label" style="color:var(--acc4)"><span class="hcard-label-dot" style="background:var(--acc4)"></span> Step-by-Step</div>
+        <div class="hcard-title">Build a SaaS MVP in 2 Weeks</div>
+        <div class="hcard-desc">Using AI as your co-engineer from idea to deployed product. No fluff.</div>
+        <span class="hcard-tag" style="background:rgba(92,155,240,.1);color:var(--acc4);">6 Steps · 45 min read</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ MARQUEE ════ -->
+<div class="marquee">
+  <div class="marquee-inner">
+    <span class="mi"><span class="mi-icon">⚡</span>Prompt Engineering<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">🤖</span>ChatGPT · Claude · Gemini<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">🚀</span>Ship 10x Faster<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">🛠</span>Cursor · Copilot · Bolt<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">📦</span>Production-Ready Code<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">💼</span>Founder Playbooks<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">🔬</span>Tool Benchmarks<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">🎯</span>No-Code to Pro Code<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">⚡</span>Prompt Engineering<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">🤖</span>ChatGPT · Claude · Gemini<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">🚀</span>Ship 10x Faster<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">🛠</span>Cursor · Copilot · Bolt<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">📦</span>Production-Ready Code<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">💼</span>Founder Playbooks<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">🔬</span>Tool Benchmarks<span class="mi-sep"> · </span></span>
+    <span class="mi"><span class="mi-icon">🎯</span>No-Code to Pro Code<span class="mi-sep"> · </span></span>
+  </div>
+</div>
+
+<!-- ════ STATS ════ -->
+<div class="stats-bar">
+  <div class="stats-inner">
+    <div class="stat-block sr"><span class="stat-big" data-target="12000">0</span><span class="stat-lbl">Active Learners</span></div>
+    <div class="stat-block sr sr-d1"><span class="stat-big" data-target="50">0</span><span class="stat-lbl">Tools Reviewed</span></div>
+    <div class="stat-block sr sr-d2"><span class="stat-big" data-target="7">0</span><span class="stat-lbl">× Avg Output Boost</span></div>
+    <div class="stat-block sr sr-d3"><span class="stat-big" data-target="200">0</span><span class="stat-lbl">Prompt Templates</span></div>
+  </div>
+</div>
+
+<!-- ════ WHAT YOU'LL MASTER ════ -->
+<section class="master-section section">
+  <div class="sec-inner">
+    <div class="sr">
+      <div class="sec-tag">What You'll Master</div>
+      <h2 class="sec-h">Everything you need to<br><em>win with AI</em></h2>
+      <p class="sec-sub">Four core pillars. Each one gives you a concrete, measurable edge over people who just "use" AI randomly.</p>
+    </div>
+    <div class="master-grid">
+      <div class="master-card sr sr-d1" style="--cc:#F0C040">
+        <span class="mc-num">01 / 04</span>
+        <span class="mc-icon">🧠</span>
+        <div class="mc-title">Prompt Engineering</div>
+        <p class="mc-desc">The science of talking to AI. Learn the 6-layer framework that turns vague requests into production-ready output — every single time.</p>
+        <a href="#formula" class="mc-link">Learn the Framework →</a>
+      </div>
+      <div class="master-card sr sr-d2" style="--cc:#5CF0A8">
+        <span class="mc-num">02 / 04</span>
+        <span class="mc-icon">🔬</span>
+        <div class="mc-title">Tool Selection</div>
+        <p class="mc-desc">Not all AI tools are equal. Our hands-on benchmarks show you exactly which tools win for coding, writing, research and design.</p>
+        <a href="#tools" class="mc-link">Browse Tools →</a>
+      </div>
+      <div class="master-card sr sr-d3" style="--cc:#5C9BF0">
+        <span class="mc-num">03 / 04</span>
+        <span class="mc-icon">🗺️</span>
+        <div class="mc-title">AI Workflows</div>
+        <p class="mc-desc">Build repeatable systems where AI handles the grunt work. From ideation to deployment — step by step, nothing skipped.</p>
+        <a href="#guides" class="mc-link">See Workflows →</a>
+      </div>
+      <div class="master-card sr sr-d4" style="--cc:#C05CF0">
+        <span class="mc-num">04 / 04</span>
+        <span class="mc-icon">💼</span>
+        <div class="mc-title">Business Leverage</div>
+        <p class="mc-desc">Think like a founder, build like a team. Use AI to cut your time-to-market, reduce costs, and ship products solo that used to need a team.</p>
+        <a href="#guides" class="mc-link">See Playbooks →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ FEATURED GUIDE ════ -->
+<section class="featured section" id="featured">
+  <div class="sec-inner">
+    <div class="sr">
+      <div class="sec-tag">Featured Guide</div>
+      <h2 class="sec-h">The guide that<br><em>changes everything</em></h2>
+    </div>
+    <div class="featured-grid">
+      <div class="feat-left sr">
+        <div class="feat-badge">⚡ Most Popular Guide</div>
+        <h3 class="feat-h">The Master Prompt<br><em>Framework</em></h3>
+        <p class="feat-desc">This is the exact system used by senior engineers who get clean, typed, production-ready code from AI on the first try — not after 10 frustrated rewrites.</p>
+        <div class="feat-steps">
+          <div class="fstep"><div class="fstep-num">1</div><div class="fstep-body"><strong>Set the Role</strong><span>Define seniority, mindset, and expertise level</span></div></div>
+          <div class="fstep"><div class="fstep-num">2</div><div class="fstep-body"><strong>Add Business Context</strong><span>Who uses it, what problem it solves, what scale</span></div></div>
+          <div class="fstep"><div class="fstep-num">3</div><div class="fstep-body"><strong>Lock the Tech Stack</strong><span>Exact versions prevent deprecated code creeping in</span></div></div>
+          <div class="fstep"><div class="fstep-num">4</div><div class="fstep-body"><strong>Hard Constraints</strong><span>Tell AI what it must NEVER do — this is underrated</span></div></div>
+          <div class="fstep"><div class="fstep-num">5</div><div class="fstep-body"><strong>Define Output Format</strong><span>File paths, comments, explanations after the code</span></div></div>
+          <div class="fstep"><div class="fstep-num">6</div><div class="fstep-body"><strong>Describe the Task</strong><span>Surgical specificity: component, data, interactions, success</span></div></div>
+        </div>
+        <a href="ultimate-prompt-guide.html" class="feat-cta">Get the Full Guide →</a>
+      </div>
+      <div class="feat-terminal sr sr-d2">
+        <div class="term-bar">
+          <div class="tb r"></div><div class="tb y"></div><div class="tb g"></div>
+          <span class="term-fname">master-prompt.md</span>
+        </div>
+        <div class="term-body">
+          <div class="tl"><span class="tl-n">1</span><span class="c-m">## 🎭 ROLE</span></div>
+          <div class="tl"><span class="tl-n">2</span><span class="c-g">You are a senior fullstack engineer</span></div>
+          <div class="tl"><span class="tl-n">3</span><span class="c-g">with 10+ yrs production SaaS. Think</span></div>
+          <div class="tl"><span class="tl-n">4</span><span class="c-g">like a founder. No shortcuts.</span></div>
+          <div class="tl"><span class="tl-n">5</span></div>
+          <div class="tl"><span class="tl-n">6</span><span class="c-m">## 🏢 CONTEXT</span></div>
+          <div class="tl"><span class="tl-n">7</span><span class="c-b">Project:</span><span class="c-y"> NexusAI Dashboard</span></div>
+          <div class="tl"><span class="tl-n">8</span><span class="c-b">Users:</span><span class="c-y"> Developers, aged 22-40</span></div>
+          <div class="tl"><span class="tl-n">9</span><span class="c-b">Scale:</span><span class="c-y"> 10K+ users, B2B SaaS</span></div>
+          <div class="tl"><span class="tl-n">10</span></div>
+          <div class="tl"><span class="tl-n">11</span><span class="c-m">## 🛠 STACK</span></div>
+          <div class="tl"><span class="tl-n">12</span><span class="c-y">Next.js 15 · TypeScript 5.4 strict</span></div>
+          <div class="tl"><span class="tl-n">13</span><span class="c-y">Tailwind 3.4 · Prisma 5 · Supabase</span></div>
+          <div class="tl"><span class="tl-n">14</span></div>
+          <div class="tl"><span class="tl-n">15</span><span class="c-m">## 🚫 NEVER</span></div>
+          <div class="tl"><span class="tl-n">16</span><span class="c-r">No: any, var, console.log, partial code</span></div>
+          <div class="tl"><span class="tl-n">17</span><span class="c-r">No: deprecated APIs or magic numbers</span></div>
+          <div class="tl"><span class="tl-n">18</span></div>
+          <div class="tl"><span class="tl-n">19</span><span class="c-m">## 🎯 TASK</span></div>
+          <div class="tl"><span class="tl-n">20</span><span class="c-g">Build analytics dashboard: MRR chart,</span></div>
+          <div class="tl"><span class="tl-n">21</span><span class="c-g">user growth table, loading + error states</span></div>
+          <div class="tl"><span class="tl-n">22</span><span class="term-blink"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ GUIDES GRID ════ -->
+<section class="guides section" id="guides">
+  <div class="sec-inner">
+    <div class="guides-header sr">
+      <div>
+        <div class="sec-tag">All Guides</div>
+        <h2 class="sec-h">Pick your path to<br><em>AI mastery</em></h2>
+      </div>
+      <a href="#" class="view-all">View All Guides →</a>
+    </div>
+    <div class="guides-grid">
+      <a href="ultimate-prompt-guide.html" class="guide-card sr" style="--gc:#F0C040">
+        <div class="gc-thumb" style="background:linear-gradient(135deg,#1a1400,#2a2000)">
+          <div class="gc-thumb-bg" style="background:var(--acc)"></div>
+          <span class="gc-thumb-icon">⚡</span>
+        </div>
+        <div class="gc-body">
+          <div class="gc-cat">Prompt Engineering</div>
+          <div class="gc-title">The Ultimate Coding AI Prompt Guide</div>
+          <div class="gc-desc">The 6-layer prompt framework that gets production-ready, typed, documented code from any AI on the first try. Includes master template + cheat sheet.</div>
+          <div class="gc-footer">
+            <span class="gc-time">⏱ 15 min read</span>
+            <span class="gc-arr">→</span>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="guide-card sr sr-d1" style="--gc:#5CF0A8">
+        <div class="gc-thumb" style="background:linear-gradient(135deg,#001a0e,#002a18)">
+          <div class="gc-thumb-bg" style="background:var(--acc3)"></div>
+          <span class="gc-thumb-icon">🔬</span>
+        </div>
+        <div class="gc-body">
+          <div class="gc-cat">Tool Reviews</div>
+          <div class="gc-title">Claude vs ChatGPT vs Gemini: 2025 Benchmark</div>
+          <div class="gc-desc">We ran 200 coding tasks, 100 reasoning tests, and 50 creative prompts. Here's which LLM actually wins for developers in 2025.</div>
+          <div class="gc-footer">
+            <span class="gc-time">⏱ 20 min read</span>
+            <span class="gc-arr">→</span>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="guide-card sr sr-d2" style="--gc:#5C9BF0">
+        <div class="gc-thumb" style="background:linear-gradient(135deg,#00081a,#001028)">
+          <div class="gc-thumb-bg" style="background:var(--acc4)"></div>
+          <span class="gc-thumb-icon">🚀</span>
+        </div>
+        <div class="gc-body">
+          <div class="gc-cat">Build Guide</div>
+          <div class="gc-title">Ship a SaaS MVP in 2 Weeks With AI</div>
+          <div class="gc-desc">From idea to deployed product using AI as your co-engineer. The exact workflow: architecture, database, UI, auth, payments — nothing skipped.</div>
+          <div class="gc-footer">
+            <span class="gc-time">⏱ 45 min read</span>
+            <span class="gc-arr">→</span>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="guide-card sr" style="--gc:#FF5C5C">
+        <div class="gc-thumb" style="background:linear-gradient(135deg,#1a0000,#2a0008)">
+          <div class="gc-thumb-bg" style="background:var(--acc2)"></div>
+          <span class="gc-thumb-icon">🛡️</span>
+        </div>
+        <div class="gc-body">
+          <div class="gc-cat">Security</div>
+          <div class="gc-title">AI Security: Prompt Injection & Safe Coding</div>
+          <div class="gc-desc">The risks nobody talks about. How to build AI-powered features without introducing prompt injection, data leaks, or secret exposure.</div>
+          <div class="gc-footer">
+            <span class="gc-time">⏱ 18 min read</span>
+            <span class="gc-arr">→</span>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="guide-card sr sr-d1" style="--gc:#C05CF0">
+        <div class="gc-thumb" style="background:linear-gradient(135deg,#0e0018,#180028)">
+          <div class="gc-thumb-bg" style="background:var(--acc5)"></div>
+          <span class="gc-thumb-icon">💼</span>
+        </div>
+        <div class="gc-body">
+          <div class="gc-cat">Business</div>
+          <div class="gc-title">The Founder's AI Playbook</div>
+          <div class="gc-desc">How non-technical founders use AI to build, market, and scale without a full team. Real examples, real workflows, real results.</div>
+          <div class="gc-footer">
+            <span class="gc-time">⏱ 30 min read</span>
+            <span class="gc-arr">→</span>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="guide-card sr sr-d2" style="--gc:#F0C040">
+        <div class="gc-thumb" style="background:linear-gradient(135deg,#1a1000,#2a1c00)">
+          <div class="gc-thumb-bg" style="background:var(--acc)"></div>
+          <span class="gc-thumb-icon">🎓</span>
+        </div>
+        <div class="gc-body">
+          <div class="gc-cat">Beginner</div>
+          <div class="gc-title">AI Zero to Hero: The Complete Crash Course</div>
+          <div class="gc-desc">Never used AI seriously? Start here. Understand LLMs, prompts, context windows, and how to go from curious to capable in one weekend.</div>
+          <div class="gc-footer">
+            <span class="gc-time">⏱ 60 min read</span>
+            <span class="gc-arr">→</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ════ TOOLS ════ -->
+<section class="tools-section section" id="tools">
+  <div class="sec-inner">
+    <div class="sr">
+      <div class="sec-tag">AI Tool Reviews</div>
+      <h2 class="sec-h">Tools that actually<br><em>move the needle</em></h2>
+      <p class="sec-sub">Tested in real projects. Rated on quality, speed, cost and developer experience. No sponsored placements.</p>
+    </div>
+    <div class="tools-grid">
+      <div class="tool-pill sr" style="--tp:#F0C040">
+        <span class="tp-icon">🤖</span>
+        <div class="tp-name">Claude 3.5 Sonnet</div>
+        <div class="tp-type">LLM · Anthropic</div>
+        <div class="tp-rating"><span class="tp-stars">★★★★★</span><span class="tp-score">9.6/10</span></div>
+        <span class="tp-badge">Best for Code</span>
+      </div>
+      <div class="tool-pill sr sr-d1" style="--tp:#5CF0A8">
+        <span class="tp-icon">💻</span>
+        <div class="tp-name">Cursor IDE</div>
+        <div class="tp-type">IDE · Anysphere</div>
+        <div class="tp-rating"><span class="tp-stars">★★★★★</span><span class="tp-score">9.4/10</span></div>
+        <span class="tp-badge">Editor Pick</span>
+      </div>
+      <div class="tool-pill sr sr-d2" style="--tp:#5C9BF0">
+        <span class="tp-icon">⚡</span>
+        <div class="tp-name">GitHub Copilot</div>
+        <div class="tp-type">Code AI · GitHub</div>
+        <div class="tp-rating"><span class="tp-stars">★★★★★</span><span class="tp-score">9.2/10</span></div>
+        <span class="tp-badge">Most Used</span>
+      </div>
+      <div class="tool-pill sr sr-d3" style="--tp:#FF5C5C">
+        <span class="tp-icon">💬</span>
+        <div class="tp-name">ChatGPT-4o</div>
+        <div class="tp-type">Chat LLM · OpenAI</div>
+        <div class="tp-rating"><span class="tp-stars">★★★★☆</span><span class="tp-score">8.8/10</span></div>
+        <span class="tp-badge">All-Rounder</span>
+      </div>
+      <div class="tool-pill sr" style="--tp:#C05CF0">
+        <span class="tp-icon">🔍</span>
+        <div class="tp-name">Perplexity AI</div>
+        <div class="tp-type">AI Search</div>
+        <div class="tp-rating"><span class="tp-stars">★★★★☆</span><span class="tp-score">8.5/10</span></div>
+        <span class="tp-badge">Research</span>
+      </div>
+      <div class="tool-pill sr sr-d1" style="--tp:#F0C040">
+        <span class="tp-icon">🏗️</span>
+        <div class="tp-name">v0 by Vercel</div>
+        <div class="tp-type">UI Builder · Vercel</div>
+        <div class="tp-rating"><span class="tp-stars">★★★★☆</span><span class="tp-score">8.3/10</span></div>
+        <span class="tp-badge">UI Fast</span>
+      </div>
+      <div class="tool-pill sr sr-d2" style="--tp:#5CF0A8">
+        <span class="tp-icon">🌊</span>
+        <div class="tp-name">Bolt.new</div>
+        <div class="tp-type">App Builder</div>
+        <div class="tp-rating"><span class="tp-stars">★★★★☆</span><span class="tp-score">8.1/10</span></div>
+        <span class="tp-badge">No-Code</span>
+      </div>
+      <div class="tool-pill sr sr-d3" style="--tp:#5C9BF0">
+        <span class="tp-icon">🎨</span>
+        <div class="tp-name">Midjourney v6</div>
+        <div class="tp-type">Image AI</div>
+        <div class="tp-rating"><span class="tp-stars">★★★★★</span><span class="tp-score">9.0/10</span></div>
+        <span class="tp-badge">Best Images</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ PROMPT FORMULA ════ -->
+<section class="formula-section section" id="formula">
+  <div class="sec-inner">
+    <div class="sr">
+      <div class="sec-tag">The Framework</div>
+      <h2 class="sec-h">The 6-Part Prompt<br><em>Formula</em></h2>
+      <p class="sec-sub">Every world-class AI output starts with these 6 layers. Miss one and your results suffer. Use all six and you'll rarely need to re-prompt.</p>
+    </div>
+    <div class="formula-grid">
+      <div class="form-block sr" data-n="1" style="--fb:#F0C040">
+        <div class="form-icon">🎭</div>
+        <span class="form-label">Layer 1</span>
+        <div class="form-title">Role</div>
+        <div class="form-desc">Tell AI exactly who it is. Seniority, expertise, mindset. This anchors the entire conversation.</div>
+        <div class="form-ex">"You are a senior fullstack engineer with 10+ years building production SaaS..."</div>
+      </div>
+      <div class="form-block sr sr-d1" data-n="2" style="--fb:#5CF0A8">
+        <div class="form-icon">🏢</div>
+        <span class="form-label">Layer 2</span>
+        <div class="form-title">Context</div>
+        <div class="form-desc">Project name, description, target users, business model, expected scale. Business context = better architecture.</div>
+        <div class="form-ex">"B2B SaaS for restaurant owners. Non-technical users aged 35–55. 10K users."</div>
+      </div>
+      <div class="form-block sr sr-d2" data-n="3" style="--fb:#5C9BF0">
+        <div class="form-icon">🛠</div>
+        <span class="form-label">Layer 3</span>
+        <div class="form-title">Tech Stack</div>
+        <div class="form-desc">Exact framework versions prevent deprecated APIs and incompatible patterns from ever appearing.</div>
+        <div class="form-ex">"Next.js 15, TypeScript 5.4, Tailwind 3.4, Prisma 5, Supabase, Vercel"</div>
+      </div>
+      <div class="form-block sr sr-d3" data-n="4" style="--fb:#FF5C5C">
+        <div class="form-icon">🚫</div>
+        <span class="form-label">Layer 4</span>
+        <div class="form-title">Constraints</div>
+        <div class="form-desc">The most underrated layer. Tell AI what it must never do. This eliminates entire categories of bad output.</div>
+        <div class="form-ex">"NEVER: any, var, console.log, partial code, magic numbers, inline styles"</div>
+      </div>
+      <div class="form-block sr" data-n="5" style="--fb:#C05CF0">
+        <div class="form-icon">📦</div>
+        <span class="form-label">Layer 5</span>
+        <div class="form-title">Output Format</div>
+        <div class="form-desc">Define exactly how you want the response structured — files, comments, explanations, next steps.</div>
+        <div class="form-ex">"Full files only. JSDoc comments. After code: WHAT / WHY / EDGE CASES / NEXT"</div>
+      </div>
+      <div class="form-block sr sr-d1" data-n="6" style="--fb:#F0C040">
+        <div class="form-icon">🎯</div>
+        <span class="form-label">Layer 6</span>
+        <div class="form-title">The Task</div>
+        <div class="form-desc">Be surgical. Component name, data shape, user interactions, what it connects to, what success looks like.</div>
+        <div class="form-ex">"Build a MRR chart component using Recharts + React Query v5 with loading skeleton..."</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ TESTIMONIALS ════ -->
+<section class="testi-section section">
+  <div class="sec-inner">
+    <div class="sr" style="text-align:center;margin-bottom:56px;">
+      <div class="sec-tag" style="justify-content:center;">What Builders Say</div>
+      <h2 class="sec-h" style="max-width:500px;margin:0 auto 14px;">From the people<br>already <em>shipping faster</em></h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card sr">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-q">The 6-layer framework single-handedly changed how I use AI. I went from getting half-finished garbage to complete, typed, documented components on the first try.</div>
+        <div class="testi-who">
+          <div class="testi-av" style="background:#1a2a40;color:#5C9BF0;">AK</div>
+          <div><div class="testi-name">Arjun K.</div><div class="testi-role">Fullstack Engineer · Bangalore</div></div>
+        </div>
+      </div>
+      <div class="testi-card sr sr-d1">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-q">I launched my SaaS MVP in 3 weeks using the Founder Playbook. The tool comparison page alone saved me 20 hours of research. This site pays for itself instantly.</div>
+        <div class="testi-who">
+          <div class="testi-av" style="background:#2a1a1a;color:#FF5C5C;">SM</div>
+          <div><div class="testi-name">Sara M.</div><div class="testi-role">Indie Founder · Berlin</div></div>
+        </div>
+      </div>
+      <div class="testi-card sr sr-d2">
+        <div class="testi-stars">★★★★★</div>
+        <div class="testi-q">The Constraints layer is genius. Telling AI what NOT to do is more powerful than telling it what to do. My code quality jumped 3 levels overnight after reading this.</div>
+        <div class="testi-who">
+          <div class="testi-av" style="background:#1a2a1a;color:#5CF0A8;">JL</div>
+          <div><div class="testi-name">James L.</div><div class="testi-role">Tech Lead · London</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ════ NEWSLETTER ════ -->
+<section class="newsletter section" id="newsletter">
+  <div class="newsletter-glow"></div>
+  <div class="newsletter-inner sr">
+    <div class="nl-tag">📬 Free Weekly Newsletter</div>
+    <h2 class="nl-h">Stay <em>ahead</em> of every<br>AI shift</h2>
+    <p class="nl-sub">Every week: the best new AI tools, prompts that actually work, and real case studies from builders shipping with AI. No fluff. No sponsorships. Unsubscribe any time.</p>
+    <div class="nl-form">
+      <input class="nl-input" type="email" placeholder="your@email.com" />
+      <button class="nl-submit" onclick="subscribeNewsletter(this)">Subscribe →</button>
+    </div>
+    <p class="nl-note">🔒 No spam. Read by 12,000+ builders. Free forever.</p>
+  </div>
+</section>
+
+<!-- ════ FOOTER ════ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#" class="fb-logo">
+          <div class="logo-mark" style="width:28px;height:28px;">
+            <svg viewBox="0 0 18 18" fill="none" style="width:16px;height:16px;">
+              <circle cx="9" cy="9" r="8" stroke="#09090E" stroke-width="1.5"/>
+              <path d="M5 9h8M9 5v8" stroke="#09090E" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="fb-name">Nexus<span>AI</span></span>
+        </a>
+        <p class="fb-desc">The complete resource for engineers and founders who want to master AI tools, write better prompts, and ship real products — faster than ever.</p>
+        <div class="fb-socials">
+          <a href="#" class="fsoc">𝕏</a>
+          <a href="#" class="fsoc">in</a>
+          <a href="#" class="fsoc">gh</a>
+          <a href="#" class="fsoc">yt</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="ultimate-prompt-guide.html">Prompt Guide</a></li>
+          <li><a href="#guides">LLM Benchmarks</a></li>
+          <li><a href="#guides">SaaS MVP Guide</a></li>
+          <li><a href="#guides">Beginner Crash Course</a></li>
+          <li><a href="#guides">AI Security Guide</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#tools">AI Tools</a></li>
+          <li><a href="#formula">Prompt Templates</a></li>
+          <li><a href="#guides">Founder Playbook</a></li>
+          <li><a href="#newsletter">Newsletter</a></li>
+          <li><a href="#">Cheat Sheet PDF</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="fb-copy">© 2025 NexusAI. Built for builders who ship.</p>
+      <p class="fb-made">Made with <span>♥</span> for the builder community · 2025</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+// ── Cursor
+const dot=document.getElementById('dot'),ring=document.getElementById('ring');
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener('mousemove',e=>{
+  mx=e.clientX;my=e.clientY;
+  dot.style.transform=`translate(${mx-4}px,${my-4}px)`;
+});
+(function loop(){
+  rx+=(mx-rx)*.1;ry+=(my-ry)*.1;
+  ring.style.transform=`translate(${rx-16}px,${ry-16}px)`;
+  requestAnimationFrame(loop);
+})();
+document.querySelectorAll('a,button,input,.master-card,.guide-card,.tool-pill,.testi-card,.form-block').forEach(el=>{
+  el.addEventListener('mouseenter',()=>ring.style.transform+=` scale(1.5)`);
+  el.addEventListener('mouseleave',()=>{});
+});
+
+// ── Mobile menu
+function toggleMenu(){
+  const m=document.getElementById('mobileMenu');
+  const h=document.getElementById('hamburger');
+  const open=m.classList.toggle('open');
+  h.querySelectorAll('span').forEach((s,i)=>{
+    if(open){
+      if(i===0)s.style.transform='rotate(45deg) translate(5px,5px)';
+      if(i===1)s.style.opacity='0';
+      if(i===2)s.style.transform='rotate(-45deg) translate(5px,-5px)';
+    }else{
+      s.style.transform='';s.style.opacity='';
+    }
+  });
+}
+
+// ── Scroll reveal
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible');});
+},{threshold:.1});
+document.querySelectorAll('.sr').forEach(el=>obs.observe(el));
+
+// ── Counter animation
+function animateCounter(el,target,suffix=''){
+  const dur=2000,start=performance.now();
+  const isK=target>=1000;
+  (function frame(now){
+    const p=Math.min((now-start)/dur,1);
+    const ease=1-Math.pow(1-p,3);
+    const val=Math.floor(ease*target);
+    el.textContent=isK?(val>=1000?(val/1000).toFixed(0)+'K+':val):val+(suffix||'+');
+    if(p<1)requestAnimationFrame(frame);
+    else el.textContent=isK?(target/1000).toFixed(0)+'K+':target+(suffix||'+');
+  })(start);
+}
+const cObs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      const t=parseInt(e.target.dataset.target);
+      animateCounter(e.target,t);
+      cObs.unobserve(e.target);
+    }
+  });
+},{threshold:.5});
+document.querySelectorAll('[data-target]').forEach(el=>cObs.observe(el));
+
+// ── Back to top
+const btt=document.getElementById('btt');
+window.addEventListener('scroll',()=>{
+  btt.classList.toggle('show',scrollY>400);
+},{passive:true});
+btt.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+
+// ── Newsletter
+function subscribeNewsletter(btn){
+  const input=btn.previousElementSibling;
+  if(!input.value||!input.value.includes('@')){
+    input.style.borderColor='var(--acc2)';
+    input.focus();return;
+  }
+  btn.textContent='✓ Subscribed!';
+  btn.style.background='var(--acc3)';
+  input.value='';
+  setTimeout(()=>{btn.textContent='Subscribe →';btn.style.background='';},3000);
+}
+
+// ── Smooth scroll with nav offset
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const id=a.getAttribute('href');
+    if(id==='#')return;
+    const t=document.querySelector(id);
+    if(t){e.preventDefault();window.scrollTo({top:t.getBoundingClientRect().top+scrollY-70,behavior:'smooth'});}
+  });
+});
+
+// ── Nav active state
+const navAs=document.querySelectorAll('.nav-center a');
+const sects=document.querySelectorAll('section[id],div[id]');
+window.addEventListener('scroll',()=>{
+  let cur='';
+  sects.forEach(s=>{if(scrollY>=s.offsetTop-100)cur=s.id;});
+  navAs.forEach(a=>{
+    const match=a.getAttribute('href')==='#'+cur;
+    a.style.color=match?'var(--acc)':'';
+    a.style.background=match?'var(--s2)':'';
+  });
+},{passive:true});
+</script>
+</body>
+</html>
