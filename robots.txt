@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://DJ420-gif.github.io/PromptPulse/sitemap.xml
