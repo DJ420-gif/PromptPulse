@@ -1,0 +1,50 @@
+name: 🔗 Broken Link Checker
+on:
+  schedule:
+    - cron: '0 8 * * 0'
+  workflow_dispatch:
+  push:
+    branches: [main]
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check all links in HTML files
+        run: |
+          BASE="https://dj420-gif.github.io/PromptPulse"
+          REPORT="link-report.txt"
+          echo "🔍 PromptPulse Broken Link Report - $(date)" > $REPORT
+          echo "==========================================" >> $REPORT
+          find . -name "*.html" ! -path "./.git/*" | while read htmlfile; do
+            FILENAME=$(basename $htmlfile)
+            grep -oP 'href="\K[^"]+' "$htmlfile" 2>/dev/null | while read link; do
+              [[ "$link" == "#"* || "$link" == "mailto:"* || "$link" == "javascript:"* ]] && continue
+              [[ "$link" == "http"* ]] && FULL="$link" || FULL="$BASE/$link"
+              STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "$FULL" 2>/dev/null || echo "000")
+              [[ "$STATUS" == "404" || "$STATUS" == "000" ]] && echo "❌ [$STATUS] $FILENAME → $FULL" >> $REPORT
+            done
+          done
+          echo "" >> $REPORT
+          echo "========================================" >> $REPORT
+      - name: Check all key pages live
+        run: |
+          REPORT="link-report.txt"
+          echo "🔍 Key Pages Status:" >> $REPORT
+          PAGES=("https://dj420-gif.github.io/PromptPulse/index.html" "https://dj420-gif.github.io/PromptPulse/AITools/ai-tools.html" "https://dj420-gif.github.io/PromptPulse/Blog/blog.html" "https://dj420-gif.github.io/PromptPulse/prompts/prompts.html" "https://dj420-gif.github.io/PromptPulse/AITools/claude/claude-review.html" "https://dj420-gif.github.io/PromptPulse/AITools/chatgpt/chatgpt-review.html" "https://dj420-gif.github.io/PromptPulse/AITools/grok/grok-review.html" "https://dj420-gif.github.io/PromptPulse/AITools/cursor/cursor-review.html" "https://dj420-gif.github.io/PromptPulse/AITools/GitHub/copilot-review.html" "https://dj420-gif.github.io/PromptPulse/AITools/gemini/gemini-review.html" "https://dj420-gif.github.io/PromptPulse/AITools/Meta/meta-ai-review.html" "https://dj420-gif.github.io/PromptPulse/AITools/bolt/bolt-review.html" "https://dj420-gif.github.io/PromptPulse/AITools/Perplexity/perplexity-review.html" "https://dj420-gif.github.io/PromptPulse/AITools/midjourney/midjourney-review.html" "https://dj420-gif.github.io/PromptPulse/AITools/V0/v0-review.html" "https://dj420-gif.github.io/PromptPulse/AICrashCourse/beginner-crash-course.html" "https://dj420-gif.github.io/PromptPulse/SaaSMVP/saas-mvp-guide.html" "https://dj420-gif.github.io/PromptPulse/AISecurityGuide/ai-security-guide.html" "https://dj420-gif.github.io/PromptPulse/2026Benchmark/llm-benchmarks.html" "https://dj420-gif.github.io/PromptPulse/FounderAIPlayBook/founders-playbook.html")
+          FAIL=0
+          for PAGE in "${PAGES[@]}"; do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 "$PAGE")
+            [[ "$STATUS" == "200" ]] && echo "✅ $STATUS — $PAGE" >> $REPORT || { echo "❌ $STATUS — $PAGE" >> $REPORT; FAIL=1; }
+          done
+          echo "" >> $REPORT
+          echo "Report complete — $(date)" >> $REPORT
+          cat $REPORT
+          [ "$FAIL" -eq 1 ] && echo "⚠️ Broken pages found!" && exit 1 || echo "🎉 All pages live!"
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: broken-link-report
+          path: link-report.txt
+          retention-days: 30
