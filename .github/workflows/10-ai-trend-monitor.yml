@@ -1,0 +1,156 @@
+name: 📈 AI Trend Monitor — Daily Report
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Collect today's AI trends
+        run: |
+          python3 << 'PYEOF'
+          import urllib.request,re,json,datetime,os
+          TODAY=datetime.date.today().isoformat()
+          R={"date":TODAY,"google":[],"reddit":[],"hackernews":[],"github":[]}
+          AI=["ai","gpt","claude","grok","llm","chatbot","openai","anthropic","gemini","cursor",
+              "copilot","deepseek","neural","model","siri","mistral","perplexity","chatgpt","agi",
+              "artificial intelligence","coding tool","vibe coding","ai agent","ollama","groq",
+              "windsurf","bolt","replit","lovable","devin","midjourney","stable diffusion","runway"]
+          for url in ["https://trends.google.com/trends/trendingsearches/daily/rss?geo=US",
+                      "https://trends.google.com/trends/trendingsearches/realtime/rss?geo=US&cat=t"]:
+            try:
+              req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
+              with urllib.request.urlopen(req,timeout=15) as r: c=r.read().decode("utf-8","ignore")
+              for t in re.findall(r'<title><!\[CDATA\[(.*?)\]\]></title>',c)+re.findall(r'<title>(.*?)</title>',c):
+                t=t.strip()
+                if len(t)>5 and "google" not in t.lower() and any(w in t.lower() for w in AI):
+                  if t not in R["google"]: R["google"].append(t)
+            except: pass
+          for sub in ["artificial","ChatGPT","ClaudeAI","MachineLearning","LocalLLaMA","cursor_ai","webdev","programming","singularity"]:
+            try:
+              req=urllib.request.Request(f"https://www.reddit.com/r/{sub}/hot/.rss",headers={"User-Agent":"PromptPulseBot/1.0"})
+              with urllib.request.urlopen(req,timeout=15) as r: c=r.read().decode("utf-8","ignore")
+              cnt=0
+              for t in re.findall(r'<title>(.*?)</title>',c):
+                t=re.sub(r'<[^>]+>','',t).strip()
+                if len(t)>15 and "reddit" not in t.lower() and cnt<5:
+                  R["reddit"].append(f"r/{sub}: {t[:120]}"); cnt+=1
+            except: pass
+          try:
+            req=urllib.request.Request("https://hacker-news.firebaseio.com/v0/topstories.json",headers={"User-Agent":"PromptPulseBot/1.0"})
+            with urllib.request.urlopen(req,timeout=15) as r: ids=json.loads(r.read().decode())[:30]
+            for sid in ids:
+              try:
+                req2=urllib.request.Request(f"https://hacker-news.firebaseio.com/v0/item/{sid}.json",headers={"User-Agent":"PromptPulseBot/1.0"})
+                with urllib.request.urlopen(req2,timeout=8) as r2: s=json.loads(r2.read().decode())
+                if s.get("score",0)>80 and any(w in s.get("title","").lower() for w in AI):
+                  R["hackernews"].append(f"[{s['score']}pts] {s['title']}")
+              except: pass
+          except: pass
+          try:
+            req=urllib.request.Request("https://api.github.com/search/repositories?q=topic:ai+topic:llm&sort=stars&order=desc&per_page=8",headers={"User-Agent":"PromptPulseBot/1.0","Accept":"application/vnd.github.v3+json"})
+            with urllib.request.urlopen(req,timeout=15) as r: data=json.loads(r.read().decode())
+            for repo in data.get("items",[])[:5]:
+              R["github"].append(f"⭐{repo.get('stargazers_count',0):,} {repo.get('full_name','')} — {(repo.get('description','') or '')[:80]}")
+          except: pass
+          history=[]
+          if os.path.exists("trend_history.json"):
+            with open("trend_history.json") as f: history=json.load(f)
+          history.append(R); history=history[-7:]
+          with open("trend_history.json","w") as f: json.dump(history,f,indent=2)
+          print(f"✅ {TODAY}: {sum(len(v) for k,v in R.items() if k!='date')} trends collected — {len(history)} days saved")
+          PYEOF
+
+      - name: Analyse trends across days
+        run: |
+          python3 << 'PYEOF'
+          import json,os
+          with open("trend_history.json") as f: history=json.load(f)
+          last3=history[-3:] if len(history)>=3 else history
+          freq={}
+          for d in last3:
+            day=d.get("date","")
+            for t in d.get("google",[]): k=t.lower()[:80]; freq.setdefault(k,{"text":t,"days":set(),"count":0,"sources":[]});freq[k]["days"].add(day);freq[k]["count"]+=1;freq[k]["sources"].append("Google")
+            for t in d.get("reddit",[]): k=t.lower()[:80]; freq.setdefault(k,{"text":t,"days":set(),"count":0,"sources":[]});freq[k]["days"].add(day);freq[k]["count"]+=1;freq[k]["sources"].append("Reddit")
+            for t in d.get("hackernews",[]): k=t.lower()[:80]; freq.setdefault(k,{"text":t,"days":set(),"count":0,"sources":[]});freq[k]["days"].add(day);freq[k]["count"]+=1;freq[k]["sources"].append("HackerNews")
+            for t in d.get("github",[]): k=t.lower()[:80]; freq.setdefault(k,{"text":t,"days":set(),"count":0,"sources":[]});freq[k]["days"].add(day);freq[k]["count"]+=1;freq[k]["sources"].append("GitHub")
+          sorted_topics=sorted(freq.values(),key=lambda x:(len(x["days"]),x["count"]),reverse=True)
+          result={"days":len(history),"topics":[{"text":t["text"],"days_seen":len(t["days"]),"count":t["count"],"sources":list(set(t["sources"]))} for t in sorted_topics[:20]],"last":history[-1] if history else {}}
+          with open("analysis.json","w") as f: json.dump(result,f,indent=2)
+          print(f"✅ Analysis: {len(sorted_topics)} topics — {len([t for t in sorted_topics if len(t['days'])>=2])} multi-day trends")
+          PYEOF
+
+      - name: Commit trend history
+        run: |
+          git config user.name "PromptPulse Bot"
+          git config user.email "actions@github.com"
+          git add trend_history.json
+          git diff --staged --quiet || git commit -m "📈 Trend data — $(date +'%Y-%m-%d')"
+          git push || echo "Nothing to push"
+
+      - name: Create GitHub Issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs=require('fs');
+            const date=new Date().toISOString().split('T')[0];
+            const day=new Date().toLocaleDateString('en-US',{weekday:'long'});
+            let A={days:1,topics:[],last:{}};
+            try{A=JSON.parse(fs.readFileSync('analysis.json','utf8'));}catch(e){}
+            const topics=A.topics||[];
+            const multi=topics.filter(t=>t.days_seen>=2);
+            const fresh=topics.filter(t=>t.days_seen<2);
+            const last=A.last||{};
+
+            let topTable='';
+            if(multi.length){
+              topTable+='### 🔥 SUSTAINED TRENDS — Appeared Multiple Days (HIGHEST PRIORITY)\n';
+              topTable+='| Priority | Topic | Days | Mentions | Sources |\n|----------|-------|------|---------|--------|\n';
+              multi.slice(0,8).forEach((t,i)=>{
+                const medal=['🥇','🥈','🥉','4️⃣','5️⃣','6️⃣','7️⃣','8️⃣'][i]||'📍';
+                topTable+=`| ${medal} | **${t.text}** | ${'🔥'.repeat(t.days_seen)}${t.days_seen}/3 | ${t.count}x | ${t.sources.join(' + ')} |\n`;
+              });
+            }
+            if(fresh.length){
+              topTable+='\n### 📍 NEW TODAY — First Appearance\n';
+              topTable+='| Topic | Mentions | Source |\n|-------|---------|--------|\n';
+              fresh.slice(0,8).forEach(t=>{ topTable+=`| ${t.text} | ${t.count}x | ${t.sources.join('+')} |\n`; });
+            }
+
+            const top3=multi.slice(0,3);
+            let suggestions='';
+            if(top3.length){
+              suggestions=top3.map((t,i)=>{
+                const medal=['🥇','🥈','🥉'][i];
+                return `${medal} **${t.text}**\n   - Seen: ${t.days_seen} days | ${t.count} total mentions | Sources: ${t.sources.join(', ')}\n   - 💬 *Ask Claude: "Build a fully SEO optimised PromptPulse blog page about ${t.text} for developers"*`;
+              }).join('\n\n');
+            } else {
+              suggestions='Still collecting data — check back tomorrow for sustained trends';
+            }
+
+            const g=(last.google||[]).slice(0,6).map(t=>`- 🔍 \`${t}\``).join('\n')||'- None';
+            const r=(last.reddit||[]).slice(0,10).map(t=>`- 💬 ${t}`).join('\n')||'- None';
+            const hn=(last.hackernews||[]).slice(0,6).map(t=>`- 🟠 ${t}`).join('\n')||'- None';
+            const gh=(last.github||[]).slice(0,4).map(t=>`- 💻 ${t}`).join('\n')||'- None';
+
+            const title=multi.length>0
+              ? `🔥 ${multi[0].text} — Trending ${multi[0].days_seen} Days — ${date}`
+              : `📈 Daily AI Trends — ${day} ${date}`;
+
+            await github.rest.issues.create({
+              owner:context.repo.owner,repo:context.repo.repo,
+              title:title,
+              body:`# 📈 PromptPulse AI Trend Report — ${day} ${date}\n\n> **How to use:** Copy the 🥇 topic below → Open Claude.ai → Paste it and ask to build the page\n\n---\n\n## 🎯 Top Trending Topics — ${A.days} Day Analysis\n\n${topTable||'- Collecting data...'}\n\n---\n\n## 🚀 Ready-to-Use Prompts for Claude\n\n${suggestions}\n\n---\n\n## 📊 Raw Trend Data Today\n\n### 🌐 Google Trending AI\n${g}\n\n### 💬 Reddit Hot Topics\n${r}\n\n### 🟠 Hacker News\n${hn}\n\n### 💻 GitHub Trending AI\n${gh}\n\n---\n\n## ✅ Step by Step — What to Do\n1. Copy the 🥇 topic name from above\n2. Open [Claude.ai](https://claude.ai)\n3. Paste the ready-to-use prompt\n4. Claude builds the complete page\n5. Upload to \`Blog/\` on GitHub\n6. Add URL to \`sitemap.xml\`\n7. Request indexing in [Search Console](https://search.google.com/search-console)\n8. Post on Reddit for instant traffic\n\n---\n\n## 📅 Collection Status\n- Days of data: **${A.days}** (3 days = full sustained trend analysis)\n- Multi-day trends: **${multi.length}** high-priority topics\n- New today: **${fresh.length}** fresh topics\n\n---\n*PromptPulse Trend Monitor · Daily 7am UTC · No API costs · Zero sponsorships*`,
+              labels:['trending','content-ideas']
+            });
+            console.log(`✅ Issue created: ${title}`);
