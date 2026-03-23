@@ -7,7 +7,7 @@
 <meta name="description" content="Honest ChatGPT-4o review after 200 real coding tasks. How it compares to Claude, Grok 3 and Gemini for developers. Real scores, zero sponsorship.">
 <meta name="keywords" content="ChatGPT-4o review 2026, ChatGPT vs Claude, is ChatGPT worth it 2026, GPT-4o coding review, ChatGPT for developers">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://dj420-gif.github.io/PromptPulse/AITools/reviews/chatgpt-review.html">
+<link rel="canonical" href="https://dj420-gif.github.io/PromptPulse/AITools/chatgpt/chatgpt-review.html">
 <meta property="og:title" content="ChatGPT-4o Review 2026 — Still Worth It for Developers?">
 <meta property="og:description" content="200 real coding tasks. Honest scores. Here's exactly where ChatGPT-4o wins and where it falls behind Claude.">
 <meta property="og:type" content="article">
@@ -155,5 +155,19 @@
 </div>
 <footer><div class="foot-inner"><a href="../../index.html" class="foot-brand"><div class="logo-pulse" style="width:26px;height:26px;"><svg viewBox="0 0 16 16" fill="none" style="width:14px;height:14px;"><path d="M2 8 Q5 3 8 8 Q11 13 14 8" stroke="#09090E" stroke-width="2" stroke-linecap="round" fill="none"/></svg></div><span class="foot-name">Prompt<em>Pulse</em></span></a><div class="foot-links"><a href="../../index.html">Home</a><a href="../ai-tools.html">AI Tools</a><a href="../../prompts/prompts.html">Prompts</a><a href="../../index.html#newsletter">Newsletter</a></div><span class="foot-copy">© 2026 PromptPulse · No sponsored reviews. Ever.</span></div></footer>
 <script src="chatgpt-review-script.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.faq-q').forEach(function(q) {
+    q.addEventListener('click', function() {
+      var item = q.parentElement;
+      var isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(function(i) {
+        i.classList.remove('open');
+      });
+      if (!isOpen) item.classList.add('open');
+    });
+  });
+});
+</script>
 </body>
 </html>
