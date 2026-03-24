@@ -59,5 +59,67 @@
       "\u2b50128,333 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
       "\u2b5096,679 firecrawl/firecrawl \u2014 \ud83d\udd25 The Web Data API for AI - Turn entire websites into LLM-ready markdown or stru"
     ]
+  },
+  {
+    "date": "2026-03-24",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Mark Zuckerberg builds AI CEO to help him run Meta",
+      "r/artificial: Andrej Karpathy's autonomous AI research agent ran 700 experiments in 2 days and gave a glimpse of where AI is heading",
+      "r/artificial: Just in: You can now enable Claude to use your computer to complete tasks. It opens your apps, navigates your browser, f",
+      "r/artificial: Xiaomi's MiMo models are making the AI pricing conversation uncomfortable",
+      "r/ChatGPT: Updates for ChatGPT",
+      "r/ChatGPT: GPT-4o/GPT-5 complaints megathread",
+      "r/ChatGPT: well..What can I say",
+      "r/ChatGPT: GPT 5.4 thinking model",
+      "r/ChatGPT: Asked ChatGPT for an Image that Will Never Go Viral",
+      "r/ClaudeAI: Usage Limits, Bugs and Performance Discussion Megathread - beginning December 29, 2025",
+      "r/ClaudeAI: Claude can now use your computer",
+      "r/ClaudeAI: How is Anthropic releasing new features so quickly?",
+      "r/ClaudeAI: The 5 levels of Claude Code (and how to know when you've hit the ceiling on each one)",
+      "r/ClaudeAI: not sure how I feel about this",
+      "r/MachineLearning: Machine Learning",
+      "r/MachineLearning: [D] Self-Promotion Thread",
+      "r/MachineLearning: [D] Monthly Who's Hiring and Who wants to be Hired?",
+      "r/MachineLearning: [D] ICML 2026 Review Discussion",
+      "r/MachineLearning: [D] Decoding backchannel info: Is a PI being &quot;aggressive in research&quot; a massive red flag? (C1 vs Siemens AI La",
+      "r/LocalLLaMA: Announcing LocalLlama discord server &amp; bot!",
+      "r/LocalLLaMA: RYS II - Repeated layers with Qwen3.5 27B and some hints at a 'Universal Language'",
+      "r/LocalLLaMA: China's open-source dominance threatens US AI lead, US advisory body warns",
+      "r/LocalLLaMA: The current state of the Chinese LLMs scene",
+      "r/LocalLLaMA: Which local model we running on the overland Jeep fellas?",
+      "r/cursor_ai: Anyone else maintaining .cursorrules AND CLAUDE.md? It's becoming a nightmare",
+      "r/webdev: Monthly Getting Started / Web Dev Career Thread",
+      "r/webdev: Monthly Getting Started / Web Dev Career Thread",
+      "r/webdev: Sneaky Header Blocker Trick",
+      "r/webdev: Stackoverflow crash and suing LLM companies",
+      "r/webdev: 4.4 MB of data transfered to front end of a webpage onload. Is there a hard rule for what's too much? What kind of probl",
+      "r/programming: Software dev job postings are up 15% since mid 2025",
+      "r/programming: Announcing TypeScript 6.0",
+      "r/programming: Is waterfall making a quiet comeback? (sort of)",
+      "r/programming: A table was all that was needed to fix Python autocomplete",
+      "r/programming: Generators in lone lisp",
+      "r/singularity: The era of human coding is over",
+      "r/singularity: Fascinating story: Tech Entrepreneur in Australia, using ChatGPT, AlphaFold, and a custom made mRNA vaccine, treats his ",
+      "r/singularity: Jensen Huang (NVIDIA) claims AGI has been achieved",
+      "r/singularity: Anthropic announces Dispatch. Control your Claude cowork from your mobile device.",
+      "r/singularity: Hundreds of protesters marched in SF, calling for AI companies to commit to pausing if everyone else agrees to pause (si"
+    ],
+    "hackernews": [
+      "[501pts] iPhone 17 Pro Demonstrated Running a 400B LLM",
+      "[82pts] Show HN: Cq \u2013 Stack Overflow for AI coding agents",
+      "[190pts] Claude Code Cheat Sheet",
+      "[167pts] Trivy under attack again: Widespread GitHub Actions tag compromise secrets",
+      "[226pts] I built an AI receptionist for a mechanic shop",
+      "[127pts] How I'm Productive with Claude Code"
+    ],
+    "github": [
+      "\u2b50154,051 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50134,165 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50130,815 langchain-ai/langchain \u2014 The agent engineering platform",
+      "\u2b50128,424 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "\u2b5097,072 firecrawl/firecrawl \u2014 \ud83d\udd25 The Web Data API for AI - Turn entire websites into LLM-ready markdown or stru"
+    ]
   }
 ]
