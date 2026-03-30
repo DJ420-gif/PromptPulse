@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nemotron 3 Super Review — Free 120B Model Beats GPT? [2026]</title>
+<meta name="description" content="NVIDIA Nemotron 3 Super scored 60.47% on SWE-Bench — highest open-weight coding score ever. Free to self-host. 1M context window. Is it worth deploying over Claude or GPT? Honest verdict.">
+<meta name="keywords" content="nemotron 3 super review,nvidia nemotron 3 review,nemotron 3 super vs claude,nemotron coding model 2026,nvidia open source ai model,nemotron vs gpt">
+<meta name="author" content="PromptPulse">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://dj420-gif.github.io/PromptPulse/Blog/nemotron-3-super-review-2026.html">
+<meta property="og:title" content="Nemotron 3 Super Review — Free 120B Model Beats GPT? [2026]">
+<meta property="og:description" content="NVIDIA Nemotron 3 Super scored 60.47% on SWE-Bench — highest open-weight coding score ever. Free to self-host. 1M context window. Is it worth deploying over Claude or GPT? Honest verdict.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://dj420-gif.github.io/PromptPulse/Blog/nemotron-3-super-review-2026.html">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Nemotron 3 Super Review — Free 120B Model Beats GPT? [2026]","description":"NVIDIA Nemotron 3 Super scored 60.47% on SWE-Bench — highest open-weight coding score ever. Free to self-host. 1M context window. Is it worth deploying over Claude or GPT? Honest verdict.","author":{"@type":"Organization","name":"PromptPulse"},"publisher":{"@type":"Organization","name":"PromptPulse"},"datePublished":"2026-03-24","dateModified":"2026-03-24","mainEntityOfPage":"https://dj420-gif.github.io/PromptPulse/Blog/nemotron-3-super-review-2026.html"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Is Nemotron 3 Super free?","acceptedAnswer":{"@type":"Answer","text":"Yes — available for free download on Hugging Face under the NVIDIA Open Model License Agreement. Commercially usable with perpetual worldwide royalty-free licence. You pay only for your own compute in"}},{"@type":"Question","name":"Nemotron 3 Super vs Claude — which is better for coding?","acceptedAnswer":{"@type":"Answer","text":"Claude Opus 4.6 scores approximately 80% on SWE-Bench vs Nemotron's 60.47%. Claude wins on the most complex tasks. Nemotron wins on cost — it is free to self-host versus Claude API costs. For 80% of c"}},{"@type":"Question","name":"How much RAM does Nemotron 3 Super need?","acceptedAnswer":{"@type":"Answer","text":"64GB RAM minimum for inference. 80GB GPU VRAM recommended for optimal performance using NVFP4 precision. The 12B active parameter count makes inference significantly more efficient than the 120B total"}},{"@type":"Question","name":"What is Nemotron 3 Super's context window?","acceptedAnswer":{"@type":"Answer","text":"1 million tokens — and it maintains 91.75% accuracy at maximum length on the RULER benchmark. GPT-OSS-120B drops to 22.30% at the same length. For long-context agentic workflows this is a genuine adva"}},{"@type":"Question","name":"Where can I download Nemotron 3 Super?","acceptedAnswer":{"@type":"Answer","text":"Available on Hugging Face. Search for NVIDIA Nemotron-3-Super-120B. Compatible with vLLM, llama.cpp, Ollama and Together infrastructure. Full training recipe and data details also publicly released."}}]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="nemotron-3-super-review-2026-style.css">
+<style>
+.faq-wrap{display:flex;flex-direction:column;gap:10px;margin:24px 0 36px;}
+.faq-item{border:1px solid var(--bdr);border-radius:10px;overflow:hidden;transition:border-color .3s;}
+.faq-item:hover{border-color:rgba(118,185,0,.4);}
+.faq-item.open{border-color:var(--rc);}
+.faq-q{padding:16px 20px;font-size:15px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center;background:var(--s1);color:var(--txt);transition:background .2s;gap:12px;user-select:none;}
+.faq-q:hover{background:var(--s2);}
+.faq-q::after{content:'▼';font-size:10px;color:var(--rc);transition:transform .3s;flex-shrink:0;}
+.faq-item.open .faq-q{background:var(--s2);color:var(--rc);}
+.faq-item.open .faq-q::after{transform:rotate(180deg);}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease,padding .35s ease;font-size:14px;color:var(--muted2);line-height:1.8;padding:0 20px;}
+.faq-item.open .faq-a{max-height:400px;padding:16px 20px;}
+</style>
+</head>
+<body>
+<div class="progress-bar"><div class="progress-fill" id="progress"></div></div>
+<nav>
+  <a href="../index.html" class="nav-logo"><div class="logo-pulse"><svg viewBox="0 0 16 16" fill="none"><path d="M2 8 Q5 3 8 8 Q11 13 14 8" stroke="#09090E" stroke-width="2" stroke-linecap="round" fill="none"/></svg></div><span class="logo-name">Prompt<em>Pulse</em></span></a>
+  <div class="nav-mid"><a href="../Blog/blog.html" class="active">Blog</a><a href="../AITools/ai-tools.html">Tools</a><a href="../prompts/prompts.html">Prompts</a><a href="../index.html#newsletter">Newsletter</a></div>
+  <div class="nav-right"><a href="../Blog/blog.html" class="nav-home">← Blog</a><a href="../index.html#newsletter" class="nav-cta">Subscribe Free</a></div>
+</nav>
+<section class="page-hero" style="--rc:#76B900;--rc-rgb:118,185,0;">
+  <div class="hero-glow"></div><div class="hero-grid"></div>
+  <div class="ph-inner">
+    <div class="ph-breadcrumb"><a href="../index.html">Home</a><span>/</span><a href="../Blog/blog.html">Blog</a><span>/</span><span>Article</span></div>
+    <div class="ph-tag"><span class="ph-dot"></span>🟢 NVIDIA AI · March 2026</div>
+    <h1 class="ph-h1">Nemotron 3 Super Review —<br><em>Free 120B Model</em> That Beats GPT on Coding?</h1>
+    <p class="ph-deck">NVIDIA dropped Nemotron 3 Super at GTC — a free open-weight 120B model that scored 60.47% on SWE-Bench Verified, the highest open-weight coding score ever recorded. We break down what it means for developers.</p>
+    <div class="author-box">
+      <div class="ab-av">PP</div>
+      <div class="ab-info"><div class="ab-name">PromptPulse Editorial</div><div class="ab-role">200+ AI tools tested · Zero sponsorships · March 2026</div></div>
+      <div class="ab-badge">✅ Verified</div>
+    </div>
+  </div>
+</section>
+<div class="art-wrap">
+  <div class="img-ph sr"><span class="ipi">🖼️</span><span class="ipl">Hero Image</span><span class="iph">1200×500px · Nemotron 3 Super Review — Free 120B Model Beats GPT? [2 · dark theme</span></div>
+  <div class="stat-row sr">
+    <div class="si"><span class="sn">Real</span><span class="sl">Benchmark Data</span></div>
+    <div class="si"><span class="sn">0</span><span class="sl">Sponsored</span></div>
+    <div class="si"><span class="sn">Mar 2026</span><span class="sl">Updated</span></div>
+    <div class="si"><span class="sn">Honest</span><span class="sl">Zero Bias</span></div>
+  </div>
+  <div class="sec-div sr"><span class="sdn">01</span><div class="sdl"></div></div>
+<h2 id="s1">What Is Nemotron 3 Super and Why Developers Are Paying Attention</h2>
+<p class="sr">NVIDIA Nemotron 3 Super is a 120-billion-parameter hybrid model released at GTC on March 11 2026. Despite its 120B parameter count it activates only 12 billion parameters per token — which means you get the reasoning depth of a 120B model at the compute cost of something far smaller. The architecture combines three different approaches: Mamba-2 state space layers, Transformer attention layers and a new mixture-of-experts design NVIDIA calls LatentMoE. The result is extraordinary throughput — 2.2x higher inference speed than GPT-OSS-120B and up to 7.5x faster than Qwen3.5-122B on comparable hardware. The model is available for free download on Hugging Face under the NVIDIA Open Model License Agreement and runs on 64GB of RAM making self-hosting genuinely practical for enterprise teams.</p>
+<div class="sec-div sr"><span class="sdn">02</span><div class="sdl"></div></div>
+<h2 id="s2">Benchmark Results — The Numbers That Matter</h2>
+<p class="sr">On SWE-Bench Verified the benchmark that measures real-world software engineering capability Nemotron 3 Super scored 60.47% — the highest score ever recorded for an open-weight model. For context Claude Opus 4.6 and GPT-5.3 Codex sit around 80% on the same benchmark meaning there is a real 20-point gap for the most complex tasks. But the comparison that matters most for most developers is not against the frontier models — it is against what you were previously paying for. Nemotron 3 Super outperforms GPT-OSS-120B's 41.90% significantly. The 1 million token context window holds 91.75% accuracy at maximum length on the RULER benchmark versus GPT-OSS-120B's 22.30% — a dramatic difference for long-context agentic workflows. It is already deployed in production at Perplexity, CodeRabbit, Factory, Greptile, Palantir, Cadence and Siemens.</p>
+<div class="sec-div sr"><span class="sdn">03</span><div class="sdl"></div></div>
+<h2 id="s3">When to Use Nemotron vs Claude vs GPT-5.4</h2>
+<p class="sr">Nemotron 3 Super is not a replacement for Claude Opus 4.6 or GPT-5.4 on the most complex tasks — the 20-point SWE-Bench gap is real and consistent on multi-file refactors with intricate dependencies. Where Nemotron wins decisively is on cost and data privacy. For teams running high-volume inference where Claude API costs would be prohibitive Nemotron self-hosted eliminates API costs entirely. For regulated industries or companies with strict data sovereignty requirements self-hosting Nemotron means code never leaves your infrastructure. The benchmark sweet spot: Nemotron handles the 80% of coding tasks where its 60% SWE-Bench score is good enough and you route only the most complex tasks to Claude or GPT-5.4.</p>
+<div class="sec-div sr"><span class="sdn">04</span><div class="sdl"></div></div>
+<h2 id="s4">How to Self-Host Nemotron 3 Super</h2>
+<p class="sr">Hardware requirements: 64GB RAM minimum for inference. NVIDIA recommends 80GB GPU VRAM for optimal performance using NVFP4 precision. Practical deployment uses vLLM llama.cpp Ollama or Together infrastructure — all have immediate community support for Nemotron 3 Super. The full training recipe including 25 trillion tokens of pre-training data with a June 2025 cutoff is publicly released making fine-tuning and continued training possible in ways closed models cannot match. For teams already running local LLM infrastructure Nemotron slots in as a direct upgrade to previous Mistral or Llama deployments at significantly higher capability.</p>
+
+  <div class="sec-div sr"><span class="sdn">05</span><div class="sdl"></div></div>
+  <h2 id="faq">Frequently Asked Questions</h2>
+  <div class="faq-wrap sr">
+  <div class="faq-item">
+    <div class="faq-q">Is Nemotron 3 Super free?</div>
+    <div class="faq-a">Yes — available for free download on Hugging Face under the NVIDIA Open Model License Agreement. Commercially usable with perpetual worldwide royalty-free licence. You pay only for your own compute infrastructure.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Nemotron 3 Super vs Claude — which is better for coding?</div>
+    <div class="faq-a">Claude Opus 4.6 scores approximately 80% on SWE-Bench vs Nemotron's 60.47%. Claude wins on the most complex tasks. Nemotron wins on cost — it is free to self-host versus Claude API costs. For 80% of coding tasks Nemotron is competitive at zero cost.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">How much RAM does Nemotron 3 Super need?</div>
+    <div class="faq-a">64GB RAM minimum for inference. 80GB GPU VRAM recommended for optimal performance using NVFP4 precision. The 12B active parameter count makes inference significantly more efficient than the 120B total parameter count suggests.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">What is Nemotron 3 Super's context window?</div>
+    <div class="faq-a">1 million tokens — and it maintains 91.75% accuracy at maximum length on the RULER benchmark. GPT-OSS-120B drops to 22.30% at the same length. For long-context agentic workflows this is a genuine advantage.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Where can I download Nemotron 3 Super?</div>
+    <div class="faq-a">Available on Hugging Face. Search for NVIDIA Nemotron-3-Super-120B. Compatible with vLLM, llama.cpp, Ollama and Together infrastructure. Full training recipe and data details also publicly released.</div>
+  </div>
+  </div>
+  <div class="takeaway sr"><h4>⚡ Key Takeaways</h4><ul><li>Scored 60.47% on SWE-Bench Verified — highest open-weight coding score ever recorded</li><li>Free to self-host — eliminates API costs for high-volume inference</li><li>1M context window holds accuracy better than any competing open model</li><li>20-point gap vs Claude/GPT-5.4 on the most complex tasks is real</li><li>Already deployed at Perplexity, Palantir, Siemens and Cadence in production</li></ul></div>
+  <div class="last-updated sr">📅 Last updated: March 2026 · PromptPulse Editorial · Verified</div>
+  <div class="related-wrap sr"><div class="rw-head">Related Reading</div><div class="rel-grid"><a href="../AITools/claude/claude-review.html" class="rel-card">🤖 Claude 3.5 Review</a><a href="ai-tools-free-2026.html" class="rel-card">🆓 Best Free AI Tools</a><a href="best-ai-for-coding-2026.html" class="rel-card">🏆 Best AI for Coding</a><a href="../AITools/ai-tools.html" class="rel-card">🔬 All AI Tools</a></div></div>
+  <div class="cta-box sr"><h3>Get Weekly AI Model Updates Free</h3><p>New honest reviews every week. Zero sponsorships. Zero fluff.</p><a href="../index.html#newsletter">Subscribe Free →</a></div>
+  <a href="../Blog/blog.html" class="back-btn sr">← Back to Blog</a>
+</div>
+<footer><div class="foot-inner">
+  <a href="../index.html" class="foot-brand"><div class="logo-pulse" style="width:26px;height:26px;"><svg viewBox="0 0 16 16" fill="none" style="width:14px;height:14px;"><path d="M2 8 Q5 3 8 8 Q11 13 14 8" stroke="#09090E" stroke-width="2" stroke-linecap="round" fill="none"/></svg></div><span class="foot-name">Prompt<em>Pulse</em></span></a>
+  <div class="foot-links"><a href="../index.html">Home</a><a href="../Blog/blog.html">Blog</a><a href="../AITools/ai-tools.html">AI Tools</a><a href="../index.html#newsletter">Newsletter</a></div>
+  <span class="foot-copy">© 2026 PromptPulse · No sponsored content. Ever.</span>
+</div></footer>
+<script src="nemotron-3-super-review-2026-script.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+  window.addEventListener('scroll',function(){var h=document.documentElement.scrollHeight-window.innerHeight;var el=document.getElementById('progress');if(el)el.style.width=(scrollY/h*100)+'%';},{passive:true});
+  var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting)x.target.classList.add('visible');});},{threshold:.08});
+  document.querySelectorAll('.sr').forEach(function(el){obs.observe(el);});
+  document.querySelectorAll('.faq-q').forEach(function(q){q.addEventListener('click',function(){var item=q.parentElement;var isOpen=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('open');});if(!isOpen)item.classList.add('open');});});
+});
+</script>
+</body>
+</html>
