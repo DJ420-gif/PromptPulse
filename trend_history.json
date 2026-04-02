@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-03-26",
-    "google": [],
-    "reddit": [],
-    "hackernews": [
-      "[567pts] Running Tesla Model 3's computer on my desk using parts from crashed cars",
-      "[370pts] ARC-AGI-3",
-      "[833pts] My astrophotography in the movie Project Hail Mary",
-      "[259pts] 90% of Claude-linked output going to GitHub repos w <2 stars",
-      "[252pts] False claims in a widely-cited paper",
-      "[85pts] Show HN: A plain-text cognitive architecture for Claude Code",
-      "[371pts] Apple randomly closes bug reports unless you \"verify\" the bug remains unfixed"
-    ],
-    "github": [
-      "\u2b50154,275 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50134,519 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50131,134 langchain-ai/langchain \u2014 The agent engineering platform",
-      "\u2b50128,757 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
-      "\u2b5098,422 firecrawl/firecrawl \u2014 \ud83d\udd25 The Web Data API for AI - Turn entire websites into LLM-ready markdown or stru"
-    ]
-  },
-  {
     "date": "2026-03-27",
     "google": [],
     "reddit": [
@@ -382,6 +361,67 @@
       "\u2b50135,294 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50131,872 langchain-ai/langchain \u2014 The agent engineering platform",
       "\u2b50129,500 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: The Claude Code leak accidentally published the first complete blueprint for production AI agents. Here's what it tells ",
+      "r/artificial: Building an AI agent that finds repos and content relevant to my work",
+      "r/artificial: MIT researchers use AI to uncover atomic defects in materials",
+      "r/artificial: New Research Directions in Materials Science with AI",
+      "r/ChatGPT: Updates for ChatGPT",
+      "r/ChatGPT: GPT-4o/GPT-5 complaints megathread",
+      "r/ChatGPT: Haha Doordash support",
+      "r/ChatGPT: WHAT JUST HAPPENED",
+      "r/ChatGPT: Try this ChatGPT Prompt",
+      "r/ClaudeAI: r/ClaudeAI List of Ongoing Megathreads",
+      "r/ClaudeAI: Investigating usage limits hitting faster than expected",
+      "r/ClaudeAI: I built a tool that saves ~50K tokens per Claude Code conversation by pre-indexing your codebase",
+      "r/ClaudeAI: My Opus model has gone off the rails",
+      "r/ClaudeAI: I replaced chaotic solo Claude coding with a simple 3-agent team (Architect + Builder + Reviewer) \u2014 it's stupidly effect",
+      "r/MachineLearning: Machine Learning",
+      "r/MachineLearning: [D] Self-Promotion Thread",
+      "r/MachineLearning: [D] Monthly Who's Hiring and Who wants to be Hired?",
+      "r/MachineLearning: Stanford CS 25 Transformers Course (OPEN TO ALL | Starts Tomorrow)",
+      "r/MachineLearning: [P] I replaced Dot-Product Attention with distance-based RBF-Attention (so you don't have to...)",
+      "r/LocalLLaMA: Announcing LocalLlama discord server &amp; bot!",
+      "r/LocalLLaMA: The Bonsai 1-bit models are very good",
+      "r/LocalLLaMA: Gemma time! What are your wishes ?",
+      "r/LocalLLaMA: I benchmarked quants of Qwen 3 .6b from q2-q8, here's the results:",
+      "r/LocalLLaMA: TurboQuant isn\u2019t just for KV: Qwen3.5-27B at near-Q4_0 quality, about 10% smaller, and finally fitting on my 16GB 5060 T",
+      "r/cursor_ai: tired of cursor generating generic skills that ignore ur actual codebase? we built a fix and just hit 250 stars",
+      "r/cursor_ai: built an open source tool that keeps your cursor rules always up to date with your codebase, 250 stars in 3 weeks",
+      "r/cursor_ai: Anyone else maintaining .cursorrules AND CLAUDE.md? It's becoming a nightmare",
+      "r/webdev: Monthly Getting Started / Web Dev Career Thread",
+      "r/webdev: Monthly Getting Started / Web Dev Career Thread",
+      "r/webdev: The thing I loved about this industry is dying, and we're watching it happen from the inside.",
+      "r/webdev: i made my first website",
+      "r/webdev: I made tiny web pets that crawl around your website",
+      "r/programming: Announcement: Temporary LLM Content Ban",
+      "r/programming: Garbage Collection: From First Principles to Modern Collectors in Java, Go and Python",
+      "r/programming: Why full-stack post-quantum cryptography cannot wait",
+      "r/programming: Understanding CPUs by building one in Kotlin",
+      "r/programming: A bug in Bun may have been the root cause of the Claude Code source code leak.",
+      "r/singularity: 1-bit models are here: PrismMLs Bonsai series of models",
+      "r/singularity: The era of human coding is over",
+      "r/singularity: Gemini 4 is coming ??",
+      "r/singularity: Chinese state media releases episode 2 of their AI generated Iran war animated series",
+      "r/singularity: They are coming for Physical Jobs"
+    ],
+    "hackernews": [
+      "[129pts] The Claude Code Leak",
+      "[188pts] AI for American-produced cement and concrete",
+      "[156pts] StepFun 3.5 Flash is #1 cost-effective model for OpenClaw tasks (300 battles)"
+    ],
+    "github": [
+      "\u2b50183,047 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50156,365 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50135,434 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50132,032 langchain-ai/langchain \u2014 The agent engineering platform",
+      "\u2b50129,602 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     ]
   }
 ]
