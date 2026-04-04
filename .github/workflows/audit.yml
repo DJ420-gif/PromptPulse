@@ -1,34 +1,44 @@
-name: Free AI Auditor
-on: [push, pull_request]
+name: AI HTML Auditor
+on: 
+  push:
+    paths:
+      - '**.html'
+  pull_request:
+    paths:
+      - '**.html'
 
 jobs:
   audit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Code
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 2 # Only fetch enough to see the latest changes
+          fetch-depth: 0 
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: pip install google-generativeai
+      - name: Install SDK
+        run: pip install google-genai
 
-      - name: Find Changed HTML
+      - name: Identify Changed Files
         id: changed-files
         run: |
-          # Only audit files that were actually modified in this push
-          FILES=$(git diff --name-only HEAD^ HEAD | grep '\.html$' | xargs)
-          echo "files=$FILES" >> $GITHUB_OUTPUT
+          # Robust check for new vs modified files to prevent Exit Code 1
+          if git rev-parse HEAD~1 >/dev/null 2>&1; then
+            FILES=$(git diff --name-only HEAD~1 HEAD | grep '\.html$' || true)
+          else
+            FILES=$(git ls-files | grep '\.html$' || true)
+          fi
+          echo "html_files=$FILES" >> $GITHUB_OUTPUT
 
-      - name: Run Audit
-        if: steps.changed-files.outputs.files != ''
+      - name: Run AI Audit
+        if: steps.changed-files.outputs.html_files != ''
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/ai_audit.py ${{ steps.changed-files.outputs.files }} >> audit_results.md
-
-      - name: Display Results
-        run: cat audit_results.md >> $GITHUB_STEP_SUMMARY
+        run: |
+          python scripts/ai_audit.py ${{ steps.changed-files.outputs.html_files }} > audit_report.md
+          cat audit_report.md >> $GITHUB_STEP_SUMMARY
