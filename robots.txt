@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dj420-gif.github.io/PromptPulse/sitemap.xml
+Sitemap: https://dj420-gif.github.io/PromptPulse/sitemap_index.xml
