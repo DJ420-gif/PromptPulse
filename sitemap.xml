@@ -1,31 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- HOMEPAGE -->
   <url>
     <loc>https://dj420-gif.github.io/PromptPulse/index.html</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- PROMPTS -->
   <url>
     <loc>https://dj420-gif.github.io/PromptPulse/prompts/prompts.html</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- AI TOOLS MAIN -->
   <url>
     <loc>https://dj420-gif.github.io/PromptPulse/AITools/ai-tools.html</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- AI TOOL REVIEWS -->
   <url>
     <loc>https://dj420-gif.github.io/PromptPulse/AITools/claude/claude-review.html</loc>
     <lastmod>2026-03-22</lastmod>
@@ -92,8 +84,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- BLOG -->
   <url>
     <loc>https://dj420-gif.github.io/PromptPulse/Blog/blog.html</loc>
     <lastmod>2026-03-22</lastmod>
@@ -112,8 +102,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- GUIDES -->
   <url>
     <loc>https://dj420-gif.github.io/PromptPulse/ultimate-prompt-guide/guide-prompt-engineering-1.html</loc>
     <lastmod>2026-03-22</lastmod>
@@ -150,13 +138,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-<url>
+  <url>
     <loc>https://dj420-gif.github.io/PromptPulse/pages/ai-agents-2026.html</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-<url>
+  <url>
     <loc>https://dj420-gif.github.io/PromptPulse/pages/vibe-coding-2026.html</loc>
     <lastmod>2026-03-22</lastmod>
     <changefreq>weekly</changefreq>
