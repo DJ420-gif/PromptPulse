@@ -1,0 +1,207 @@
+# ═══════════════════════════════════════════════════════════════
+# WORKFLOW 8 — HTML VALIDATOR
+# Checks every HTML file for:
+#   • JSON-LD syntax errors
+#   • Unescaped & in href/src attributes
+#   • Title > 65 chars
+#   • Meta description > 155 chars or < 50 chars
+#   • Missing canonical tag
+#   • Missing robots meta
+#   • Missing </body> / </html>
+# Runs on every push + weekly. Posts GitHub Issue with fixes.
+# FREE — uses only Python stdlib, zero external tools.
+# ═══════════════════════════════════════════════════════════════
+name: HTML Validator — JSON-LD, Meta, Attributes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.html'
+  schedule:
+    - cron: '0 7 * * 1'   # Every Monday 7am UTC
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run HTML Validator
+        run: |
+          python3 << 'PYEOF'
+          import os, re, json
+
+          SKIP = {'.git', 'node_modules', '.github', '__pycache__'}
+          BASE = 'https://dj420-gif.github.io/PromptPulse'
+
+          results = []   # list of {file, errors}
+          counts = {'total': 0, 'clean': 0, 'error_files': 0, 'total_errors': 0}
+
+          for root, dirs, files in os.walk('.'):
+              dirs[:] = [d for d in dirs if d not in SKIP]
+              for fn in sorted(files):
+                  if not fn.endswith('.html'):
+                      continue
+                  path = os.path.join(root, fn)
+                  rel  = path.replace('./', '', 1)
+                  counts['total'] += 1
+
+                  try:
+                      html = open(path, encoding='utf-8', errors='ignore').read()
+                  except Exception as e:
+                      results.append({'file': rel, 'errors': [f'Cannot read file: {e}']})
+                      counts['error_files'] += 1
+                      continue
+
+                  errs = []
+
+                  # 1. JSON-LD blocks
+                  blocks = re.findall(
+                      r'<script\s+type=["\']application/ld\+json["\']>(.*?)</script>',
+                      html, re.DOTALL | re.IGNORECASE)
+                  for i, blk in enumerate(blocks, 1):
+                      try:
+                          parsed = json.loads(blk.strip())
+                          t = parsed.get('@type', '?')
+                          # Extra check: values must be strings (not Python repr artifacts)
+                          txt = blk.strip()
+                          if "':" in txt or ": '" in txt:
+                              errs.append(f'JSON-LD block {i} (@type={t}): single-quote values detected (invalid JSON)')
+                      except json.JSONDecodeError as e:
+                          ctx = blk.strip()[max(0, e.colno-30):e.colno+30]
+                          errs.append(f'JSON-LD block {i}: {e.msg} at line {e.lineno}, col {e.colno} → ...{repr(ctx)}...')
+
+                  # 2. Unescaped & in href/src/action attributes
+                  for attr in ['href', 'src', 'action', 'content']:
+                      pat = rf'{attr}=["\'][^"\']*&(?!amp;|lt;|gt;|quot;|apos;|#\d)[^"\']*["\']'
+                      hits = re.findall(pat, html, re.IGNORECASE)
+                      if hits:
+                          errs.append(f'Unescaped & in {attr}= attribute — must be &amp; (found {len(hits)})')
+
+                  # 3. Title length
+                  tm = re.search(r'<title>(.*?)</title>', html, re.DOTALL | re.IGNORECASE)
+                  if tm:
+                      tlen = len(tm.group(1).strip())
+                      if tlen == 0:
+                          errs.append('Empty <title> tag')
+                      elif tlen > 65:
+                          errs.append(f'Title too long: {tlen}c (max 65) → "{tm.group(1).strip()[:50]}..."')
+                  else:
+                      errs.append('Missing <title> tag')
+
+                  # 4. Meta description
+                  dm = re.search(
+                      r'name=["\']description["\'][^>]*content=["\']([^"\']*)["\']',
+                      html, re.IGNORECASE)
+                  if dm:
+                      dlen = len(dm.group(1))
+                      if dlen > 155:
+                          errs.append(f'Meta description too long: {dlen}c (max 155)')
+                      elif dlen < 50:
+                          errs.append(f'Meta description too short: {dlen}c (min 50)')
+                  else:
+                      errs.append('Missing meta description')
+
+                  # 5. Canonical tag
+                  if not re.search(r'rel=["\']canonical["\']', html, re.IGNORECASE):
+                      errs.append('Missing <link rel="canonical">')
+
+                  # 6. Robots meta
+                  if not re.search(r'name=["\']robots["\']', html, re.IGNORECASE):
+                      errs.append('Missing <meta name="robots">')
+
+                  # 7. Closing tags
+                  if '</body>' not in html:
+                      errs.append('Missing </body> tag')
+                  if '</html>' not in html:
+                      errs.append('Missing </html> tag')
+
+                  # 8. og:url
+                  if not re.search(r'og:url', html, re.IGNORECASE):
+                      errs.append('Missing og:url meta tag')
+
+                  if errs:
+                      results.append({'file': rel, 'errors': errs})
+                      counts['error_files'] += 1
+                      counts['total_errors'] += len(errs)
+                  else:
+                      counts['clean'] += 1
+
+          # Write results JSON for next step
+          import json as J
+          with open('validator_results.json', 'w') as f:
+              J.dump({'counts': counts, 'results': results}, f, indent=2)
+
+          print(f"Files scanned  : {counts['total']}")
+          print(f"Clean files    : {counts['clean']}")
+          print(f"Files w/ errors: {counts['error_files']}")
+          print(f"Total errors   : {counts['total_errors']}")
+          PYEOF
+
+      - name: Post Validation Issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const data = JSON.parse(fs.readFileSync('validator_results.json', 'utf8'));
+            const { counts, results } = data;
+
+            if (counts.total_errors === 0) {
+              console.log('✅ All HTML files are valid — no issue created.');
+              return;
+            }
+
+            const lines = [];
+            lines.push(`## 🔍 HTML Validator Report — ${new Date().toLocaleDateString('en-GB')}`);
+            lines.push('');
+            lines.push(`| Metric | Value |`);
+            lines.push(`|--------|-------|`);
+            lines.push(`| Files scanned | ${counts.total} |`);
+            lines.push(`| ✅ Clean | ${counts.clean} |`);
+            lines.push(`| ❌ Files with errors | ${counts.error_files} |`);
+            lines.push(`| 🔢 Total errors | ${counts.total_errors} |`);
+            lines.push('');
+
+            // Group by error type for summary
+            const errorTypes = {};
+            results.forEach(r => {
+              r.errors.forEach(e => {
+                const key = e.split(':')[0].split('→')[0].trim();
+                errorTypes[key] = (errorTypes[key] || 0) + 1;
+              });
+            });
+
+            lines.push('### Error Summary by Type');
+            Object.entries(errorTypes)
+              .sort((a,b) => b[1]-a[1])
+              .forEach(([type, count]) => lines.push(`- **${type}**: ${count} files`));
+            lines.push('');
+
+            lines.push('### Files with Errors');
+            results.slice(0, 30).forEach(r => {
+              lines.push(`\n#### \`${r.file}\``);
+              r.errors.forEach(e => lines.push(`- ❌ ${e}`));
+            });
+
+            if (results.length > 30) {
+              lines.push(`\n_...and ${results.length - 30} more files. Run workflow manually to see full report._`);
+            }
+
+            lines.push('');
+            lines.push('---');
+            lines.push('*Auto-generated by PromptPulse HTML Validator workflow*');
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🔍 HTML Validation — ${counts.total_errors} errors in ${counts.error_files} files — ${new Date().toLocaleDateString('en-GB')}`,
+              body: lines.join('\n'),
+              labels: ['validation', 'seo', 'automated']
+            });
