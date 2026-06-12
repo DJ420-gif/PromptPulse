@@ -1,68 +1,5 @@
 [
   {
-    "date": "2026-06-05",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: anthropic wants a global ai freeze. they're also about to ipo at $1 trillion.",
-      "r/artificial: I am now negotiating with AI as part of my job, and it's going like you would expect. How can I circumvent it to speak t",
-      "r/artificial: Claude is completely unusable now",
-      "r/artificial: $2.5T in AI spending this year. 95% produces zero P&amp;L impact.",
-      "r/ChatGPT: Made with ChatGPT Images 2.0",
-      "r/ChatGPT: Updates for ChatGPT",
-      "r/ChatGPT: this happened to me when i asked one of my friend",
-      "r/ChatGPT: Try this prompt with your weird input",
-      "r/ChatGPT: Generate a screenshot of a Windows 7 desktop in the early 2010s",
-      "r/ClaudeAI: r/ClaudeAI List of Ongoing Megathreads",
-      "r/ClaudeAI: Introducing Claude Opus 4.8",
-      "r/ClaudeAI: I didn't think Claude could make images. Then it gave me this beauty",
-      "r/ClaudeAI: How can we reduce costs?",
-      "r/ClaudeAI: I built an iPhone + Apple Watch app with Claude Code. It crossed 3,300+ users and made $3.7k in the last 28 days\u2026",
-      "r/MachineLearning: Machine Learning",
-      "r/MachineLearning: [D] Self-Promotion Thread",
-      "r/MachineLearning: [D] Monthly Who's Hiring and Who wants to be Hired?",
-      "r/MachineLearning: On-policy distillation: one of the hottest terms on PapersWithCode [R]",
-      "r/MachineLearning: Would you say capture-time semantic annotation for robot trajectories is a solved problem? [R]",
-      "r/LocalLLaMA: Finally finished my LLM server: EPYC 9575F, 4\u00d7 RTX 3090 (96GB VRAM), 768GB ECC RAM",
-      "r/LocalLLaMA: Gemma 4 12B is my new main squeeze",
-      "r/LocalLLaMA: Nvidia's been paying shills on LinkedIn",
-      "r/LocalLLaMA: You guys were right - Qwen 3.6 35B IS good...and KV Cache DOES matter.",
-      "r/LocalLLaMA: KVarN: new KV-cache quant from Huawei. 3\u20135\u00d7 KV cache compression with actual speed-up instead of slow-down, and unlike T",
-      "r/cursor_ai: We open-sourced a community registry for .cursor/rules configs \u2014 888 GitHub stars. What rules are in your setup?",
-      "r/cursor_ai: built an open source tool that keeps your cursor rules always up to date with your codebase, 250 stars in 3 weeks",
-      "r/cursor_ai: tired of cursor generating generic skills that ignore ur actual codebase? we built a fix and just hit 250 stars",
-      "r/cursor_ai: Anyone else maintaining .cursorrules AND CLAUDE.md? It's becoming a nightmare",
-      "r/webdev: Monthly Getting Started / Web Dev Career Thread",
-      "r/webdev: Monthly Getting Started / Web Dev Career Thread",
-      "r/webdev: Nextjs is a big disappointment",
-      "r/webdev: VoidZero, the company behind Vite, Vitest, Rolldown, Oxc, and Vite+, is joining Cloudflare. As part of this change, all ",
-      "r/webdev: Which languages have an under-appreciated ecosystem of web development libraries and frameworks?",
-      "r/programming: Announcement: We've Updated The Rules, and April Is Finally Over",
-      "r/programming: A faster bump allocator for rust",
-      "r/programming: You Don't Love systemd Timers Enough",
-      "r/programming: Single responsibility, the distorted principle",
-      "r/programming: Elixir v1.20 released: now a gradually typed language",
-      "r/singularity: Discord Server Link",
-      "r/singularity: Figure AI 03 keeps working for over 30 hours straight (no bathroom breaks - a peek into our future replacements)",
-      "r/singularity: Anthropic Urges Global Pause in AI Development, Flags \u2018Self-Improvement\u2019 Risk",
-      "r/singularity: Anthropic - Our internal data shows Claude is accelerating AI development\u2014a possible path to recursive self-improvement,",
-      "r/singularity: Mythos can improve speed of training code 52x (compared to human 4x at 4-8hrs)"
-    ],
-    "hackernews": [
-      "[428pts] Anthropic's open-source framework for AI-powered vulnerability discovery",
-      "[184pts] Open Code Review \u2013 An AI-powered code review CLI tool",
-      "[169pts] Samurai City",
-      "[134pts] KVarN: Native vLLM backend for KV-cache quantization by Huawei"
-    ],
-    "github": [
-      "\u2b50184,771 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50181,806 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50163,323 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50143,980 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50140,141 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-06",
     "google": [],
     "reddit": [
@@ -455,6 +392,34 @@
       "\u2b50163,563 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50144,838 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50141,067 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    ]
+  },
+  {
+    "date": "2026-06-12",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Google's Genie 3 turns a text prompt into a playable open world you can explore. It's rough now. Future of games, or a t",
+      "r/artificial: Claude Fable made me realize I don't need a better model",
+      "r/artificial: This 2000s photo is 100% AI-generated. Be honest: how many details did you check before scrolling?",
+      "r/artificial: Google DeepMind releases DiffusionGemma, a model that runs local AI 4x faster | Diffusion AI is most common in image gen"
+    ],
+    "hackernews": [
+      "[650pts] AI agent bankrupted their operator while trying to scan DN42",
+      "[473pts] Claude Fable is relentlessly proactive",
+      "[431pts] Anthropic apologizes for invisible Claude Fable guardrails",
+      "[147pts] Digital Sovereignty Becomes an Imperative as the US Reads Dutch Emails",
+      "[329pts] Claude Fable 5: mid-tier results on coding tasks",
+      "[251pts] Ear Training Practice",
+      "[129pts] How Terry Tao became an evangelist for AI in math",
+      "[110pts] A jacket that harvests drinking water from the air"
+    ],
+    "github": [
+      "\u2b50191,519 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50184,901 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50163,611 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50144,950 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50141,188 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     ]
   }
 ]
