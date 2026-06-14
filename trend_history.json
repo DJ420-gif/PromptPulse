@@ -1,70 +1,5 @@
 [
   {
-    "date": "2026-06-07",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: \u201cAI vs creativity\u201d is the wrong debate imo",
-      "r/artificial: AI keeps getting blamed for tech layoffs, but the numbers don't really line up",
-      "r/artificial: Benefits and Risks of AI at Harvard Class Day 2026",
-      "r/artificial: Does anyone else say please and thank you to AI? Or am I just wierd?",
-      "r/ChatGPT: Made with ChatGPT Images 2.0",
-      "r/ChatGPT: Updates for ChatGPT",
-      "r/ChatGPT: The new LEGO Corrupt Utah Police set",
-      "r/ChatGPT: DeepSeek &quot;improved&quot; the code and said nothing happened in Tiananmen Square",
-      "r/ChatGPT: Asked gpt to make a meme about the American economy",
-      "r/ClaudeAI: r/ClaudeAI List of Ongoing Megathreads",
-      "r/ClaudeAI: Your Claude Cowork usage limits just doubled for the next month.",
-      "r/ClaudeAI: I started responding to messages from coworkers like Claude",
-      "r/ClaudeAI: POV: Every time you typo and Claude overthinks it",
-      "r/ClaudeAI: Help my claude wont say uwu",
-      "r/MachineLearning: Machine Learning",
-      "r/MachineLearning: [D] Self-Promotion Thread",
-      "r/MachineLearning: [D] Monthly Who's Hiring and Who wants to be Hired?",
-      "r/MachineLearning: ML reading group to read recent interesting and trending papers from ICML/ICLR/NeurIPS [D]",
-      "r/MachineLearning: Research collection of Arxiv whitepapers [R]",
-      "r/LocalLLaMA: Open models to win \u270c",
-      "r/LocalLLaMA: You don't need a GPU to run gemma-4-26B-A4B",
-      "r/LocalLLaMA: Cohere's unreleased coding model (early access for localllama)",
-      "r/LocalLLaMA: Another 1-click admin account takeover in pewdiepie's AI tool (language in video nsfw)",
-      "r/LocalLLaMA: 120 tok/s on 12GB VRAM with Gemma 4 12B QAT MTP",
-      "r/cursor_ai: We open-sourced a community registry for .cursor/rules configs \u2014 888 GitHub stars. What rules are in your setup?",
-      "r/cursor_ai: built an open source tool that keeps your cursor rules always up to date with your codebase, 250 stars in 3 weeks",
-      "r/cursor_ai: tired of cursor generating generic skills that ignore ur actual codebase? we built a fix and just hit 250 stars",
-      "r/cursor_ai: Anyone else maintaining .cursorrules AND CLAUDE.md? It's becoming a nightmare",
-      "r/webdev: Monthly Getting Started / Web Dev Career Thread",
-      "r/webdev: Monthly Getting Started / Web Dev Career Thread",
-      "r/webdev: I built a black-and-white e-ink display so I'd stop checking my phone 60 times a day",
-      "r/webdev: Made a little Mandelbrot explorer, would love feedback",
-      "r/webdev: JPEG XL is objectively better than WebP in almost every way - so why are most browsers still ghosting it? And should we ",
-      "r/programming: Announcement: We've Updated The Rules, and April Is Finally Over",
-      "r/programming: Stop Using Conventional Commits",
-      "r/programming: The perils of UUID primary keys in SQLite",
-      "r/programming: The cover of C++: The Programming Language raises questions not answered by the cover",
-      "r/programming: Configuration flags are where software goes to rot",
-      "r/singularity: Discord Server Link",
-      "r/singularity: Figure AI 03 keeps working for over 30 hours straight (no bathroom breaks - a peek into our future replacements)",
-      "r/singularity: we're never getting a singularity bro\ud83e\udd26\u200d\u2642\ufe0f",
-      "r/singularity: UBTech teases the faces of their 'emotional' humanoid robot couple, ahead of their June 30 debut",
-      "r/singularity: Donald Trump, Bernie Sanders and Sam Altman are all talking about public ownership in AI"
-    ],
-    "hackernews": [
-      "[155pts] I design with Claude more than Figma now",
-      "[120pts] Public Domain Image Archive",
-      "[195pts] Harness engineering: Leveraging Codex in an agent-first world",
-      "[594pts] Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
-      "[244pts] Google to pay SpaceX $920M a month for compute capacity at xAI data centers",
-      "[620pts] Ask HN: What was your \"oh shit\" moment with GenAI?"
-    ],
-    "github": [
-      "\u2b50185,170 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50184,806 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50163,396 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50144,225 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50140,431 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-08",
     "google": [],
     "reddit": [
@@ -377,6 +312,27 @@
       "\u2b50163,646 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50145,043 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50141,310 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    ]
+  },
+  {
+    "date": "2026-06-14",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Microsoft president says AI backlash at graduation events should be wake-up call for the tech industry",
+      "r/artificial: Our AI bills are subsidised, and I don't think many people have priced in what happens next",
+      "r/artificial: We solved reasoning. The remaining challenge was apparently pressing Enter.",
+      "r/artificial: Anthropic CEO Floats Tax on AI Firms to Fund Universal Income"
+    ],
+    "hackernews": [
+      "[689pts] Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models"
+    ],
+    "github": [
+      "\u2b50193,055 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50184,930 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50163,690 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50145,149 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50141,437 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     ]
   }
 ]
