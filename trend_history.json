@@ -1,72 +1,5 @@
 [
   {
-    "date": "2026-06-09",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Claude repeatedly implied that I was suicidal after I explicitly denied it around 30 times in one conversation",
-      "r/artificial: ArXiv to Ban Researchers for a Year if They Submit AI Slop",
-      "r/artificial: OG Will understand \ud83d\ude44",
-      "r/artificial: Why has everyone become so sensitive about using AI? What is the problem?",
-      "r/ChatGPT: Made with ChatGPT Images 2.0",
-      "r/ChatGPT: Updates for ChatGPT",
-      "r/ChatGPT: Let that sink in.",
-      "r/ChatGPT: my gpt is a cat lol \ud83d\ude2d\ud83d\udd4a",
-      "r/ChatGPT: People have started sounding like ChatGPT now and it's scary",
-      "r/ClaudeAI: r/ClaudeAI List of Ongoing Megathreads",
-      "r/ClaudeAI: Your Claude Cowork usage limits just doubled for the next month.",
-      "r/ClaudeAI: Claude Code Endgame",
-      "r/ClaudeAI: Anthropic changed their privacy policy today and there's a specific clause that every Claude user needs to know about",
-      "r/ClaudeAI: Thanks for the help Claude",
-      "r/MachineLearning: Machine Learning",
-      "r/MachineLearning: [D] Self-Promotion Thread",
-      "r/MachineLearning: [D] Monthly Who's Hiring and Who wants to be Hired?",
-      "r/MachineLearning: STOP racist posts about Chinese researchers [D]",
-      "r/MachineLearning: Should ArXiv backtrack endorsement? [D]",
-      "r/LocalLLaMA: Xiaomi just claimed 1,000+ tps on a 1T model using a standard 8-GPU server",
-      "r/LocalLLaMA: When every other post is an AI generated benchmark report, a question about the best model, or a slop-coded application ",
-      "r/LocalLLaMA: Me: Arguing with an AI bot who just posted something on this sub about Llama 3.1.",
-      "r/LocalLLaMA: 2X tk/s (from 19.4 -&gt; 38.1 tk/s on 1 x MI50) Playing with a hypothesis like speculative decoding.. but instead of an ",
-      "r/LocalLLaMA: Anyone seen benchmarks comparing Gemma 4 4-bit QAT vs. 8-bit standard quants?",
-      "r/cursor_ai: We open-sourced a community registry for .cursor/rules configs \u2014 888 GitHub stars. What rules are in your setup?",
-      "r/cursor_ai: built an open source tool that keeps your cursor rules always up to date with your codebase, 250 stars in 3 weeks",
-      "r/cursor_ai: tired of cursor generating generic skills that ignore ur actual codebase? we built a fix and just hit 250 stars",
-      "r/cursor_ai: Anyone else maintaining .cursorrules AND CLAUDE.md? It's becoming a nightmare",
-      "r/webdev: Monthly Getting Started / Web Dev Career Thread",
-      "r/webdev: Monthly Getting Started / Web Dev Career Thread",
-      "r/webdev: Web Technology Sessions at WWDC26",
-      "r/webdev: Is webdev easy or am I dumb",
-      "r/webdev: Saw this on Linkedin, do devs often read blogs from these companies?",
-      "r/programming: Announcement: We've Updated The Rules, and April Is Finally Over",
-      "r/programming: VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks",
-      "r/programming: Cache Stampede Prevention: Distributed Locking, Pub/Sub, and Request Coalescing",
-      "r/programming: Lies We Tell Ourselves About Email Addresses",
-      "r/programming: Why Compiler Engineers Rarely Use Strassen's Algorithm for Fast Matrix Multiplications",
-      "r/singularity: Discord Server Link",
-      "r/singularity: Figure AI 03 keeps working for over 30 hours straight (no bathroom breaks - a peek into our future replacements)",
-      "r/singularity: The New World Order",
-      "r/singularity: Anthropic may release mythos as early as tomorrow",
-      "r/singularity: SpaceX has just revealed it's first AI satellite design"
-    ],
-    "hackernews": [
-      "[159pts] Microsoft's open source tools were hacked to steal passwords of AI developers",
-      "[606pts] Apple reveals new AI architecture built around Google Gemini models",
-      "[588pts] Siri AI",
-      "[571pts] xAI is looking more like a datacentre REIT than a frontier lab",
-      "[576pts] MiMo-v2.5-Pro-UltraSpeed: 1T model with 1000 tokens per second",
-      "[306pts] Apple Core AI Framework",
-      "[309pts] Ask HN: What are tools you have made for yourself since the advent of AI?",
-      "[563pts] AI is slowing down"
-    ],
-    "github": [
-      "\u2b50188,118 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50184,859 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50163,457 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50144,529 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50140,765 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-10",
     "google": [],
     "reddit": [
@@ -293,6 +226,32 @@
       "\u2b50163,758 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50145,307 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50141,605 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    ]
+  },
+  {
+    "date": "2026-06-16",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: AI Billionaires Want to Control EVERY Aspect of Your Life | Aaron Bastani Meets Karen Hao",
+      "r/artificial: Built a Paninian Retrieval-Augmented Generation (PRAG) framework for safer medical AI \u2014 seeking feedback",
+      "r/artificial: What happens when frontier LLMs are deployed in rural Rwanda? Lessons on usefulness, language gaps, and incorrect answer",
+      "r/artificial: Beautiful and the Superfluous: AI Labor Market and Basic Income"
+    ],
+    "hackernews": [
+      "[1071pts] Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+      "[880pts] TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
+      "[83pts] Feds freaked over Fable 5 after simple 'fix this code' prompt, not jailbreak",
+      "[321pts] My Homelab AI Dev Platform",
+      "[107pts] Cohere's First Model for Developers",
+      "[165pts] Why I email complete strangers"
+    ],
+    "github": [
+      "\u2b50194,946 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50184,974 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50163,806 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50145,450 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50141,759 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     ]
   }
 ]
