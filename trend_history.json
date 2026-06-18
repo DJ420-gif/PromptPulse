@@ -1,70 +1,5 @@
 [
   {
-    "date": "2026-06-11",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Nobody needs AI to search the Internet, court says in ruling against Google",
-      "r/artificial: I ran Fable 5 for half day and the guardrails are the real story",
-      "r/artificial: Judge Learns Lawyers on Both Sides of Case Used AI, Cancels Trial, Kicks Everyone Off the Case",
-      "r/artificial: Within a few years, owning the smartest AI will mean nothing \u2014 everyone will have it. The edge is knowing how to run it.",
-      "r/ChatGPT: Made with ChatGPT Images 2.0",
-      "r/ChatGPT: Updates for ChatGPT",
-      "r/ChatGPT: Please help me find &quot;Alice&quot;: ChatGPT and Gemini both leaked her data into my chats",
-      "r/ChatGPT: Sometimes, when I can't sleep, I'll just turn on the Interdimensional Home Shopping Network and let it play on mute.",
-      "r/ChatGPT: Quiet moments in a colonized Solar System",
-      "r/ClaudeAI: r/ClaudeAI List of Ongoing Megathreads",
-      "r/ClaudeAI: New for Apple developers: Foundation Models support for Claude",
-      "r/ClaudeAI: Know the Claude Rules",
-      "r/ClaudeAI: Microsoft is restricting employees from using Claude Fable 5",
-      "r/ClaudeAI: Anthropic Walks Back Policy That Could Have \u2018Sabotaged\u2019 AI Researchers Using Claude",
-      "r/MachineLearning: Machine Learning",
-      "r/MachineLearning: [D] Self-Promotion Thread",
-      "r/MachineLearning: [D] Monthly Who's Hiring and Who wants to be Hired?",
-      "r/MachineLearning: Anthropic walks back policy on silent nerfing for AI/ML, will notify users [N]",
-      "r/MachineLearning: Anthropic's new model Fable will silently handicap work on LLMs [D]",
-      "r/LocalLLaMA: I thought Chinese censorship didn't affect me. I was wrong.",
-      "r/LocalLLaMA: fableExpectations",
-      "r/LocalLLaMA: Minimax M3 open weights release planned for Friday",
-      "r/LocalLLaMA: nvidia/diffusiongemma-26B-A4B-it-NVFP4 \u00b7 Hugging Face",
-      "r/LocalLLaMA: DiffusionGemma: 4x faster text generation",
-      "r/cursor_ai: We open-sourced a community registry for .cursor/rules configs \u2014 888 GitHub stars. What rules are in your setup?",
-      "r/cursor_ai: built an open source tool that keeps your cursor rules always up to date with your codebase, 250 stars in 3 weeks",
-      "r/cursor_ai: tired of cursor generating generic skills that ignore ur actual codebase? we built a fix and just hit 250 stars",
-      "r/cursor_ai: Anyone else maintaining .cursorrules AND CLAUDE.md? It's becoming a nightmare",
-      "r/webdev: Monthly Getting Started / Web Dev Career Thread",
-      "r/webdev: Monthly Getting Started / Web Dev Career Thread",
-      "r/webdev: Bots now account for more than half of web traffic, up from 30% nine months ago",
-      "r/webdev: Apple keeps making PWAs harder to install on iOS, and my question about it was dismissed at an Apple Developer Lab",
-      "r/webdev: 89 npm packages got compromised again. deleting the package doesn't remove the malware.",
-      "r/programming: Announcement: We've Updated The Rules, and April Is Finally Over",
-      "r/programming: JEP 401 being merged into JDK 28?",
-      "r/programming: C3 0.8.1 released: Raiding the stdlib for bugs",
-      "r/programming: Still amazed every time I read this paper. What pros and cons do you think it would have against C++20 coroutines?",
-      "r/programming: someone actually leaked the Miasma supply chain attack toolkit source code on github",
-      "r/singularity: Discord Server Link",
-      "r/singularity: Figure AI 03 keeps working for over 30 hours straight (no bathroom breaks - a peek into our future replacements)",
-      "r/singularity: know the Claude rules",
-      "r/singularity: Anthropic closing the path to life science research",
-      "r/singularity: Dario Amodei says he started Anthropic because Altman is liar not because of safety reasons."
-    ],
-    "hackernews": [
-      "[329pts] Pok\u00e9mon Go Scans Trained the Navigation Tech for Military Drones",
-      "[430pts] AI agent runs amok in Fedora and elsewhere",
-      "[467pts] Cybersecurity researchers aren't happy about the guardrails on Anthropic's Fable",
-      "[457pts] Anthropic requires 30 day data retention for Fable and Mythos",
-      "[239pts] L'Affaire Siloxane",
-      "[228pts] Apache Burr: Build reliable AI agents and applications"
-    ],
-    "github": [
-      "\u2b50190,504 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50184,886 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50163,563 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50144,838 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50141,067 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-12",
     "google": [],
     "reddit": [
@@ -214,6 +149,31 @@
       "\u2b50163,841 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50145,595 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50141,964 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    ]
+  },
+  {
+    "date": "2026-06-18",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Anthropic CEO Dario Amodei goes completely candid on why he left OpenAI: &quot;When you feel that you can't trust someon",
+      "r/artificial: Elon Musk's Grok Rained Bombs On Iran Even As Anthropic Pulled Out, Pentagon Reveals",
+      "r/artificial: OpenAI's Losses Swelled to $38.5B in 2025 Despite $13B Revenue Surge",
+      "r/artificial: Copilot vulnerability could expose emails and 2FA codes"
+    ],
+    "hackernews": [
+      "[800pts] Midjourney Medical",
+      "[170pts] DeepSeek Introduces Vision",
+      "[465pts] US holds off\u00a0blacklisting DeepSeek, more than 100 firms deemed security risks",
+      "[102pts] The Australian Government to Require SMS/MMS Sender ID Registraion",
+      "[186pts] Launch HN: Adam (YC W25) \u2013 Open-Source AI CAD"
+    ],
+    "github": [
+      "\u2b50196,579 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,014 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50163,877 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50145,699 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50142,108 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     ]
   }
 ]
