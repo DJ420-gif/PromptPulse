@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-06-12",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Google's Genie 3 turns a text prompt into a playable open world you can explore. It's rough now. Future of games, or a t",
-      "r/artificial: Claude Fable made me realize I don't need a better model",
-      "r/artificial: This 2000s photo is 100% AI-generated. Be honest: how many details did you check before scrolling?",
-      "r/artificial: Google DeepMind releases DiffusionGemma, a model that runs local AI 4x faster | Diffusion AI is most common in image gen"
-    ],
-    "hackernews": [
-      "[650pts] AI agent bankrupted their operator while trying to scan DN42",
-      "[473pts] Claude Fable is relentlessly proactive",
-      "[431pts] Anthropic apologizes for invisible Claude Fable guardrails",
-      "[147pts] Digital Sovereignty Becomes an Imperative as the US Reads Dutch Emails",
-      "[329pts] Claude Fable 5: mid-tier results on coding tasks",
-      "[251pts] Ear Training Practice",
-      "[129pts] How Terry Tao became an evangelist for AI in math",
-      "[110pts] A jacket that harvests drinking water from the air"
-    ],
-    "github": [
-      "\u2b50191,519 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50184,901 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50163,611 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50144,950 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50141,188 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-13",
     "google": [],
     "reddit": [
@@ -174,6 +146,30 @@
       "\u2b50163,877 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50145,699 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50142,108 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    ]
+  },
+  {
+    "date": "2026-06-19",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Gemini helped me get scammed",
+      "r/artificial: Bernie Sanders wants to give every American $1000 a year from AI profits and the reasoning actually makes sense",
+      "r/artificial: Started maintaining a small library at work and now I genuinely understand why maintainers go quiet",
+      "r/artificial: Are we using AI correctly in the business world?"
+    ],
+    "hackernews": [
+      "[169pts] Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
+      "[120pts] The AirPods Effect",
+      "[104pts] How Japan's railways stayed one while splitting apart",
+      "[115pts] The Korean telecom giant at the center of Anthropic's Mythos controversy"
+    ],
+    "github": [
+      "\u2b50197,289 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,022 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50163,913 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50145,804 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50142,222 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     ]
   }
 ]
