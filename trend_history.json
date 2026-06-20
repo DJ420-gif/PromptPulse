@@ -1,30 +1,5 @@
 [
   {
-    "date": "2026-06-13",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: US Government Kills Fable 5: Here's What Happened",
-      "r/artificial: Anthropic suspends access to Claude Fable and Mythos for all users after US government order",
-      "r/artificial: ML in 2010 vs ML in 2026",
-      "r/artificial: World of Claudecraft: The first opensource MMORPG made 100% by AI (Fable 5)"
-    ],
-    "hackernews": [
-      "[89pts] Shepherd's Dog: A Game by the Most Dangerous AI Model",
-      "[907pts] Open source AI must win",
-      "[176pts] Show HN: Putt.day a daily mini golf game",
-      "[194pts] Slightly reducing the sloppiness of AI generated front end",
-      "[340pts] Palantir loses legal challenge against Swiss investigative magazine"
-    ],
-    "github": [
-      "\u2b50192,291 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50184,923 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50163,646 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50145,043 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50141,310 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-14",
     "google": [],
     "reddit": [
@@ -170,6 +145,32 @@
       "\u2b50163,913 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50145,804 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50142,222 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    ]
+  },
+  {
+    "date": "2026-06-20",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: The Pentagon's AI chief swore in a court filing that xAI's Grok helped fire 2,000 munitions at 2,000 targets in 96 hours",
+      "r/artificial: Jim Cramer Agrees That Accenture Is \u201cBeing Outcompeted By OpenAI and Anthropic\u201d",
+      "r/artificial: Where is our &quot;We choose to go to the Moon&quot; moment in AI?",
+      "r/artificial: Launching the Agentic AI World Cup \u2014 Design a multi-agent swarm visually to win up to $100"
+    ],
+    "hackernews": [
+      "[124pts] Data Compression Explained (2012)",
+      "[829pts] Hyundai buys Boston Dynamics",
+      "[154pts] GPT-5.5 hallucinates 3x more than MIT-licensed GLM-5.2",
+      "[668pts] Norway imposes near ban on AI in elementary school",
+      "[594pts] Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
+      "[133pts] John Jumper to join Anthropic"
+    ],
+    "github": [
+      "\u2b50197,878 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,045 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50163,967 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50145,901 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50142,332 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     ]
   }
 ]
