@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-06-15",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: AI makes me faster. And less myself...",
-      "r/artificial: concern about how ai will change knowledge creation and democracy",
-      "r/artificial: Anthropic CEO Floats Tax on AI Firms to Fund Universal Income",
-      "r/artificial: Which AI personal finance app is worth paying for in 2026?"
-    ],
-    "hackernews": [
-      "[107pts] Anthropic's Safety Superpower",
-      "[244pts] Apple Foundation Models",
-      "[369pts] Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model"
-    ],
-    "github": [
-      "\u2b50194,084 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50184,954 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50163,758 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50145,307 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50141,605 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-16",
     "google": [],
     "reddit": [
@@ -176,6 +153,32 @@
       "\u2b50164,000 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50146,013 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50142,475 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    ]
+  },
+  {
+    "date": "2026-06-22",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: I\u2019ve been interviewing AI engineers and I honestly didn\u2019t expect it to feel this disconnected from reality",
+      "r/artificial: AI might make me fail my class",
+      "r/artificial: 'You can't call it progress': Microsoft CEO Satya Nadella warns against concentration of AI power",
+      "r/artificial: Canadian government spent tens of millions on secret Palantir contract"
+    ],
+    "hackernews": [
+      "[445pts] Apertus \u2013 Open Foundation Model for Sovereign AI",
+      "[108pts] Munich 1991: The Roots of the Current AI Boom",
+      "[273pts] There is minimal downside to switching to open models",
+      "[159pts] Good results fine tuning a local LLM like Qwen 3:0.6B to categorize questions",
+      "[802pts] Identity verification on Claude",
+      "[233pts] JSON-LD explained for personal websites"
+    ],
+    "github": [
+      "\u2b50199,569 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,072 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50164,078 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50146,140 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50142,603 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     ]
   }
 ]
