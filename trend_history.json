@@ -1,30 +1,5 @@
 [
   {
-    "date": "2026-06-18",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Anthropic CEO Dario Amodei goes completely candid on why he left OpenAI: &quot;When you feel that you can't trust someon",
-      "r/artificial: Elon Musk's Grok Rained Bombs On Iran Even As Anthropic Pulled Out, Pentagon Reveals",
-      "r/artificial: OpenAI's Losses Swelled to $38.5B in 2025 Despite $13B Revenue Surge",
-      "r/artificial: Copilot vulnerability could expose emails and 2FA codes"
-    ],
-    "hackernews": [
-      "[800pts] Midjourney Medical",
-      "[170pts] DeepSeek Introduces Vision",
-      "[465pts] US holds off\u00a0blacklisting DeepSeek, more than 100 firms deemed security risks",
-      "[102pts] The Australian Government to Require SMS/MMS Sender ID Registraion",
-      "[186pts] Launch HN: Adam (YC W25) \u2013 Open-Source AI CAD"
-    ],
-    "github": [
-      "\u2b50196,579 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,014 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50163,877 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50145,699 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50142,108 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-19",
     "google": [],
     "reddit": [
@@ -174,6 +149,31 @@
       "\u2b50164,238 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50146,411 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50142,821 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    ]
+  },
+  {
+    "date": "2026-06-25",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: We built an AI agent marketplace. 20 spots open for paid testers before public launch.",
+      "r/artificial: We chased a hallucinated quote through 30k training records, 4,600 transcripts, and our own system prompt. Turned out to",
+      "r/artificial: Opus 4.8 The Worst Claude Ever",
+      "r/artificial: With proper writing instructions, voice and tone guide and cadence notes is there really a change between the LLM's at C"
+    ],
+    "hackernews": [
+      "[420pts] Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
+      "[701pts] OpenAI unveils its first custom chip, built by Broadcom",
+      "[388pts] RubyLLM: A Ruby framework for all major AI providers",
+      "[223pts] PR spam today looks like email spam in the early 2000s",
+      "[218pts] Computer use in Gemini 3.5 Flash"
+    ],
+    "github": [
+      "\u2b50202,577 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,156 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50164,323 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50146,528 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50142,942 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     ]
   }
 ]
