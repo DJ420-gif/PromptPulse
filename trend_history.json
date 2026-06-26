@@ -1,29 +1,5 @@
 [
   {
-    "date": "2026-06-19",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Gemini helped me get scammed",
-      "r/artificial: Bernie Sanders wants to give every American $1000 a year from AI profits and the reasoning actually makes sense",
-      "r/artificial: Started maintaining a small library at work and now I genuinely understand why maintainers go quiet",
-      "r/artificial: Are we using AI correctly in the business world?"
-    ],
-    "hackernews": [
-      "[169pts] Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28",
-      "[120pts] The AirPods Effect",
-      "[104pts] How Japan's railways stayed one while splitting apart",
-      "[115pts] The Korean telecom giant at the center of Anthropic's Mythos controversy"
-    ],
-    "github": [
-      "\u2b50197,289 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,022 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50163,913 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50145,804 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50142,222 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-20",
     "google": [],
     "reddit": [
@@ -174,6 +150,30 @@
       "\u2b50164,323 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50146,528 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50142,942 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    ]
+  },
+  {
+    "date": "2026-06-26",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Traditional SDLC vs Agentic SDLC",
+      "r/artificial: If 100% of surveyed CIOs are budgeting for AI, why does the public debate still sound like AI is a failed experiment?",
+      "r/artificial: Claude Fable 5 may return today after 13-day government-forced suspension",
+      "r/artificial: Coughing Robocallers"
+    ],
+    "hackernews": [
+      "[165pts] What happened after 2k people tried to hack my AI assistant",
+      "[279pts] Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion",
+      "[727pts] Apple raises prices of MacBooks, iPads",
+      "[268pts] Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line"
+    ],
+    "github": [
+      "\u2b50203,416 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,156 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50164,372 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50146,636 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50143,066 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     ]
   }
 ]
