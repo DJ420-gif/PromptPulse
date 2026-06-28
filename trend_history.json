@@ -1,31 +1,5 @@
 [
   {
-    "date": "2026-06-21",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Utah Data Center Brute Forced Through to Approval Despite Widespread Popular Opposition",
-      "r/artificial: Student cheating now impossible to detect",
-      "r/artificial: Brands using AI-generated influencers to promote products on social media | AI (artificial intelligence) | The Guardian",
-      "r/artificial: Jim Cramer Agrees That Accenture Is \u201cBeing Outcompeted By OpenAI and Anthropic\u201d"
-    ],
-    "hackernews": [
-      "[290pts] Loupe \u2013 A iOS app that raises awareness about what native apps can see",
-      "[212pts] Slow breathing modulates brain function and risk behavior",
-      "[106pts] Building reliable agentic AI systems",
-      "[202pts] Your brain was never designed for this much bad news",
-      "[184pts] When I reject AI code even if it works",
-      "[212pts] Temporary Cloudflare accounts for AI agents"
-    ],
-    "github": [
-      "\u2b50198,588 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,047 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50164,000 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50146,013 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50142,475 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-22",
     "google": [],
     "reddit": [
@@ -175,6 +149,32 @@
       "\u2b50164,418 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50146,711 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50143,181 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    ]
+  },
+  {
+    "date": "2026-06-28",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: So now scraping data without permission is bad for AI training all of sudden?",
+      "r/artificial: I have it on good authority that Google are going to be hit with export controls soon.",
+      "r/artificial: What\u2019s the biggest gap between AI tool demos and actual daily use?",
+      "r/artificial: Do you think AI is making people worse at writing and thinking clearly?"
+    ],
+    "hackernews": [
+      "[197pts] Ford hired AI and sacked humans. It backfired badly",
+      "[232pts] AI learns the \u201cdark art\u201d of RFIC design",
+      "[199pts] Reducing tick density along recreational trails in Ottawa, Canada",
+      "[217pts] The best response to AI slop and online noise is from Robin Williams",
+      "[761pts] DSpark: Speculative decoding accelerates LLM inference [pdf]",
+      "[229pts] Asian AI startups launch Mythos-like models"
+    ],
+    "github": [
+      "\u2b50204,577 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,190 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50164,450 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50146,807 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50143,279 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     ]
   }
 ]
