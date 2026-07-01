@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-06-24",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Cheap Chinese AI models are quickly gaining customers across the US market: \u2018This changes things\u2019",
-      "r/artificial: Leaked files detail Russia's Social Design Agency building fake reference platforms to contaminate AI training data and ",
-      "r/artificial: A significant portion of the remaining training data for AI is located on magnetic tapes stored in warehouses.",
-      "r/artificial: The CEO of a company with 700,000 delivery workers just said robots will replace all of them"
-    ],
-    "hackernews": [
-      "[544pts] FUTO Swipe \u2013 A new swipe typing model",
-      "[108pts] Qwen-AgentWorld: Language World Models for General Agents",
-      "[101pts] \"Fix\" MacBook Neo Cursor Lag: Record 1 Pixel of the Screen Every 10 Seconds"
-    ],
-    "github": [
-      "\u2b50201,475 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,141 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50164,238 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50146,411 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50142,821 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-25",
     "google": [],
     "reddit": [
@@ -177,5 +154,25 @@
       "\u2b50147,095 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50143,522 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     ]
+  },
+  {
+    "date": "2026-07-01",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: I have created a Chrome extension that fact checks YouTube videos as you watch",
+      "r/artificial: Prompt injection broke every agent system I built so I designed a gateway that separates instructions from data",
+      "r/artificial: When does using AI stop being collaboration and start being outsourcing your thinking?",
+      "r/artificial: Agentic AI for people that don\u2019t need agentic AI?"
+    ],
+    "hackernews": [
+      "[2067pts] Claude Code is steganographically marking requests",
+      "[1140pts] Claude Sonnet 5",
+      "[178pts] Godot will no longer accept AI-authored code contributions",
+      "[498pts] Claude Science",
+      "[705pts] Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+      "[163pts] From brain waves to words: a new path to communication without surgery"
+    ],
+    "github": []
   }
 ]
