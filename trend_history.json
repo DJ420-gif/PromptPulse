@@ -1,30 +1,5 @@
 [
   {
-    "date": "2026-06-25",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: We built an AI agent marketplace. 20 spots open for paid testers before public launch.",
-      "r/artificial: We chased a hallucinated quote through 30k training records, 4,600 transcripts, and our own system prompt. Turned out to",
-      "r/artificial: Opus 4.8 The Worst Claude Ever",
-      "r/artificial: With proper writing instructions, voice and tone guide and cadence notes is there really a change between the LLM's at C"
-    ],
-    "hackernews": [
-      "[420pts] Anthropic says Alibaba illicitly extracted Claude AI model capabilities",
-      "[701pts] OpenAI unveils its first custom chip, built by Broadcom",
-      "[388pts] RubyLLM: A Ruby framework for all major AI providers",
-      "[223pts] PR spam today looks like email spam in the early 2000s",
-      "[218pts] Computer use in Gemini 3.5 Flash"
-    ],
-    "github": [
-      "\u2b50202,577 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,156 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50164,323 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50146,528 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50142,942 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-26",
     "google": [],
     "reddit": [
@@ -174,5 +149,26 @@
       "[163pts] From brain waves to words: a new path to communication without surgery"
     ],
     "github": []
+  },
+  {
+    "date": "2026-07-02",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Do you think the future of AI will split into safe vs uncensored versions?",
+      "r/artificial: Claude Code catastrophe: Entire project recursively deleted while prompting in Chinese (full video + logs)",
+      "r/artificial: How will AI actually become an &quot;everyday essential&quot; for ordinary people, like smartphones or the internet?",
+      "r/artificial: I have created a Chrome extension that fact checks YouTube videos as you watch"
+    ],
+    "hackernews": [
+      "[143pts] Kimi K2.7 Code is generally available in GitHub Copilot"
+    ],
+    "github": [
+      "\u2b50207,621 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,252 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50164,619 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50147,363 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50143,779 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    ]
   }
 ]
