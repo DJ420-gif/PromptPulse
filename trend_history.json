@@ -1,29 +1,5 @@
 [
   {
-    "date": "2026-06-26",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Traditional SDLC vs Agentic SDLC",
-      "r/artificial: If 100% of surveyed CIOs are budgeting for AI, why does the public debate still sound like AI is a failed experiment?",
-      "r/artificial: Claude Fable 5 may return today after 13-day government-forced suspension",
-      "r/artificial: Coughing Robocallers"
-    ],
-    "hackernews": [
-      "[165pts] What happened after 2k people tried to hack my AI assistant",
-      "[279pts] Show HN: OpenKnowledge \u2013 open source AI-first alternative to Obsidian/Notion",
-      "[727pts] Apple raises prices of MacBooks, iPads",
-      "[268pts] Apple to skip high-end M6 Mac chips in favor of AI-focused M7 line"
-    ],
-    "github": [
-      "\u2b50203,416 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,156 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50164,372 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50146,636 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50143,066 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-27",
     "google": [],
     "reddit": [
@@ -169,6 +145,29 @@
       "\u2b50164,619 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50147,363 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50143,779 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    ]
+  },
+  {
+    "date": "2026-07-03",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Jodie Foster Says Brad Pitt\u2019s \u2018F1\u2019 Seemed Like It Was Made by AI and Written by a Computer: &quot;Wasn\u2019t It?&quot;",
+      "r/artificial: Why does AI love the em dash (\u2014)??",
+      "r/artificial: Independent benchmark shows big drops on Claude Fable 5 after its relaunch, here\u2019s the actual context",
+      "r/artificial: OpenAI in talks to give Trump administration a 5% stake in the company, FT reports"
+    ],
+    "hackernews": [
+      "[265pts] Reality has a surprising amount of detail (2017)",
+      "[133pts] The short leash AI coding method for beating Fable",
+      "[135pts] Claude-real-video \uff0d any LLM can watch a video"
+    ],
+    "github": [
+      "\u2b50208,355 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,304 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50164,674 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50147,516 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50143,974 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     ]
   }
 ]
