@@ -1,35 +1,5 @@
 [
   {
-    "date": "2026-06-29",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Asian AI startups launch Mythos-like models as Anthropic's export ban drags on",
-      "r/artificial: What's the real point of smart glasses?",
-      "r/artificial: Open AI delayed GPT-5.6 after a U.S. government review request. Is AI regulation becoming the new normal?",
-      "r/artificial: Wait, so OpenAI is bragging about usage numbers that are basically just... locked out free users?"
-    ],
-    "hackernews": [
-      "[553pts] HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No \u2013 88",
-      "[900pts] GLM 5.2 beats Claude in our benchmarks",
-      "[580pts] Age verification is just a precursor to automated attribution of speech",
-      "[456pts] I used Claude Code to get a second opinion on my MRI",
-      "[104pts] Knowledge Distillation of Black-Box Large Language Models (2024)",
-      "[434pts] Professor denounces mass AI fraud on an exam at Brown",
-      "[148pts] Daisugi, the Japanese technique of growing trees out of other trees (2020)",
-      "[414pts] Librepods: AirPods liberated",
-      "[168pts] Model Training as Code",
-      "[211pts] A way to exclude sensitive files issue still open for OpenAI Codex"
-    ],
-    "github": [
-      "\u2b50205,401 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,202 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50164,509 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50146,960 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50143,412 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-06-30",
     "google": [],
     "reddit": [
@@ -163,6 +133,34 @@
       "\u2b50164,740 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50147,722 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50144,683 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25"
+    ]
+  },
+  {
+    "date": "2026-07-06",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: I built a Claude agent that runs Instagram DM ordering for a 7-location sushi chain",
+      "r/artificial: Revealed: landmark Scottish AI project has no prospect of meeting renewables promise | AI (artificial intelligence) | Th",
+      "r/artificial: How do you Mapout AI workflows when one suddenly costs 2\u00d7 more than usual?",
+      "r/artificial: What's one thing AI does surprisingly well that you didn't expect?"
+    ],
+    "hackernews": [
+      "[96pts] Real-time map of Great Britain's rail network",
+      "[306pts] GPT-5.6 Sol Ultra will be in Codex",
+      "[143pts] Does code cleanliness affect coding agents? A controlled minimal-pair study",
+      "[252pts] Zuckerberg says AI agent development going slower than expected",
+      "[188pts] Mr. Baby Paint and accidentally discovering a new cellular automata",
+      "[166pts] New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+      "[133pts] Delta flight hit by firework while landing at Midway Airport on Fourth of July",
+      "[99pts] When AI Costs More Than the Engineer"
+    ],
+    "github": [
+      "\u2b50210,028 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,401 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50164,852 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50147,885 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50145,560 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25"
     ]
   }
 ]
