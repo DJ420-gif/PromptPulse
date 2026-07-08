@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-07-01",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: I have created a Chrome extension that fact checks YouTube videos as you watch",
-      "r/artificial: Prompt injection broke every agent system I built so I designed a gateway that separates instructions from data",
-      "r/artificial: When does using AI stop being collaboration and start being outsourcing your thinking?",
-      "r/artificial: Agentic AI for people that don\u2019t need agentic AI?"
-    ],
-    "hackernews": [
-      "[2067pts] Claude Code is steganographically marking requests",
-      "[1140pts] Claude Sonnet 5",
-      "[178pts] Godot will no longer accept AI-authored code contributions",
-      "[498pts] Claude Science",
-      "[705pts] Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
-      "[163pts] From brain waves to words: a new path to communication without surgery"
-    ],
-    "github": []
-  },
-  {
     "date": "2026-07-02",
     "google": [],
     "reddit": [
@@ -165,6 +145,33 @@
       "\u2b50164,988 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50148,011 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50146,841 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25"
+    ]
+  },
+  {
+    "date": "2026-07-08",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Air Force Engineer Accused of Cutting Down Flock AI Surveillance Cameras, Says U.S. is Becoming Police State",
+      "r/artificial: AI can\u2019t simulate human preferences - new study tests LLMs against thousands of real users",
+      "r/artificial: Can we (and should we) tokenize everything into metrics using AI? (-1 to 1 Scale)",
+      "r/artificial: AI is scaling 3x faster than the internet wave and it\u2019s NOT slowing down"
+    ],
+    "hackernews": [
+      "[157pts] GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+      "[201pts] Tenda firmware (multiple versions) contains hidden authentication backdoor",
+      "[640pts] Chat Control 1.0 and 2.0 Explained",
+      "[305pts] Show HN: Davit, a Apple Containers UI",
+      "[157pts] Show HN: Rowboat \u2013 Open-source, local-first alternative to Claude Desktop",
+      "[184pts] We're extending access to Fable 5 on all paid plans through July 12",
+      "[186pts] GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday"
+    ],
+    "github": [
+      "\u2b50211,244 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,433 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50165,064 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50148,150 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50147,480 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25"
     ]
   }
 ]
