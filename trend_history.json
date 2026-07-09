@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-07-02",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Do you think the future of AI will split into safe vs uncensored versions?",
-      "r/artificial: Claude Code catastrophe: Entire project recursively deleted while prompting in Chinese (full video + logs)",
-      "r/artificial: How will AI actually become an &quot;everyday essential&quot; for ordinary people, like smartphones or the internet?",
-      "r/artificial: I have created a Chrome extension that fact checks YouTube videos as you watch"
-    ],
-    "hackernews": [
-      "[143pts] Kimi K2.7 Code is generally available in GitHub Copilot"
-    ],
-    "github": [
-      "\u2b50207,621 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,252 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50164,619 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50147,363 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50143,779 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-07-03",
     "google": [],
     "reddit": [
@@ -172,6 +151,30 @@
       "\u2b50165,064 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50148,150 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50147,480 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25"
+    ]
+  },
+  {
+    "date": "2026-07-09",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Guess which row is Meta's new 'Muse' Image Model",
+      "r/artificial: Questionable optics of Grok 4.5 being &quot;cheap&quot;",
+      "r/artificial: AI-generated social media has evolved so much that now you can't confidently say that this is AI-generated content.",
+      "r/artificial: Do y'all have this ability too?"
+    ],
+    "hackernews": [
+      "[845pts] John Deere owners will get the right to repair equipment under FTC settlement",
+      "[639pts] Grok 4.5",
+      "[285pts] Show HN: Microsoft releases Flint, a visualization language for AI agents",
+      "[708pts] GPT\u2011Live"
+    ],
+    "github": [
+      "\u2b50211,870 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,434 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50165,129 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50148,280 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
+      "\u2b50148,097 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25"
     ]
   }
 ]
