@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-07-03",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Jodie Foster Says Brad Pitt\u2019s \u2018F1\u2019 Seemed Like It Was Made by AI and Written by a Computer: &quot;Wasn\u2019t It?&quot;",
-      "r/artificial: Why does AI love the em dash (\u2014)??",
-      "r/artificial: Independent benchmark shows big drops on Claude Fable 5 after its relaunch, here\u2019s the actual context",
-      "r/artificial: OpenAI in talks to give Trump administration a 5% stake in the company, FT reports"
-    ],
-    "hackernews": [
-      "[265pts] Reality has a surprising amount of detail (2017)",
-      "[133pts] The short leash AI coding method for beating Fable",
-      "[135pts] Claude-real-video \uff0d any LLM can watch a video"
-    ],
-    "github": [
-      "\u2b50208,355 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,304 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50164,674 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50147,516 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50143,974 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-07-04",
     "google": [],
     "reddit": [
@@ -175,6 +152,30 @@
       "\u2b50165,129 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50148,280 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
       "\u2b50148,097 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25"
+    ]
+  },
+  {
+    "date": "2026-07-10",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Updated: Millions of ChatGPT user conversations searched, but OpenAI alleged to be holding out",
+      "r/artificial: Zuck Says AI Will Run Your Whole Business",
+      "r/artificial: Meta to start manufacturing its own AI chip Iris in september",
+      "r/artificial: Wait... AI uses water too?"
+    ],
+    "hackernews": [
+      "[1281pts] GPT-5.6",
+      "[609pts] Train sim created by just one person is being called the best ever made",
+      "[89pts] Building a real-time AI tutor for 5-year-olds",
+      "[173pts] Girls just wanna have fast MPMC queues with bounded waiting"
+    ],
+    "github": [
+      "\u2b50212,498 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,447 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50165,236 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50148,643 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+      "\u2b50148,387 langgenius/dify \u2014 Production-ready platform for agentic workflow development."
     ]
   }
 ]
