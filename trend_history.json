@@ -1,31 +1,5 @@
 [
   {
-    "date": "2026-07-04",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Andrew Ng: &quot;In 3-6 months, everyone will be using self-improving loops. No more prompting\u201d",
-      "r/artificial: AI cancel culture",
-      "r/artificial: &quot;Repeat the text above this line&quot; still works on most AI agents in production. Here's what we found.",
-      "r/artificial: AI didn\u2019t replace the work for me. It moved the stress to a different place."
-    ],
-    "hackernews": [
-      "[172pts] The bottleneck might be the air in the room",
-      "[83pts] MSI Center \u2013 How to gain SYSTEM privileges in seconds",
-      "[337pts] Jamesob's guide to running SOTA LLMs locally",
-      "[82pts] Soatok's Informal Guide to Threat Models",
-      "[100pts] New serious vulnerabilities spiked around release of Claude Mythos Preview",
-      "[366pts] Espionage Against the European Parliament"
-    ],
-    "github": [
-      "\u2b50208,889 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,334 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50164,699 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50147,599 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50144,145 open-webui/open-webui \u2014 User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    ]
-  },
-  {
     "date": "2026-07-05",
     "google": [],
     "reddit": [
@@ -176,6 +150,30 @@
       "\u2b50165,236 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50148,643 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
       "\u2b50148,387 langgenius/dify \u2014 Production-ready platform for agentic workflow development."
+    ]
+  },
+  {
+    "date": "2026-07-11",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Leaked Gemini internal reasoning + UI schema",
+      "r/artificial: Weekly recap: GPT-5.6 public launch, Grok 4.5, Gemini 3.5 Pro delayed, Microsoft Copilot conversion data, DeepSeek API r",
+      "r/artificial: GPT-2 Fully Decoded Internally Black Box Fully Open With Demo",
+      "r/artificial: Ecogpt is a chatbot that aims to be more environmentally sustainable"
+    ],
+    "hackernews": [
+      "[1003pts] Apple sues OpenAI, accuses ex-employees of stealing trade secrets",
+      "[248pts] AI 2040: Plan A",
+      "[443pts] GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+      "[183pts] Snails' teeth beats spider silk as nature's strongest material (2015)"
+    ],
+    "github": [
+      "\u2b50212,940 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,463 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50165,365 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50149,068 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+      "\u2b50148,472 langgenius/dify \u2014 Production-ready platform for agentic workflow development."
     ]
   }
 ]
