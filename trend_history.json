@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-07-07",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: AI is scaling 3x faster than the internet wave and it\u2019s NOT slowing down",
-      "r/artificial: SpaceX burned up 260 of its own satellites in 6 months and this is just routine apparently",
-      "r/artificial: AI should be private and optional!",
-      "r/artificial: What do normal people use ai for?"
-    ],
-    "hackernews": [
-      "[428pts] GLM 5.2 and the coming AI margin collapse",
-      "[146pts] Small AI Models Gain Traction In places with unreliable networks",
-      "[227pts] Ternlight \u2013 7 MB embedding model that runs in browser (WASM)",
-      "[378pts] A global workspace in language models",
-      "[335pts] AMD Ryzen AI Halo \u2013 $4k AI Dev Kit",
-      "[183pts] OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
-      "[144pts] Kani: A Model Checker for Rust",
-      "[111pts] NSA and IETF: Fairness"
-    ],
-    "github": [
-      "\u2b50210,650 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,412 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50164,988 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50148,011 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50146,841 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25"
-    ]
-  },
-  {
     "date": "2026-07-08",
     "google": [],
     "reddit": [
@@ -171,6 +143,27 @@
       "\u2b50165,605 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50150,127 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
       "\u2b50148,669 langgenius/dify \u2014 Production-ready platform for agentic workflow development."
+    ]
+  },
+  {
+    "date": "2026-07-14",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Inside Ghostcommit: How Malicious PNGs Bypass AI Code Reviewers",
+      "r/artificial: RnD on AI Security and Monitoring",
+      "r/artificial: Lord of the Rings: The Hunt for Gollum to only use AI for \u2018some of the de-aging\u2019",
+      "r/artificial: The Most Famous AI Writing Tic Is Also the Most Mysterious"
+    ],
+    "hackernews": [
+      "[183pts] Precursor"
+    ],
+    "github": [
+      "\u2b50214,515 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,521 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50165,677 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50150,619 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+      "\u2b50148,779 langgenius/dify \u2014 Production-ready platform for agentic workflow development."
     ]
   }
 ]
