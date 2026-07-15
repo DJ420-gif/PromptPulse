@@ -1,32 +1,5 @@
 [
   {
-    "date": "2026-07-08",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Air Force Engineer Accused of Cutting Down Flock AI Surveillance Cameras, Says U.S. is Becoming Police State",
-      "r/artificial: AI can\u2019t simulate human preferences - new study tests LLMs against thousands of real users",
-      "r/artificial: Can we (and should we) tokenize everything into metrics using AI? (-1 to 1 Scale)",
-      "r/artificial: AI is scaling 3x faster than the internet wave and it\u2019s NOT slowing down"
-    ],
-    "hackernews": [
-      "[157pts] GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
-      "[201pts] Tenda firmware (multiple versions) contains hidden authentication backdoor",
-      "[640pts] Chat Control 1.0 and 2.0 Explained",
-      "[305pts] Show HN: Davit, a Apple Containers UI",
-      "[157pts] Show HN: Rowboat \u2013 Open-source, local-first alternative to Claude Desktop",
-      "[184pts] We're extending access to Fable 5 on all paid plans through July 12",
-      "[186pts] GPT-5.6 Sol, along with Terra and Luna, will launch publicly this Thursday"
-    ],
-    "github": [
-      "\u2b50211,244 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,433 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50165,064 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50148,150 langgenius/dify \u2014 Production-ready platform for agentic workflow development.",
-      "\u2b50147,480 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25"
-    ]
-  },
-  {
     "date": "2026-07-09",
     "google": [],
     "reddit": [
@@ -164,6 +137,35 @@
       "\u2b50165,677 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50150,619 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
       "\u2b50148,779 langgenius/dify \u2014 Production-ready platform for agentic workflow development."
+    ]
+  },
+  {
+    "date": "2026-07-15",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Apple just sued OpenAI for trade secret theft. And Google quietly rewrote how the internet works.",
+      "r/artificial: Meta says Muse Spark 1.1 beats OpenAI and Anthropic. On price it actually does, just not in the way that matters to most",
+      "r/artificial: The AI honeymoon is ending",
+      "r/artificial: AI agent builders are getting paid based on quality now, not just for shipping. Here is what that looks like."
+    ],
+    "hackernews": [
+      "[399pts] Jurassic Park computers in excruciating detail",
+      "[230pts] I tricked Claude into leaking your deepest, darkest secrets",
+      "[146pts] TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
+      "[580pts] Bonsai 27B: A 27B-Class model that runs on a phone",
+      "[357pts] Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+      "[524pts] How to stop Claude from saying load-bearing",
+      "[217pts] The largest available Minecraft world, totalling 15 TB",
+      "[94pts] LeMario: Training a JEPA World Model on Super Mario Bros",
+      "[462pts] Are we offloading too much of our thinking to AI?"
+    ],
+    "github": [
+      "\u2b50215,113 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,550 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50165,783 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50151,261 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+      "\u2b50148,901 langgenius/dify \u2014 Production-ready platform for agentic workflow development."
     ]
   }
 ]
