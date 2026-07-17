@@ -1,29 +1,5 @@
 [
   {
-    "date": "2026-07-10",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Updated: Millions of ChatGPT user conversations searched, but OpenAI alleged to be holding out",
-      "r/artificial: Zuck Says AI Will Run Your Whole Business",
-      "r/artificial: Meta to start manufacturing its own AI chip Iris in september",
-      "r/artificial: Wait... AI uses water too?"
-    ],
-    "hackernews": [
-      "[1281pts] GPT-5.6",
-      "[609pts] Train sim created by just one person is being called the best ever made",
-      "[89pts] Building a real-time AI tutor for 5-year-olds",
-      "[173pts] Girls just wanna have fast MPMC queues with bounded waiting"
-    ],
-    "github": [
-      "\u2b50212,498 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,447 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50165,236 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50148,643 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
-      "\u2b50148,387 langgenius/dify \u2014 Production-ready platform for agentic workflow development."
-    ]
-  },
-  {
     "date": "2026-07-11",
     "google": [],
     "reddit": [
@@ -166,6 +142,31 @@
       "\u2b50165,846 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50151,709 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
       "\u2b50149,020 langgenius/dify \u2014 Production-ready platform for agentic workflow development."
+    ]
+  },
+  {
+    "date": "2026-07-17",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Kimi K3 landed third on the Intelligence Index, ahead of Opus 4.8, and even GPT-5.6 Sol couldn't take #1 from Fable 5. W",
+      "r/artificial: Meta laid of thousands to prioritize AI. Former employees say AI was used to fire them.",
+      "r/artificial: Gemini is EVERYWHERE",
+      "r/artificial: Compiled three main AI incident databases into one readable digest."
+    ],
+    "hackernews": [
+      "[242pts] LM Studio Bionic: the AI agent for open models",
+      "[254pts] $100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol",
+      "[300pts] NotebookLM is now Gemini Notebook",
+      "[196pts] Detecting LLM-Generated Texts with \u201cClassical\u201d Machine Learning",
+      "[226pts] The LLM Critics Are Right. I Use LLMs Anyway"
+    ],
+    "github": [
+      "\u2b50216,183 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,585 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50165,880 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50152,178 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+      "\u2b50149,131 langgenius/dify \u2014 Production-ready platform for agentic workflow development."
     ]
   }
 ]
