@@ -1,30 +1,5 @@
 [
   {
-    "date": "2026-07-13",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: The Most Famous AI Writing Tic Is Also the Most Mysterious",
-      "r/artificial: Someone built an AI agent that hacks networks and holds data for ransom. It just worked.",
-      "r/artificial: Ireland's data centers consumed nearly as much electricity as every home in the country combined in 2025 - server farms ",
-      "r/artificial: this openai court story is starting to look ugly"
-    ],
-    "hackernews": [
-      "[182pts] Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-      "[686pts] Ask HN: Add flag for AI-generated articles",
-      "[210pts] Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
-      "[595pts] Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-      "[150pts] I Learned to Read Again"
-    ],
-    "github": [
-      "\u2b50214,008 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50185,507 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50165,605 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50150,127 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
-      "\u2b50148,669 langgenius/dify \u2014 Production-ready platform for agentic workflow development."
-    ]
-  },
-  {
     "date": "2026-07-14",
     "google": [],
     "reddit": [
@@ -169,6 +144,31 @@
       "\u2b50165,993 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50152,914 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
       "\u2b50149,294 langgenius/dify \u2014 Production-ready platform for agentic workflow development."
+    ]
+  },
+  {
+    "date": "2026-07-20",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Fable 5 is now metered for Pro and Team Standard, but Claude Code's separate August 19 extension may be more useful to w",
+      "r/artificial: Politicians Are Trying to Change What Chatbots Say About Them",
+      "r/artificial: I built a fully-local and speedy MacOS utility for text to speech and dictation, running top of the range AI models",
+      "r/artificial: AI advice made people three times less accurate but twice as confident, researchers found"
+    ],
+    "hackernews": [
+      "[518pts] Claude Code uses Bun written in Rust now",
+      "[204pts] Orion Browser by Kagi",
+      "[393pts] Claude Fable produced a counterexample to the Jacobian Conjecture",
+      "[86pts] How proprietary formats have become Microsoft\u2019s main tool for lock-in",
+      "[97pts] Cagire: Live Coding in Forth"
+    ],
+    "github": [
+      "\u2b50217,491 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50185,617 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50166,043 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50153,318 firecrawl/firecrawl \u2014 The API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+      "\u2b50149,448 langgenius/dify \u2014 Production-ready platform for agentic workflow development."
     ]
   }
 ]
