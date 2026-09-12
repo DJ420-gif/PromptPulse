@@ -1,32 +1,5 @@
 [
   {
-    "date": "2026-09-05",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: OpenAI CEO Sam Altman says 38,000 ChatGPT queries use as much water as the production of one almond \u2014 says data centers ",
-      "r/artificial: Why are more people not concerned about privacy?",
-      "r/artificial: Bernie Sanders Wants to 'Pause AI Development NOW': Dwarkesh Patel Asks 'Pause to Do What?'",
-      "r/artificial: LLVM developers begin debate over AGENTS.md for helping AI agents"
-    ],
-    "hackernews": [
-      "[145pts] AI handles incidents, engineers lose touch with their systems",
-      "[1741pts] Discovery of a new OpenAI agent message board",
-      "[235pts] GPT-6 Astra on OpenRouter",
-      "[265pts] Can AI design circuit boards yet?",
-      "[147pts] Portal by Spotify cut my Claude Code token usage by 90%",
-      "[96pts] Government Rails Site Hit Hours After CVE Patch",
-      "[138pts] Show HN: TERMy \u2013 A fast terminal assistant that does not use LLMs"
-    ],
-    "github": [
-      "\u2b50241,716 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50187,141 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50176,690 firecrawl/firecrawl \u2014 The context API to search, scrape, and interact with the web at scale. \ud83d\udd25",
-      "\u2b50169,367 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50154,496 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-09-06",
     "google": [],
     "reddit": [
@@ -172,6 +145,36 @@
       "\u2b50179,005 firecrawl/firecrawl \u2014 The context API to search, scrape, and interact with the web at scale. \ud83d\udd25",
       "\u2b50169,949 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50155,410 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-09-12",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Three Anthropic researchers went public this week saying AI might kill everyone. One of them quit to say it. Nobody seem",
+      "r/artificial: Palantir Foundry and cuOpt drive NVIDIA supply chain allocation",
+      "r/artificial: James Cameron saw it in 1984 even with 128 KB of RAM and floppy disks",
+      "r/artificial: AI Shopping Summary Survey \u2013 research study \u2013 University of Brighton",
+      "r/ChatGPT: We're trying something new. On Tuesdays, we're doing text posts only",
+      "r/ChatGPT: Made with ChatGPT Images 2.0",
+      "r/ChatGPT: As so it begins .... (Over 3 million views on this Tweet so far, with several people in the comments reporting similar, ",
+      "r/ChatGPT: New rogue OpenAI swarm just dropped",
+      "r/ChatGPT: ChatGPT's body of choice"
+    ],
+    "hackernews": [
+      "[102pts] Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "[961pts] A misalignment of AI in mathematics",
+      "[301pts] A Design Space Exploration of Async/Await",
+      "[736pts] OpenAI agents carried out an undisclosed attack on RubyGems",
+      "[150pts] Litelm: LiteLLM Without the Bloat"
+    ],
+    "github": [
+      "\u2b50244,761 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50187,278 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50179,374 firecrawl/firecrawl \u2014 The context API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+      "\u2b50170,070 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50155,495 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
