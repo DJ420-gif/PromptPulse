@@ -1,30 +1,5 @@
 [
   {
-    "date": "2026-09-06",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: GPT-6 reportedly jailbroken within 24 hours using an extended Task-in-Prompt (TIP) attack",
-      "r/artificial: Companies Have 6 Months to Prepare for Automated Attacks",
-      "r/artificial: What will LLMs never do?",
-      "r/artificial: AI companies are dumping $265M into the midterms as data center backlash sweeps through communities"
-    ],
-    "hackernews": [
-      "[2194pts] Discovery of a new OpenAI agent message board",
-      "[432pts] Chrome again exempts Google from user site data settings",
-      "[202pts] GPT-6 Astra on robot arms",
-      "[282pts] LLMs as a Cognitive Virus",
-      "[180pts] Visualizing Rust's Vtables: How dyn Trait Works In Memory"
-    ],
-    "github": [
-      "\u2b50242,216 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50187,165 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50177,069 firecrawl/firecrawl \u2014 The context API to search, scrape, and interact with the web at scale. \ud83d\udd25",
-      "\u2b50169,453 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50154,590 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-09-07",
     "google": [],
     "reddit": [
@@ -175,6 +150,31 @@
       "\u2b50179,374 firecrawl/firecrawl \u2014 The context API to search, scrape, and interact with the web at scale. \ud83d\udd25",
       "\u2b50170,070 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50155,495 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-09-13",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: OpenAI's Millennium Prize proof has turned into a credit dispute, and Fields Medalists are now getting involved",
+      "r/artificial: McKinsey: 32% of companies skipped buying new software this year and built it with agents instead",
+      "r/artificial: The AI Isn\u2019t Evil. The Humans Are Irresponsible.",
+      "r/artificial: Realistic expectations of profit keeps going down for AI companies?"
+    ],
+    "hackernews": [
+      "[311pts] Why are AI agents lying, cheating and coordinating?",
+      "[505pts] Nvidia is the central bank of AI",
+      "[565pts] Everyone should slow down AI development except for me",
+      "[554pts] LG denies TV spying claims, says tracking and snooping concerns 'not true'",
+      "[165pts] Getting 50 GB/S Back from the Apple Neural Engine"
+    ],
+    "github": [
+      "\u2b50245,024 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50187,294 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50179,728 firecrawl/firecrawl \u2014 The context API to search, scrape, and interact with the web at scale. \ud83d\udd25",
+      "\u2b50170,201 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50155,581 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
