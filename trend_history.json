@@ -1,33 +1,5 @@
 [
   {
-    "date": "2026-09-23",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Is AI-fatigue a thing or I'm officially becoming a boomer?",
-      "r/artificial: How did the Chinese labs catch up so fast if most of the early training work was in the US?",
-      "r/artificial: Why would a super intelligence that we can\u2019t control, do anything for us?",
-      "r/artificial: AI and the middle-way"
-    ],
-    "hackernews": [
-      "[1600pts] GPT-6 Sol and Luna",
-      "[1609pts] Claude Opus 5.5",
-      "[684pts] OpenAI GPT\u20136 Astra breaks Enigma message that has resisted solution since 2005",
-      "[308pts] Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
-      "[702pts] Pentagon says overreliance on AI contributed to missile strike on Iran school",
-      "[98pts] The current balance of power in open models",
-      "[299pts] OpenAI is well positioned to fast-follow Jev",
-      "[116pts] Show HN: JevBench, a reproducible benchmark for typed decision models"
-    ],
-    "github": [
-      "\u2b50248,264 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50187,507 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50183,626 firecrawl/firecrawl \u2014 The web data API to search, scrape, and interact at scale. \ud83d\udd25",
-      "\u2b50171,079 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50156,953 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-09-24",
     "google": [],
     "reddit": [
@@ -181,5 +153,22 @@
       "\u2b50171,573 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50157,490 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
+  },
+  {
+    "date": "2026-09-30",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Walmart bans AI slop signs in stores",
+      "r/artificial: A company ran 8 identical AI societies for weeks with different models and just published what happened. Some of it is g",
+      "r/artificial: BBC: OpenAI agents get rebrand - as 'dots' - while safety worries delay new model",
+      "r/artificial: Trump's meeting with tech leaders leaves AI safety more unsettled than ever"
+    ],
+    "hackernews": [
+      "[216pts] Pi.dev: You Said No MCP",
+      "[990pts] GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "[147pts] Language models for text classification: From bag-of-words to Jev"
+    ],
+    "github": []
   }
 ]
