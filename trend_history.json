@@ -1,29 +1,5 @@
 [
   {
-    "date": "2026-09-25",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Why have AI companies started getting scared now?",
-      "r/artificial: I can't think of anything that I would like less than that",
-      "r/artificial: Oracle cut 21,000 jobs and paid $1.8B in severance while announcing record AI infrastructure spending. The layoffs aren'",
-      "r/artificial: I trained an AI on 25 years of my own writing and told it not to be helpful. Here's what happened."
-    ],
-    "hackernews": [
-      "[99pts] What About Rails?",
-      "[356pts] Rails World 2026 Opening Keynote [video]",
-      "[298pts] Opus 5.5 is good at explainer videos",
-      "[143pts] Using LLMs to trace alchemical knowledge and decode 17th century letters"
-    ],
-    "github": [
-      "\u2b50248,843 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50187,545 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50184,514 firecrawl/firecrawl \u2014 The web data API to search, scrape, and interact at scale. \ud83d\udd25",
-      "\u2b50171,227 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50157,173 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-09-26",
     "google": [],
     "reddit": [
@@ -167,6 +143,33 @@
       "\u2b50187,413 firecrawl/firecrawl \u2014 \ud83d\udd25 Supercharge your AI agents with data from the web and beyond. A web data API t",
       "\u2b50171,789 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50157,660 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-10-02",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Apex Compute developing open-source Mesa Vulkan driver for their hardware",
+      "r/artificial: Investors thought they were buying pre-IPO OpenAI and SpaceX shares. Their cash went to strip clubs, Bloomingdale\u2019s, and",
+      "r/artificial: If an AI denies you a service, who do you argue with?",
+      "r/artificial: The AI industry has discovered intellectual property"
+    ],
+    "hackernews": [
+      "[549pts] Clef: Open-weight decision models, and new RL fine-tuning platform",
+      "[285pts] DeepSeek Harness Desktop for macOS and Windows",
+      "[170pts] Vote on which of Hacker News' challenges for AI have been met",
+      "[82pts] Show HN: Janus \u2013 Go binary that runs GGUF models via Vulkan on AMD/Intel/Nvidia",
+      "[156pts] Context Language Models",
+      "[184pts] GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+      "[1661pts] Gemini 4 Argon"
+    ],
+    "github": [
+      "\u2b50250,704 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50187,775 firecrawl/firecrawl \u2014 \ud83d\udd25 Supercharge your AI agents with data from the web and beyond. A web data API t",
+      "\u2b50187,655 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50171,860 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50157,732 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
