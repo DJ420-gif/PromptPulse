@@ -1,22 +1,5 @@
 [
   {
-    "date": "2026-09-30",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Walmart bans AI slop signs in stores",
-      "r/artificial: A company ran 8 identical AI societies for weeks with different models and just published what happened. Some of it is g",
-      "r/artificial: BBC: OpenAI agents get rebrand - as 'dots' - while safety worries delay new model",
-      "r/artificial: Trump's meeting with tech leaders leaves AI safety more unsettled than ever"
-    ],
-    "hackernews": [
-      "[216pts] Pi.dev: You Said No MCP",
-      "[990pts] GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
-      "[147pts] Language models for text classification: From bag-of-words to Jev"
-    ],
-    "github": []
-  },
-  {
     "date": "2026-10-01",
     "google": [],
     "reddit": [
@@ -162,6 +145,34 @@
       "\u2b50187,675 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50172,143 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50157,951 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-10-07",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Has anybody noticed that the problem of machine translation has been, like, solved?",
+      "r/artificial: People don't Google anymore. They ask AI. And AI doesn't know I exist",
+      "r/artificial: Meta's Muse agent is creating dossiers on its 4 million users; Interaction data is shared between Muse agent instances",
+      "r/artificial: One Copilot model refused. Another leaked secrets about half the time."
+    ],
+    "hackernews": [
+      "[132pts] Nobel Prize in Chemistry 2026 to Henri B. Kagan and Kenso Soai",
+      "[1056pts] Sharing AI progress in mathematics",
+      "[229pts] Strands Decider 2B: a small, open-source, decision model",
+      "[1916pts] Mistral Large 4",
+      "[375pts] EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "[238pts] Claude Code\u2019s suggested message feature: I think the real customer is the model",
+      "[320pts] OpenTPU \u2013 An open-source AI accelerator, developed by AI",
+      "[219pts] Penguin Mail \u2013 open-source Rust email client for Linux with AI"
+    ],
+    "github": [
+      "\u2b50251,835 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50189,369 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
+      "\u2b50187,680 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50172,265 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50158,009 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
