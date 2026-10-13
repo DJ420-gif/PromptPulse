@@ -1,29 +1,5 @@
 [
   {
-    "date": "2026-10-06",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Princeton researchers train a 4B LLM to reach 2700 Elo in chess (with no signs of a plateau when they stopped training) ",
-      "r/artificial: Introducing Mistral Large 4",
-      "r/artificial: AI helps decode a 217-year-old message sent on Napoleon\u2019s orders",
-      "r/artificial: Capcom announces plans to transform the RE Engine into an AI-generation game engine \u2014 \u2018Our goal is a future where we cre"
-    ],
-    "hackernews": [
-      "[208pts] Mistral Large 4",
-      "[194pts] JetBrains reported a net financial loss first time in its tracked history",
-      "[484pts] Beam: Reflection's 501B open-weight model",
-      "[234pts] Dust: Pretraining Transformers Without Backpropagation"
-    ],
-    "github": [
-      "\u2b50251,592 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50189,077 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50187,675 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50172,143 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50157,951 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-10-07",
     "google": [],
     "reddit": [
@@ -170,6 +146,28 @@
       "\u2b50187,530 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50172,700 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50158,250 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-10-13",
+    "google": [],
+    "reddit": [],
+    "hackernews": [
+      "[215pts] An hour of audio transcribed in about 13s on MacBook Air",
+      "[105pts] Show HN: Use your OpenAI subscription to create audiobooks",
+      "[83pts] Character.ai files for Chapter 11 bankruptcy",
+      "[276pts] Intel D270 GPU AI Accelerator\u2013Up to 480 GB LPDDR5X",
+      "[191pts] Janas: Run LLMs larger than RAM by streaming experts from SSD",
+      "[121pts] Character.ai Files for Bankruptcy",
+      "[507pts] AI is a tool and using it well takes skill",
+      "[203pts] A look at the math that OpenAI claims computes faster Fourier transforms"
+    ],
+    "github": [
+      "\u2b50253,357 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50191,075 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
+      "\u2b50187,552 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50172,817 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50158,363 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
