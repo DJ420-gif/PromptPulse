@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My 5 Image Boxes</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 24px;
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      color: #202124;
+    }
+    h1 { text-align: center; margin: 0 0 8px; }
+    .intro { text-align: center; color: #5f6368; margin: 0 0 24px; }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .image-box {
+      background: white;
+      border: 1px solid #d9dee5;
+      border-radius: 12px;
+      padding: 14px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.05);
+      min-width: 0;
+    }
+    .image-box h2 { font-size: 16px; margin: 0 0 10px; }
+    .preview {
+      width: 100%;
+      height: 190px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border: 2px dashed #c7cdd4;
+      border-radius: 8px;
+      background: #f8f9fa;
+      color: #747b84;
+      text-align: center;
+      padding: 10px;
+      margin-bottom: 12px;
+    }
+    .preview img { width: 100%; height: 100%; object-fit: contain; }
+    input[type="url"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #c7cdd4;
+      border-radius: 7px;
+      margin-bottom: 9px;
+      font-size: 14px;
+    }
+    .buttons { display: flex; gap: 8px; }
+    button {
+      flex: 1;
+      padding: 10px 8px;
+      border: 0;
+      border-radius: 7px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .show { background: #1769e0; color: white; }
+    .clear { background: #e9edf2; color: #202124; }
+    button:hover { filter: brightness(.96); }
+    .status { min-height: 18px; margin: 8px 0 0; font-size: 12px; color: #b3261e; }
+    @media (max-width: 480px) { body { padding: 16px; } }
+  </style>
+</head>
+<body>
+  <h1>My Image Gallery</h1>
+  <p class="intro">Paste an image link into any box, then click “Show Image”.</p>
+
+  <main class="gallery" id="gallery"></main>
+
+  <script>
+    const gallery = document.getElementById("gallery");
+
+    for (let i = 1; i <= 5; i++) {
+      const box = document.createElement("section");
+      box.className = "image-box";
+      box.innerHTML = `
+        <h2>Image ${i}</h2>
+        <div class="preview" id="preview-${i}">Your image will appear here</div>
+        <input type="url" id="url-${i}" placeholder="https://example.com/image.jpg"
+               aria-label="Image ${i} URL">
+        <div class="buttons">
+          <button class="show" type="button" data-show="${i}">Show Image</button>
+          <button class="clear" type="button" data-clear="${i}">Clear</button>
+        </div>
+        <p class="status" id="status-${i}" aria-live="polite"></p>
+      `;
+      gallery.appendChild(box);
+    }
+
+    function showImage(i) {
+      const input = document.getElementById(`url-${i}`);
+      const preview = document.getElementById(`preview-${i}`);
+      const status = document.getElementById(`status-${i}`);
+      const url = input.value.trim();
+
+      status.textContent = "";
+      if (!url) {
+        status.textContent = "Please paste an image URL first.";
+        return;
+      }
+
+      let parsed;
+      try {
+        parsed = new URL(url);
+        if (!["http:", "https:"].includes(parsed.protocol)) throw new Error();
+      } catch {
+        status.textContent = "Please enter a valid URL starting with http:// or https://.";
+        return;
+      }
+
+      const img = new Image();
+      img.alt = `Image ${i}`;
+      img.onload = () => {
+        preview.replaceChildren(img);
+        status.textContent = "";
+      };
+      img.onerror = () => {
+        status.textContent = "Could not load this image. Try a direct image link.";
+      };
+      img.src = parsed.href;
+    }
+
+    function clearImage(i) {
+      document.getElementById(`url-${i}`).value = "";
+      document.getElementById(`preview-${i}`).textContent = "Your image will appear here";
+      document.getElementById(`status-${i}`).textContent = "";
+    }
+
+    gallery.addEventListener("click", (event) => {
+      const showButton = event.target.closest("[data-show]");
+      const clearButton = event.target.closest("[data-clear]");
+      if (showButton) showImage(showButton.dataset.show);
+      if (clearButton) clearImage(clearButton.dataset.clear);
+    });
+
+    gallery.addEventListener("keydown", (event) => {
+      if (event.key === "Enter" && event.target.matches('input[type="url"]')) {
+        const i = event.target.id.split("-")[1];
+        showImage(i);
+      }
+    });
+  </script>
+</body>
+</html>
