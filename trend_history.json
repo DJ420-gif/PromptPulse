@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-10-14",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Anthropic says coding is no longer the bottleneck. Its monorepo hit 30,000+ merges in a day.",
-      "r/artificial: Peter Thiel: You Know Who Else Wants to Regulate AI? The Antichrist. Thiel's 'Antichrist' lecture series in Nashville is",
-      "r/artificial: It has begun\u2026\ud83e\uddbe\u2620\ufe0f",
-      "r/artificial: Peter Thiel Escalates War on AI Critics, Accuses Obama and The Pope of Exploiting Public Fears to \u2018Boost Their Own Popul"
-    ],
-    "hackernews": [
-      "[1348pts] Gemini 4 Argon",
-      "[804pts] Redesigning source control at Anthropic",
-      "[714pts] AI is a tool and using it well takes skill"
-    ],
-    "github": [
-      "\u2b50253,655 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50191,401 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50187,568 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50172,925 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50158,441 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-10-15",
     "google": [],
     "reddit": [
@@ -175,6 +152,28 @@
       "\u2b50187,671 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50173,636 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50159,010 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-10-21",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: New York City wants to fine companies that trap you in AI chatbot \u2018doom loops\u2019",
+      "r/artificial: Anthropic's Claude autonomously designs protein binders targeting scorpion neurotoxins",
+      "r/artificial: AfD Leak: What 421,179 Hacked Emails Show about the German Far Right",
+      "r/artificial: Google DeepMind says four AI agents beat Minecraft in 27 hours by writing 2,783 programs of their own \u2014 AI team died 605"
+    ],
+    "hackernews": [
+      "[145pts] Good type against all odds",
+      "[2266pts] DeepInfer: High-performance inference framework for DeepSeek models"
+    ],
+    "github": [
+      "\u2b50255,749 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50193,681 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
+      "\u2b50187,691 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50173,781 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50159,124 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
