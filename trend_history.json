@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-10-16",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Anthropic's Mythos found so many software flaws, Bank of America hired 1,000 contractors to fix them",
-      "r/artificial: Accenture restricts monthly employee spending on Claude to $29/month",
-      "r/artificial: Unsupervised AI agent reportedly deletes TV show\u2019s entire edit weeks before release, erasing months of work \u2014 TV show ca",
-      "r/artificial: One of the favorite parts of parenting has always been reading to the kiddos. Why would anyone voluntarily give that up?"
-    ],
-    "hackernews": [
-      "[719pts] Neural networks are clean",
-      "[316pts] Krea 3 \u2013 An image model built for editing at scale",
-      "[210pts] Using AI to reverse engineer hardware"
-    ],
-    "github": [
-      "\u2b50254,296 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50192,050 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50187,607 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50173,145 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50158,638 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-10-17",
     "google": [],
     "reddit": [
@@ -179,5 +156,25 @@
       "\u2b50173,904 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50159,245 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
+  },
+  {
+    "date": "2026-10-23",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: US banks detect rogue AI agents inside customer accounts, move to restrict access",
+      "r/artificial: METR, Redwood Research find exploit in OpenAI agent monitoring that could hide hundreds of actions",
+      "r/artificial: [Free to read] Anthropic strikes deal to launch European consultancy",
+      "r/artificial: By every measure, Opus 4.8 beats human experts as peer reviewers in a study of 124 Harvard social science papers coverin"
+    ],
+    "hackernews": [
+      "[97pts] The alien space of science: Coherent but cognitively unavailable directions",
+      "[468pts] Every AI model has the same \"controversial\" take on humans",
+      "[421pts] OpenShell \u2013 A safe, private runtime for fleets of autonomous AI agents",
+      "[224pts] Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "[559pts] WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "[364pts] LLMs are making formal software verification feasible at a much larger scale"
+    ],
+    "github": []
   }
 ]
