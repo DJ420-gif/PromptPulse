@@ -1,34 +1,5 @@
 [
   {
-    "date": "2026-10-17",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Jailbroken PS5s can now run local AI models at over 100+ tokens per second \u2014 fork of PS5LM goes native, hijacks the CPU,",
-      "r/artificial: Putin envoy says Russia and US are discussing joint deals including on data centres",
-      "r/artificial: Developer Goes Into Debt Spending $1,000 A Day To Keep Steam Demo For AI-Fueled Driving Sim Going",
-      "r/artificial: Texas sued after glitch delays almost 600,000 voter registrations"
-    ],
-    "hackernews": [
-      "[179pts] DeepSeek: DeepSeek v4.1 Flash 1017",
-      "[92pts] Show HN: Llmspeed \u2013 feel how fast a local LLM runs before you buy the hardware",
-      "[186pts] DeepSeek-v4.1-Flash-1017",
-      "[298pts] Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "[887pts] Claude reveals ECDSA curve origins",
-      "[146pts] Designing more efficient quantum circuits with Claude",
-      "[511pts] 90% of US working hours are spent on tasks not covered well by AI benchmarks",
-      "[358pts] How the Claude Code team does code review",
-      "[225pts] Show HN: Gemini 4 Argon plays StarCraft"
-    ],
-    "github": [
-      "\u2b50254,539 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50192,342 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50187,618 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50173,219 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50158,689 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-10-18",
     "google": [],
     "reddit": [
@@ -176,5 +147,29 @@
       "[364pts] LLMs are making formal software verification feasible at a much larger scale"
     ],
     "github": []
+  },
+  {
+    "date": "2026-10-24",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Meta\u2019s new commercial terms say if its AI makes a mistake, it will legally be the customer\u2019s fault",
+      "r/artificial: IBM CEO says businesses are choosing open-weight models over expensive frontier AI",
+      "r/artificial: Boston Dynamics employees petition to cancel $1.3M Spot robot sale to ICE",
+      "r/artificial: Moonshot AI's Kimi K3.1 Pro reaches fourth on Artificial Analysis index, 3 points behind Claude Opus 5.5"
+    ],
+    "hackernews": [
+      "[108pts] A practical guide to AI image generation, from diffusion to agents",
+      "[401pts] Dessa: Conversation Model trained only on speech",
+      "[204pts] Hacker reverses Samsung TV, finds on-board AI listening OpenAI account suspended",
+      "[139pts] Air Purifiers as White Noise Machines"
+    ],
+    "github": [
+      "\u2b50256,660 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50194,803 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
+      "\u2b50187,723 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50174,332 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50159,407 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
   }
 ]
