@@ -108,6 +108,44 @@
     ]
   },
   {
+    "file": "five_image_boxes.html",
+    "url": "https://dj420-gif.github.io/PromptPulse/five_image_boxes.html",
+    "score": 22,
+    "title": "My 5 Image Boxes",
+    "words": 410,
+    "tips": [
+      "\u26a0\ufe0f Title too short (16 chars) \u2014 Expand to 40-65 chars",
+      "\u274c CRITICAL: Missing meta description \u2014 Add <meta name='description' content='...'> under 155 chars",
+      "\u274c CRITICAL: Missing canonical \u2014 Add <link rel='canonical' href='https://dj420-gif.github.io/PromptPulse/five_image_boxes.html'>",
+      "\u26a0\ufe0f Missing og:title \u2014 Add <meta property='og:title' content='...'>",
+      "\u26a0\ufe0f Missing og:url \u2014 Add <meta property='og:url' content='https://dj420-gif.github.io/PromptPulse/five_image_boxes.html'>",
+      "\u274c CRITICAL: Missing schema markup \u2014 Add Article or Review schema",
+      "\ud83d\udca1 TIP: Missing FAQ schema \u2014 Adds Google FAQ dropdowns in search results",
+      "\u26a0\ufe0f Missing robots meta \u2014 Add <meta name='robots' content='index, follow'>",
+      "\ud83d\udca1 TIP: Missing author box \u2014 Add for E-E-A-T signals",
+      "\u26a0\ufe0f Light content (410 words) \u2014 Aim for 1000+ for better rankings",
+      "\u26a0\ufe0f Only 0 internal links \u2014 Add 5+ links to related pages"
+    ]
+  },
+  {
+    "file": "login.html",
+    "url": "https://dj420-gif.github.io/PromptPulse/login.html",
+    "score": 47,
+    "title": "ChatBox420",
+    "words": 876,
+    "tips": [
+      "\u26a0\ufe0f Title too short (10 chars) \u2014 Expand to 40-65 chars",
+      "\u26a0\ufe0f Wrong canonical: https://dj420-gif.github.io/Chatbox420/ \u2192 Should be: https://dj420-gif.github.io/PromptPulse/login.html",
+      "\u26a0\ufe0f Missing og:title \u2014 Add <meta property='og:title' content='...'>",
+      "\u26a0\ufe0f Missing og:url \u2014 Add <meta property='og:url' content='https://dj420-gif.github.io/PromptPulse/login.html'>",
+      "\u274c CRITICAL: Missing schema markup \u2014 Add Article or Review schema",
+      "\ud83d\udca1 TIP: Missing FAQ schema \u2014 Adds Google FAQ dropdowns in search results",
+      "\u26a0\ufe0f Missing robots meta \u2014 Add <meta name='robots' content='index, follow'>",
+      "\ud83d\udca1 TIP: Missing author box \u2014 Add for E-E-A-T signals",
+      "\u26a0\ufe0f Only 0 internal links \u2014 Add 5+ links to related pages"
+    ]
+  },
+  {
     "file": "AICrashCourse/beginner-crash-course.html",
     "url": "https://dj420-gif.github.io/PromptPulse/AICrashCourse/beginner-crash-course.html",
     "score": 50,
@@ -431,7 +469,7 @@
     "url": "https://dj420-gif.github.io/PromptPulse/index.html",
     "score": 71,
     "title": "PrompPulseAI \u2014 Master AI. Build Faster. Win Bigger.",
-    "words": 2373,
+    "words": 2372,
     "tips": [
       "\u26a0\ufe0f Missing og:title \u2014 Add <meta property='og:title' content='...'>",
       "\u26a0\ufe0f Missing og:url \u2014 Add <meta property='og:url' content='https://dj420-gif.github.io/PromptPulse/index.html'>",
