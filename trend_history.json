@@ -1,27 +1,5 @@
 [
   {
-    "date": "2026-10-21",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: New York City wants to fine companies that trap you in AI chatbot \u2018doom loops\u2019",
-      "r/artificial: Anthropic's Claude autonomously designs protein binders targeting scorpion neurotoxins",
-      "r/artificial: AfD Leak: What 421,179 Hacked Emails Show about the German Far Right",
-      "r/artificial: Google DeepMind says four AI agents beat Minecraft in 27 hours by writing 2,783 programs of their own \u2014 AI team died 605"
-    ],
-    "hackernews": [
-      "[145pts] Good type against all odds",
-      "[2266pts] DeepInfer: High-performance inference framework for DeepSeek models"
-    ],
-    "github": [
-      "\u2b50255,749 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50193,681 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50187,691 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50173,781 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50159,124 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-10-22",
     "google": [],
     "reddit": [
@@ -160,6 +138,30 @@
     "github": [
       "\u2b50195,887 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
       "\u2b5032,478 ahujasid/mcp-for-blender \u2014 Community plugin to control Blender 3D with any LLM of your choice. Not affiliat"
+    ]
+  },
+  {
+    "date": "2026-10-28",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Grim Test Finds That AI Has No Mercy for Humans Even When It's Causing Them to Suffer",
+      "r/artificial: Claude Opus 5.5 can now rebuild real programs from scratch \u2014 18.5% on ProgramBench, up from 0% in May",
+      "r/artificial: UK Uses AI to Summarise Asylum Interviews: One in Five Checked Summaries Failed",
+      "r/artificial: how do you picture your life or workday if ai suddenly vanished?\ud83e\udd16"
+    ],
+    "hackernews": [
+      "[410pts] Survival LLM: AI assistant and emergency library that runs on your own computer",
+      "[321pts] Tailscale SSH: Investigation and remediation update",
+      "[263pts] Early progress on accelerating drug development with Claude",
+      "[190pts] Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees"
+    ],
+    "github": [
+      "\u2b50257,945 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50196,262 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
+      "\u2b50187,802 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50174,913 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50159,805 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
