@@ -1,32 +1,5 @@
 [
   {
-    "date": "2026-10-22",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: \u2018Rogue\u2019 OpenAI agents disabled their own safeguards and then lied about it, company admits",
-      "r/artificial: Have you used used AI to run customer interviews at scale?",
-      "r/artificial: For the first time, artificial intelligence is a top 10 fear in the U.S. Many Americans are more scared of AI than a lov",
-      "r/artificial: How many &quot;unexploitable&quot; bugs are about to become exploitable?"
-    ],
-    "hackernews": [
-      "[150pts] Jailbreaking the Switch 2",
-      "[304pts] WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "[438pts] Claude Duet",
-      "[543pts] Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
-      "[159pts] OpenAI CLI",
-      "[120pts] Using LLM for confidence scoring is a bad idea",
-      "[304pts] OpenAI models are coming to Google Cloud"
-    ],
-    "github": [
-      "\u2b50256,123 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50194,104 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50187,702 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50173,904 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50159,245 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-10-23",
     "google": [],
     "reddit": [
@@ -162,6 +135,31 @@
       "\u2b50187,802 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50174,913 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50159,805 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-10-29",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: LLMs are significantly better at finding mistakes in papers than trained human reviewers",
+      "r/artificial: New AA intelligence index v5 with \u201cPrivate tests\u201d conveniently upranks GPT, Google\u2019s models, while open weights chinese ",
+      "r/artificial: Europe's data centers are booming. Who gets first dibs on electricity?",
+      "r/artificial: Being early may buy an AI agent startup time, but it doesn\u2019t guarantee a lasting business"
+    ],
+    "hackernews": [
+      "[92pts] Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+      "[149pts] Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+      "[263pts] OpenAI's agents talked to each other through the CPU Cache",
+      "[479pts] Claude Code regularly sends each background agent\u2019s transcript to its model",
+      "[969pts] Gemini 4 Carbon"
+    ],
+    "github": [
+      "\u2b50258,375 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50196,617 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
+      "\u2b50187,809 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50175,024 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50159,895 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
