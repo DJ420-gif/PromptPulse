@@ -1,29 +1,5 @@
 [
   {
-    "date": "2026-10-26",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: An LLM is basically just a massive and extremely sophisticated mathematical function?",
-      "r/artificial: Elvis rights holders sue Anthropic over 274 compositions",
-      "r/artificial: ChatGPT Lawsuit: OpenAI Accused of Using Kids\u2019 Data",
-      "r/artificial: We Built Software Security for Humans. AI Agents May Force Us to Rethink Everything"
-    ],
-    "hackernews": [
-      "[193pts] Birdwatching rewires the brain and slows cognitive decline",
-      "[250pts] Anthropic S-1",
-      "[589pts] Dolly Parton's Imagination Library",
-      "[345pts] IBM CEO says open weight models are now good and cheap on-prem"
-    ],
-    "github": [
-      "\u2b50257,258 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50195,526 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50187,757 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50174,627 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50159,590 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-10-27",
     "google": [],
     "reddit": [
@@ -169,6 +145,31 @@
       "\u2b50187,854 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50175,484 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50160,154 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-11-02",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Almost half of all new Steam games use AI now",
+      "r/artificial: How to stop Meta, OpenAI, and Apple from training AI on your data in the UK",
+      "r/artificial: Grok Bot users ran out of a week\u2019s usage overnight, and Elon Musk says the agent was costing too much",
+      "r/artificial: Dell XPS Googlebook Review: Beautiful Hardware For A Useless Platform"
+    ],
+    "hackernews": [
+      "[249pts] Bones may release proteins that slow aging and extend life span",
+      "[140pts] Anthropic reports $17B in Q3 revenue, commitments of $895B in revised S-1",
+      "[137pts] China's First Frontier AI Export Controls: Mofcom Announcement No. 48",
+      "[117pts] Never Complain, Never Explain",
+      "[449pts] The AI cost of JavaScript frameworks"
+    ],
+    "github": [
+      "\u2b50259,729 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50197,886 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
+      "\u2b50187,872 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50175,606 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50160,240 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
