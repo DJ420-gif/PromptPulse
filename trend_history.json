@@ -1,24 +1,5 @@
 [
   {
-    "date": "2026-11-03",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: ok AI assistants are getting kinda out of hand",
-      "r/artificial: Marvell inks record-breaking $115B AI deal",
-      "r/artificial: Almost half of all new Steam games use AI now",
-      "r/artificial: UK High Court records a non-existent case citation in its 2026 judgment"
-    ],
-    "hackernews": [],
-    "github": [
-      "\u2b50260,116 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50198,200 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50187,884 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50175,692 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50160,319 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-11-04",
     "google": [],
     "reddit": [
@@ -170,6 +151,31 @@
       "\u2b50187,969 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50176,705 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50160,766 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-11-10",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: Claude Fable 5.2 coordinated more than 1,000 AI agents to build a working operating system in eight days",
+      "r/artificial: Google is coming for Nvidia, it's a double bad day for Jensen. A deep look at Google's new TPUs (8tx/8i Max)",
+      "r/artificial: Hot take: Fei-Fei Li's World Labs is doing what OpenAI should\u2019ve done with Sora from day one",
+      "r/artificial: Anthropic shows it has a model stronger than Fable 5.2 already"
+    ],
+    "hackernews": [
+      "[756pts] Claude Fable 5.2 and Mythos 5.2",
+      "[109pts] Fireworks AI security breach impacts Notion and their customers",
+      "[1121pts] Foldable Flight: The Best Paper Airplanes",
+      "[560pts] Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "[337pts] Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics"
+    ],
+    "github": [
+      "\u2b50262,312 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50200,378 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
+      "\u2b50187,978 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50176,822 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50160,844 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
