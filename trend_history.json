@@ -1,36 +1,5 @@
 [
   {
-    "date": "2026-11-04",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Congressional Progressive Caucus Chair calls for AI to be a top issue next year and for testimony from CEOs",
-      "r/artificial: ChatGPT's search volume is now roughly 20% of Google's. Wow, people were really sick of Google, huh?",
-      "r/artificial: Google to shut off search for schools that opt-out of AI",
-      "r/artificial: Hy4 adds vision and computer use. How reliable will it be on long tasks?"
-    ],
-    "hackernews": [
-      "[356pts] AI is forcing us to pay off 40 years of technical debt",
-      "[292pts] Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-      "[891pts] Jailbreaking my car's navigation system just so I can change the time",
-      "[216pts] Geoffrey Hinton: it might turn out we were better off without AI",
-      "[99pts] Show HN: Uncracked City, detective game where you question LLM suspects that lie",
-      "[509pts] Fujifilm to boost tape production 5x as AI fuels archiving demand",
-      "[682pts] Qwen 3.8 27B on my laptop can interpret model weights, too",
-      "[224pts] How I use AI (Oct 2026)",
-      "[1409pts] Postman silently auto-installs AI plugins and attempts to share all API data",
-      "[97pts] There is no posttraining data commons",
-      "[137pts] We're training a Figma-fluent editing model"
-    ],
-    "github": [
-      "\u2b50260,453 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50198,535 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50187,898 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50175,779 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50160,399 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-11-05",
     "google": [],
     "reddit": [
@@ -176,6 +145,29 @@
       "\u2b50187,978 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50176,822 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50160,844 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-11-11",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: GPU Companies built everything on the back of gamers, and now gamers cannot afford them.",
+      "r/artificial: Video game Big Walk gets review bombed for using AI to fix a bug in Unity, accounting for 10 lines of code. 19 Independe",
+      "r/artificial: AI agents are becoming software buyers, and businesses aren't ready",
+      "r/artificial: Claude Fable 5.2 coordinated more than 1,000 AI agents to build a working operating system in eight days"
+    ],
+    "hackernews": [
+      "[369pts] Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
+      "[386pts] Apple has new Mac app coming to make running local AI models easy",
+      "[438pts] Synaptics patent claims stop work on DisplayLink drivers"
+    ],
+    "github": [
+      "\u2b50262,624 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50200,796 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
+      "\u2b50187,991 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50176,898 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50160,972 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
