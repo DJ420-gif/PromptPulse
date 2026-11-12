@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-11-05",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Apple is cutting employee AI spending budgets even as it pushes workers to use the technology more. Engineers have seen ",
-      "r/artificial: Apple Watch now listens to in-person conversations &amp; lets you rewind them",
-      "r/artificial: Where Did the People in Between Go?",
-      "r/artificial: Could AI search hurt ad business?"
-    ],
-    "hackernews": [
-      "[118pts] Baidu released ERNIE 5.5 Flash Base",
-      "[590pts] Kimi K3.1 Pro model weights are out",
-      "[441pts] Ask HN: What's your current AI agentic setup?"
-    ],
-    "github": [
-      "\u2b50260,764 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50198,851 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50187,910 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50175,879 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50160,463 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-11-06",
     "google": [],
     "reddit": [
@@ -168,6 +145,31 @@
       "\u2b50187,991 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50176,898 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50160,972 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-11-12",
+    "google": [],
+    "reddit": [
+      "r/artificial: Artificial Intelligence (AI)",
+      "r/artificial: After Democrats\u2019 midterm wins, Palantir CEO Alex Karp now says he\u2019s a \u2018progressive\u2019",
+      "r/artificial: Microsoft researchers backdoored an AI agent by editing fewer than 10 neurons - no retraining needed",
+      "r/artificial: Nvidia CEO Jensen Huang resigns after tech giant rocked by second affair allegation",
+      "r/artificial: United Airlines bans AI agents from booking flights on behalf of travelers"
+    ],
+    "hackernews": [
+      "[155pts] Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
+      "[318pts] Anthropic IPO",
+      "[526pts] 93% of paint splatters are valid Perl programs (2019)",
+      "[513pts] Gemini Decisions API",
+      "[630pts] United Airlines bans AI agents from booking flights on behalf of travelers"
+    ],
+    "github": [
+      "\u2b50262,902 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50201,175 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
+      "\u2b50188,006 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50176,982 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50161,047 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
