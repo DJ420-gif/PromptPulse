@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-11-11",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: GPU Companies built everything on the back of gamers, and now gamers cannot afford them.",
-      "r/artificial: Video game Big Walk gets review bombed for using AI to fix a bug in Unity, accounting for 10 lines of code. 19 Independe",
-      "r/artificial: AI agents are becoming software buyers, and businesses aren't ready",
-      "r/artificial: Claude Fable 5.2 coordinated more than 1,000 AI agents to build a working operating system in eight days"
-    ],
-    "hackernews": [
-      "[369pts] Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
-      "[386pts] Apple has new Mac app coming to make running local AI models easy",
-      "[438pts] Synaptics patent claims stop work on DisplayLink drivers"
-    ],
-    "github": [
-      "\u2b50262,624 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50200,796 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50187,991 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50176,898 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50160,972 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-11-12",
     "google": [],
     "reddit": [
@@ -166,6 +143,25 @@
       "\u2b50188,074 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50177,741 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50161,362 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-11-18",
+    "google": [],
+    "reddit": [],
+    "hackernews": [
+      "[620pts] Google's AI answers reducing search traffic by 40%",
+      "[219pts] Why is Gemini 4 Carbon taking so long?",
+      "[280pts] Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "[400pts] MAI Code 2 and Code 2 Flash",
+      "[129pts] Claude was trained on protein sequences at scale"
+    ],
+    "github": [
+      "\u2b50264,440 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50202,825 firecrawl/firecrawl \u2014 Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ da",
+      "\u2b50188,085 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50177,793 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50161,429 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
