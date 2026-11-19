@@ -1,30 +1,5 @@
 [
   {
-    "date": "2026-11-12",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: After Democrats\u2019 midterm wins, Palantir CEO Alex Karp now says he\u2019s a \u2018progressive\u2019",
-      "r/artificial: Microsoft researchers backdoored an AI agent by editing fewer than 10 neurons - no retraining needed",
-      "r/artificial: Nvidia CEO Jensen Huang resigns after tech giant rocked by second affair allegation",
-      "r/artificial: United Airlines bans AI agents from booking flights on behalf of travelers"
-    ],
-    "hackernews": [
-      "[155pts] Nvidia CEO Jensen Huang resigns after reports of second affair deepened scandal",
-      "[318pts] Anthropic IPO",
-      "[526pts] 93% of paint splatters are valid Perl programs (2019)",
-      "[513pts] Gemini Decisions API",
-      "[630pts] United Airlines bans AI agents from booking flights on behalf of travelers"
-    ],
-    "github": [
-      "\u2b50262,902 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50201,175 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50188,006 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50176,982 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50161,047 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-11-13",
     "google": [],
     "reddit": [
@@ -162,6 +137,24 @@
       "\u2b50188,085 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50177,793 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50161,429 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-11-19",
+    "google": [],
+    "reddit": [],
+    "hackernews": [
+      "[285pts] Ruby2\u00dfhell: Pre-authentication RCE on stock Rails",
+      "[953pts] Gemini 4 Neon",
+      "[364pts] Anthropic prices initial public offering",
+      "[584pts] Seven new models at scalable price-performance"
+    ],
+    "github": [
+      "\u2b50264,685 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50203,795 firecrawl/firecrawl \u2014 Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ da",
+      "\u2b50188,101 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50177,884 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50161,511 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
