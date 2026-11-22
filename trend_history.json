@@ -1,26 +1,5 @@
 [
   {
-    "date": "2026-11-15",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: built a fact-checker that catches politicians lying in real-time",
-      "r/artificial: Are AI leaderboards even worth taking seriously anymore?",
-      "r/artificial: Anthropic rebuilds Claude Code Projects around a coordinator and parallel worker threads - each thread is a full cloud s",
-      "r/artificial: One Router Grounded America? Seriously? Are you sure it wasn\u2019t Rogue AI or a Hack?"
-    ],
-    "hackernews": [
-      "[905pts] Lovable apps expose passport details and more than 200K private messages"
-    ],
-    "github": [
-      "\u2b50263,550 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50201,948 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50188,035 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50177,501 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50161,197 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-11-16",
     "google": [],
     "reddit": [
@@ -143,6 +122,25 @@
       "\u2b50188,123 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50178,142 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50161,615 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-11-22",
+    "google": [],
+    "reddit": [],
+    "hackernews": [
+      "[1171pts] Pill to treat pancreatic cancer hailed as 'biggest breakthrough in decades'",
+      "[325pts] 87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "[101pts] The Mythology of Conscious AI",
+      "[116pts] Pandex \u2013 Official European Law for AI Agents, over MCP",
+      "[284pts] LLMs can read and write executables byte by byte from a hex dump"
+    ],
+    "github": [
+      "\u2b50265,335 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50206,691 firecrawl/firecrawl \u2014 Knowledge infrastructure to make your agents smarter. Search, scrape and access ",
+      "\u2b50188,134 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50178,250 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50161,675 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
