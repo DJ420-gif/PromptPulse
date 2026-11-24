@@ -1,28 +1,5 @@
 [
   {
-    "date": "2026-11-17",
-    "google": [],
-    "reddit": [
-      "r/artificial: Artificial Intelligence (AI)",
-      "r/artificial: Anthropic S-1: $216bn of staff equity, $160bn still to grant",
-      "r/artificial: NYC's idea of fining chatbot 'doom loops' should be the default everywhere: every support bot needs a guaranteed human e",
-      "r/artificial: Google says it found an AI framework that automates vulnerability research and exploitation",
-      "r/artificial: California sues OpenAI over Hugging Face, other AI model loss of control"
-    ],
-    "hackernews": [
-      "[134pts] How the Claude Code team thinks about verification",
-      "[135pts] Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
-      "[416pts] Microsoft blames monster email outage on software defect introduced in July fix"
-    ],
-    "github": [
-      "\u2b50264,138 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50202,555 firecrawl/firecrawl \u2014 Supercharge your AI agents with data from the web and beyond. Building the libra",
-      "\u2b50188,074 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50177,741 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50161,362 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-11-18",
     "google": [],
     "reddit": [],
@@ -134,6 +111,24 @@
       "\u2b50188,154 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50178,326 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50161,754 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "google": [],
+    "reddit": [],
+    "hackernews": [
+      "[142pts] Cyberattack campaign compromising Check Point servers across 22 organizations",
+      "[83pts] Top MIT Physicist: Anthropic Staff Openly Talk About 'Taking over the World'",
+      "[676pts] LLM agents work for their parent companies, not for you",
+      "[250pts] Tidal bans AI-generated music"
+    ],
+    "github": [
+      "\u2b50265,854 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50208,701 firecrawl/firecrawl \u2014 Knowledge infrastructure to make your agents smarter. Search, scrape and access ",
+      "\u2b50188,164 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50178,404 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50161,839 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
