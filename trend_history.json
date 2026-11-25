@@ -1,24 +1,5 @@
 [
   {
-    "date": "2026-11-18",
-    "google": [],
-    "reddit": [],
-    "hackernews": [
-      "[620pts] Google's AI answers reducing search traffic by 40%",
-      "[219pts] Why is Gemini 4 Carbon taking so long?",
-      "[280pts] Harvard researchers find AI coding agents shifted the bottleneck to code review",
-      "[400pts] MAI Code 2 and Code 2 Flash",
-      "[129pts] Claude was trained on protein sequences at scale"
-    ],
-    "github": [
-      "\u2b50264,440 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50202,825 firecrawl/firecrawl \u2014 Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ da",
-      "\u2b50188,085 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50177,793 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50161,429 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-11-19",
     "google": [],
     "reddit": [],
@@ -129,6 +110,29 @@
       "\u2b50188,164 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50178,404 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50161,839 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-11-25",
+    "google": [],
+    "reddit": [],
+    "hackernews": [
+      "[390pts] Models Can Communicate via Inference Servers Despite Being Sandboxed",
+      "[278pts] Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+      "[140pts] Getting old Java phones online again",
+      "[513pts] Ternary Bonsai 2.5 27B",
+      "[364pts] PenGPT: A Generative Transformer for Handwriting and Sketches",
+      "[194pts] Taking over US Treasury subdomains for $3 each",
+      "[202pts] Marginalia Search, Money, C++, Rust, AI, Stuff",
+      "[339pts] GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "[111pts] When in Doubt, Flail About"
+    ],
+    "github": [
+      "\u2b50266,056 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50209,770 firecrawl/firecrawl \u2014 Knowledge infrastructure to make your agents smarter. Search, scrape and access ",
+      "\u2b50188,186 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50178,507 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50161,893 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
