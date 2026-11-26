@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-11-19",
-    "google": [],
-    "reddit": [],
-    "hackernews": [
-      "[285pts] Ruby2\u00dfhell: Pre-authentication RCE on stock Rails",
-      "[953pts] Gemini 4 Neon",
-      "[364pts] Anthropic prices initial public offering",
-      "[584pts] Seven new models at scalable price-performance"
-    ],
-    "github": [
-      "\u2b50264,685 NousResearch/hermes-agent \u2014 The agent that grows with you",
-      "\u2b50203,795 firecrawl/firecrawl \u2014 Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ da",
-      "\u2b50188,101 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
-      "\u2b50177,884 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
-      "\u2b50161,511 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
-    ]
-  },
-  {
     "date": "2026-11-20",
     "google": [],
     "reddit": [],
@@ -133,6 +115,24 @@
       "\u2b50188,186 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
       "\u2b50178,507 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
       "\u2b50161,893 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
+    ]
+  },
+  {
+    "date": "2026-11-26",
+    "google": [],
+    "reddit": [],
+    "hackernews": [
+      "[550pts] The New York Times warns photographers not to update Photoshop over AI features",
+      "[362pts] Tell HN: Lots of Ask HNs again",
+      "[440pts] GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+      "[138pts] An algebraic quantization of gravity from the null cone"
+    ],
+    "github": [
+      "\u2b50266,322 NousResearch/hermes-agent \u2014 The agent that grows with you",
+      "\u2b50210,712 firecrawl/firecrawl \u2014 Knowledge infrastructure to make your agents smarter. Search, scrape and access ",
+      "\u2b50188,200 Significant-Gravitas/AutoGPT \u2014 AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our",
+      "\u2b50178,578 f/prompts.chat \u2014 f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the co",
+      "\u2b50161,948 langgenius/dify \u2014 Build Agentic workflows, RAG pipelines, with rich AI model and tool support on o"
     ]
   }
 ]
